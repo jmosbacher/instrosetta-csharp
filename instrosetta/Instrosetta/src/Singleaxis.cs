@@ -26,64 +26,62 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
           string.Concat(
             "CjZpbnN0cm9zZXR0YS9pbnRlcmZhY2VzL21vdGlvbl9jb250cm9sL3Npbmds",
             "ZWF4aXMucHJvdG8SM2luc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2Nv",
-            "bnRyb2wuc2luZ2xlYXhpcy52MSLAAQoRSW5pdGlhbGl6ZVJlcXVlc3QSDAoE",
-            "bmFtZRgBIAEoCRJqCgpwcm9wZXJ0aWVzGAIgAygLMlYuaW5zdHJvc2V0dGEu",
-            "aW50ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLkluaXRp",
-            "YWxpemVSZXF1ZXN0LlByb3BlcnRpZXNFbnRyeRoxCg9Qcm9wZXJ0aWVzRW50",
-            "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIzChJJbml0aWFs",
-            "aXplUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgIIh8K",
-            "D1NodXRkb3duUmVxdWVzdBIMCgRuYW1lGAEgASgJIjEKEFNodXRkb3duUmVz",
-            "cG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgIIj0KElNjYW5E",
-            "ZXZpY2VzUmVxdWVzdBIMCgRuYW1lGAEgASgJEhkKEWluY2x1ZGVfc2ltdWxh",
-            "dGVkGAIgASgIIjYKE1NjYW5EZXZpY2VzUmVzcG9uc2USDAoEbmFtZRgBIAEo",
-            "CRIRCglkZXZpY2VfaWQYAiABKAkiIAoQSG9tZU1vdG9yUmVxdWVzdBIMCgRu",
-            "YW1lGAEgASgJIi4KD0dldFJhbmdlUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0K",
-            "BXVuaXRzGAIgASgJIlcKClN0YWdlUmFuZ2USDAoEbmFtZRgBIAEoCRINCgV1",
-            "bml0cxgCIAEoCRILCgNtaW4YAyABKAESCwoDbWF4GAQgASgBEhIKCnJlc29s",
-            "dXRpb24YBSABKAEiIwoSR2V0UG9zaXRpb25SZXF1ZXN0Eg0KBXVuaXRzGAEg",
-            "ASgJIrsBCghEaXN0YW5jZRINCgV2YWx1ZRgBIAEoARINCgV1bml0cxgCIAEo",
-            "CRJaCglkaXJlY3Rpb24YAyABKA4yRy5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
-            "Lm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuRGlzdGFuY2UuRGlyZWN0",
-            "aW9uIjUKCURpcmVjdGlvbhINCgl1bmRlZmluZWQQABILCgdmb3J3YXJkEAES",
-            "DAoIYmFja3dhcmQQAiIoCghQb3NpdGlvbhINCgV2YWx1ZRgBIAEoARINCgV1",
-            "bml0cxgCIAEoCSJ0ChNNb3ZlQWJzb2x1dGVSZXF1ZXN0EgwKBG5hbWUYASAB",
-            "KAkSTwoIcG9zaXRpb24YAiABKAsyPS5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
-            "Lm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuUG9zaXRpb24idAoTTW92",
-            "ZVJlbGF0aXZlUmVxdWVzdBIMCgRuYW1lGAEgASgJEk8KCGRpc3RhbmNlGAIg",
-            "ASgLMj0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5z",
-            "aW5nbGVheGlzLnYxLkRpc3RhbmNlMvMJCgpTaW5nbGVBeGlzEqQBCgtTY2Fu",
-            "RGV2aWNlcxJHLmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRy",
-            "b2wuc2luZ2xlYXhpcy52MS5TY2FuRGV2aWNlc1JlcXVlc3QaSC5pbnN0cm9z",
-            "ZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEu",
-            "U2NhbkRldmljZXNSZXNwb25zZSIAMAESnwEKCkluaXRpYWxpemUSRi5pbnN0",
-            "cm9zZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMu",
-            "djEuSW5pdGlhbGl6ZVJlcXVlc3QaRy5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
-            "Lm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuSW5pdGlhbGl6ZVJlc3Bv",
-            "bnNlIgASmQEKCFNodXRkb3duEkQuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5t",
-            "b3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLlNodXRkb3duUmVxdWVzdBpF",
-            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xl",
-            "YXhpcy52MS5TaHV0ZG93blJlc3BvbnNlIgASkwEKCUhvbWVNb3RvchJFLmlu",
+            "bnRyb2wuc2luZ2xlYXhpcy52MSJfChFJbml0aWFsaXplUmVxdWVzdBIMCgRu",
+            "YW1lGAEgASgJEhEKCWRldmljZV9pZBgCIAEoCRIPCgd0aW1lb3V0GAMgASgC",
+            "EhgKEHBvbGxpbmdfaW50ZXJ2YWwYBCABKAIiMwoSSW5pdGlhbGl6ZVJlc3Bv",
+            "bnNlEgwKBG5hbWUYASABKAkSDwoHc3VjY2VzcxgCIAEoCCIfCg9TaHV0ZG93",
+            "blJlcXVlc3QSDAoEbmFtZRgBIAEoCSIxChBTaHV0ZG93blJlc3BvbnNlEgwK",
+            "BG5hbWUYASABKAkSDwoHc3VjY2VzcxgCIAEoCCI9ChJTY2FuRGV2aWNlc1Jl",
+            "cXVlc3QSDAoEbmFtZRgBIAEoCRIZChFpbmNsdWRlX3NpbXVsYXRlZBgCIAEo",
+            "CCI2ChNTY2FuRGV2aWNlc1Jlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJZGV2",
+            "aWNlX2lkGAIgASgJIiAKEEhvbWVNb3RvclJlcXVlc3QSDAoEbmFtZRgBIAEo",
+            "CSIuCg9HZXRSYW5nZVJlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgV1bml0cxgC",
+            "IAEoCSJXCgpTdGFnZVJhbmdlEgwKBG5hbWUYASABKAkSDQoFdW5pdHMYAiAB",
+            "KAkSCwoDbWluGAMgASgBEgsKA21heBgEIAEoARISCgpyZXNvbHV0aW9uGAUg",
+            "ASgBIiMKEkdldFBvc2l0aW9uUmVxdWVzdBINCgV1bml0cxgBIAEoCSK7AQoI",
+            "RGlzdGFuY2USDQoFdmFsdWUYASABKAESDQoFdW5pdHMYAiABKAkSWgoJZGly",
+            "ZWN0aW9uGAMgASgOMkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25f",
+            "Y29udHJvbC5zaW5nbGVheGlzLnYxLkRpc3RhbmNlLkRpcmVjdGlvbiI1CglE",
+            "aXJlY3Rpb24SDQoJdW5kZWZpbmVkEAASCwoHZm9yd2FyZBABEgwKCGJhY2t3",
+            "YXJkEAIiKAoIUG9zaXRpb24SDQoFdmFsdWUYASABKAESDQoFdW5pdHMYAiAB",
+            "KAkidAoTTW92ZUFic29sdXRlUmVxdWVzdBIMCgRuYW1lGAEgASgJEk8KCHBv",
+            "c2l0aW9uGAIgASgLMj0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25f",
+            "Y29udHJvbC5zaW5nbGVheGlzLnYxLlBvc2l0aW9uInQKE01vdmVSZWxhdGl2",
+            "ZVJlcXVlc3QSDAoEbmFtZRgBIAEoCRJPCghkaXN0YW5jZRgCIAEoCzI9Lmlu",
             "c3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xlYXhp",
-            "cy52MS5Ib21lTW90b3JSZXF1ZXN0Gj0uaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
-            "cy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLlBvc2l0aW9uIgASkwEK",
-            "CEdldFJhbmdlEkQuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25fY29u",
-            "dHJvbC5zaW5nbGVheGlzLnYxLkdldFJhbmdlUmVxdWVzdBo/Lmluc3Ryb3Nl",
-            "dHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xlYXhpcy52MS5T",
-            "dGFnZVJhbmdlIgASlwEKC0dldFBvc2l0aW9uEkcuaW5zdHJvc2V0dGEuaW50",
-            "ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLkdldFBvc2l0",
-            "aW9uUmVxdWVzdBo9Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2Nv",
-            "bnRyb2wuc2luZ2xlYXhpcy52MS5Qb3NpdGlvbiIAEpsBCgxNb3ZlQWJzb2x1",
-            "dGUSSC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNp",
-            "bmdsZWF4aXMudjEuTW92ZUFic29sdXRlUmVxdWVzdBo9Lmluc3Ryb3NldHRh",
-            "LmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xlYXhpcy52MS5Qb3Np",
-            "dGlvbiIAMAESmwEKDE1vdmVSZWxhdGl2ZRJILmluc3Ryb3NldHRhLmludGVy",
-            "ZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xlYXhpcy52MS5Nb3ZlUmVsYXRp",
-            "dmVSZXF1ZXN0Gj0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25fY29u",
-            "dHJvbC5zaW5nbGVheGlzLnYxLlBvc2l0aW9uIgAwAWIGcHJvdG8z"));
+            "cy52MS5EaXN0YW5jZTLzCQoKU2luZ2xlQXhpcxKkAQoLU2NhbkRldmljZXMS",
+            "Ry5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNpbmds",
+            "ZWF4aXMudjEuU2NhbkRldmljZXNSZXF1ZXN0GkguaW5zdHJvc2V0dGEuaW50",
+            "ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLlNjYW5EZXZp",
+            "Y2VzUmVzcG9uc2UiADABEp8BCgpJbml0aWFsaXplEkYuaW5zdHJvc2V0dGEu",
+            "aW50ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLkluaXRp",
+            "YWxpemVSZXF1ZXN0GkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25f",
+            "Y29udHJvbC5zaW5nbGVheGlzLnYxLkluaXRpYWxpemVSZXNwb25zZSIAEpkB",
+            "CghTaHV0ZG93bhJELmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2Nv",
+            "bnRyb2wuc2luZ2xlYXhpcy52MS5TaHV0ZG93blJlcXVlc3QaRS5pbnN0cm9z",
+            "ZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEu",
+            "U2h1dGRvd25SZXNwb25zZSIAEpMBCglIb21lTW90b3ISRS5pbnN0cm9zZXR0",
+            "YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuSG9t",
+            "ZU1vdG9yUmVxdWVzdBo9Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9u",
+            "X2NvbnRyb2wuc2luZ2xlYXhpcy52MS5Qb3NpdGlvbiIAEpMBCghHZXRSYW5n",
+            "ZRJELmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2lu",
+            "Z2xlYXhpcy52MS5HZXRSYW5nZVJlcXVlc3QaPy5pbnN0cm9zZXR0YS5pbnRl",
+            "cmZhY2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuU3RhZ2VSYW5n",
+            "ZSIAEpcBCgtHZXRQb3NpdGlvbhJHLmluc3Ryb3NldHRhLmludGVyZmFjZXMu",
+            "bW90aW9uX2NvbnRyb2wuc2luZ2xlYXhpcy52MS5HZXRQb3NpdGlvblJlcXVl",
+            "c3QaPS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNp",
+            "bmdsZWF4aXMudjEuUG9zaXRpb24iABKbAQoMTW92ZUFic29sdXRlEkguaW5z",
+            "dHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlz",
+            "LnYxLk1vdmVBYnNvbHV0ZVJlcXVlc3QaPS5pbnN0cm9zZXR0YS5pbnRlcmZh",
+            "Y2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuUG9zaXRpb24iADAB",
+            "EpsBCgxNb3ZlUmVsYXRpdmUSSC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm1v",
+            "dGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuTW92ZVJlbGF0aXZlUmVxdWVz",
+            "dBo9Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2lu",
+            "Z2xlYXhpcy52MS5Qb3NpdGlvbiIAMAFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.InitializeRequest), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.InitializeRequest.Parser, new[]{ "Name", "Properties" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.InitializeRequest), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.InitializeRequest.Parser, new[]{ "Name", "DeviceId", "Timeout", "PollingInterval" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.InitializeResponse), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.InitializeResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ShutdownRequest), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ShutdownRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ShutdownResponse), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ShutdownResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
@@ -129,7 +127,9 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public InitializeRequest(InitializeRequest other) : this() {
       name_ = other.name_;
-      properties_ = other.properties_.Clone();
+      deviceId_ = other.deviceId_;
+      timeout_ = other.timeout_;
+      pollingInterval_ = other.pollingInterval_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -149,14 +149,37 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
       }
     }
 
-    /// <summary>Field number for the "properties" field.</summary>
-    public const int PropertiesFieldNumber = 2;
-    private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
-    private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
+    /// <summary>Field number for the "device_id" field.</summary>
+    public const int DeviceIdFieldNumber = 2;
+    private string deviceId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::MapField<string, string> Properties {
-      get { return properties_; }
+    public string DeviceId {
+      get { return deviceId_; }
+      set {
+        deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "timeout" field.</summary>
+    public const int TimeoutFieldNumber = 3;
+    private float timeout_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Timeout {
+      get { return timeout_; }
+      set {
+        timeout_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "polling_interval" field.</summary>
+    public const int PollingIntervalFieldNumber = 4;
+    private float pollingInterval_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float PollingInterval {
+      get { return pollingInterval_; }
+      set {
+        pollingInterval_ = value;
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -173,7 +196,9 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!Properties.Equals(other.Properties)) return false;
+      if (DeviceId != other.DeviceId) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Timeout, other.Timeout)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(PollingInterval, other.PollingInterval)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -181,7 +206,9 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      hash ^= Properties.GetHashCode();
+      if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
+      if (Timeout != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Timeout);
+      if (PollingInterval != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(PollingInterval);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -199,7 +226,18 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      properties_.WriteTo(output, _map_properties_codec);
+      if (DeviceId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(DeviceId);
+      }
+      if (Timeout != 0F) {
+        output.WriteRawTag(29);
+        output.WriteFloat(Timeout);
+      }
+      if (PollingInterval != 0F) {
+        output.WriteRawTag(37);
+        output.WriteFloat(PollingInterval);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -211,7 +249,15 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      size += properties_.CalculateSize(_map_properties_codec);
+      if (DeviceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
+      }
+      if (Timeout != 0F) {
+        size += 1 + 4;
+      }
+      if (PollingInterval != 0F) {
+        size += 1 + 4;
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -226,7 +272,15 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      properties_.Add(other.properties_);
+      if (other.DeviceId.Length != 0) {
+        DeviceId = other.DeviceId;
+      }
+      if (other.Timeout != 0F) {
+        Timeout = other.Timeout;
+      }
+      if (other.PollingInterval != 0F) {
+        PollingInterval = other.PollingInterval;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -243,7 +297,15 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
             break;
           }
           case 18: {
-            properties_.AddEntriesFrom(input, _map_properties_codec);
+            DeviceId = input.ReadString();
+            break;
+          }
+          case 29: {
+            Timeout = input.ReadFloat();
+            break;
+          }
+          case 37: {
+            PollingInterval = input.ReadFloat();
             break;
           }
         }
