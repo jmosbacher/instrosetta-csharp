@@ -31,20 +31,20 @@ public static partial class UnitsReflection {
           "Eg8KB2FsaWFzZXMYAyADKAkSJQoJZGltZW5zaW9uGAQgASgLMhIuUGh5c2lj",
           "YWxEaW1lbnNpb24SFQoNc2lfbXVsdGlwbGllchgFIAEoASJQChBQaHlzaWNh",
           "bFF1YW50aXR5EgwKBG5hbWUYASABKAkSGwoEdW5pdBgCIAEoCzINLlBoeXNp",
-          "Y2FsVW5pdBIRCgltYWduaXR1ZGUYAyABKAEiOwoJVGltZXN0YW1wEgwKBG5h",
-          "bWUYASABKAkSDQoFdmFsdWUYAiABKAkSEQoJcHJlY2lzaW9uGAMgASgJIoMB",
-          "ChNQaHlzaWNhbE1lYXN1cmVtZW50EgwKBG5hbWUYASABKAkSIAoFdmFsdWUY",
-          "AiABKAsyES5QaHlzaWNhbFF1YW50aXR5Eh0KB3F1YWxpdHkYAyABKA4yDC5E",
-          "YXRhUXVhbGl0eRIdCgl0aW1lc3RhbXAYBCABKAsyCi5UaW1lc3RhbXAqLQoL",
-          "RGF0YVF1YWxpdHkSCwoHVU5LTk9XThAAEggKBEdPT0QQARIHCgNCQUQQAmIG",
-          "cHJvdG8z"));
+          "Y2FsVW5pdBIRCgltYWduaXR1ZGUYAyABKAEiXAoJVGltZXN0YW1wEgwKBG5h",
+          "bWUYASABKAkSDQoFdmFsdWUYAiABKAMSFgoOcHJlY2lzaW9uX25hbWUYAyAB",
+          "KAkSGgoScHJlY2lzaW9uX2V4cG9uZW50GAQgASgFIoMBChNQaHlzaWNhbE1l",
+          "YXN1cmVtZW50EgwKBG5hbWUYASABKAkSIAoFdmFsdWUYAiABKAsyES5QaHlz",
+          "aWNhbFF1YW50aXR5Eh0KB3F1YWxpdHkYAyABKA4yDC5EYXRhUXVhbGl0eRId",
+          "Cgl0aW1lc3RhbXAYBCABKAsyCi5UaW1lc3RhbXAqLQoLRGF0YVF1YWxpdHkS",
+          "CwoHVU5LTk9XThAAEggKBEdPT0QQARIHCgNCQUQQAmIGcHJvdG8z"));
     descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
         new pbr::FileDescriptor[] { },
         new pbr::GeneratedClrTypeInfo(new[] {typeof(global::DataQuality), }, new pbr::GeneratedClrTypeInfo[] {
           new pbr::GeneratedClrTypeInfo(typeof(global::PhysicalDimension), global::PhysicalDimension.Parser, new[]{ "Name", "DimensionName", "Time", "Length", "Mass", "Current", "Temperature", "Substance", "LuminousIntensity" }, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::PhysicalUnit), global::PhysicalUnit.Parser, new[]{ "Name", "UnitName", "Aliases", "Dimension", "SiMultiplier" }, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::PhysicalQuantity), global::PhysicalQuantity.Parser, new[]{ "Name", "Unit", "Magnitude" }, null, null, null),
-          new pbr::GeneratedClrTypeInfo(typeof(global::Timestamp), global::Timestamp.Parser, new[]{ "Name", "Value", "Precision" }, null, null, null),
+          new pbr::GeneratedClrTypeInfo(typeof(global::Timestamp), global::Timestamp.Parser, new[]{ "Name", "Value", "PrecisionName", "PrecisionExponent" }, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::PhysicalMeasurement), global::PhysicalMeasurement.Parser, new[]{ "Name", "Value", "Quality", "Timestamp" }, null, null, null)
         }));
   }
@@ -874,7 +874,8 @@ public sealed partial class Timestamp : pb::IMessage<Timestamp> {
   public Timestamp(Timestamp other) : this() {
     name_ = other.name_;
     value_ = other.value_;
-    precision_ = other.precision_;
+    precisionName_ = other.precisionName_;
+    precisionExponent_ = other.precisionExponent_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
 
@@ -896,23 +897,34 @@ public sealed partial class Timestamp : pb::IMessage<Timestamp> {
 
   /// <summary>Field number for the "value" field.</summary>
   public const int ValueFieldNumber = 2;
-  private string value_ = "";
+  private long value_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-  public string Value {
+  public long Value {
     get { return value_; }
     set {
-      value_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      value_ = value;
     }
   }
 
-  /// <summary>Field number for the "precision" field.</summary>
-  public const int PrecisionFieldNumber = 3;
-  private string precision_ = "";
+  /// <summary>Field number for the "precision_name" field.</summary>
+  public const int PrecisionNameFieldNumber = 3;
+  private string precisionName_ = "";
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-  public string Precision {
-    get { return precision_; }
+  public string PrecisionName {
+    get { return precisionName_; }
     set {
-      precision_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      precisionName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+    }
+  }
+
+  /// <summary>Field number for the "precision_exponent" field.</summary>
+  public const int PrecisionExponentFieldNumber = 4;
+  private int precisionExponent_;
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public int PrecisionExponent {
+    get { return precisionExponent_; }
+    set {
+      precisionExponent_ = value;
     }
   }
 
@@ -931,7 +943,8 @@ public sealed partial class Timestamp : pb::IMessage<Timestamp> {
     }
     if (Name != other.Name) return false;
     if (Value != other.Value) return false;
-    if (Precision != other.Precision) return false;
+    if (PrecisionName != other.PrecisionName) return false;
+    if (PrecisionExponent != other.PrecisionExponent) return false;
     return Equals(_unknownFields, other._unknownFields);
   }
 
@@ -939,8 +952,9 @@ public sealed partial class Timestamp : pb::IMessage<Timestamp> {
   public override int GetHashCode() {
     int hash = 1;
     if (Name.Length != 0) hash ^= Name.GetHashCode();
-    if (Value.Length != 0) hash ^= Value.GetHashCode();
-    if (Precision.Length != 0) hash ^= Precision.GetHashCode();
+    if (Value != 0L) hash ^= Value.GetHashCode();
+    if (PrecisionName.Length != 0) hash ^= PrecisionName.GetHashCode();
+    if (PrecisionExponent != 0) hash ^= PrecisionExponent.GetHashCode();
     if (_unknownFields != null) {
       hash ^= _unknownFields.GetHashCode();
     }
@@ -958,13 +972,17 @@ public sealed partial class Timestamp : pb::IMessage<Timestamp> {
       output.WriteRawTag(10);
       output.WriteString(Name);
     }
-    if (Value.Length != 0) {
-      output.WriteRawTag(18);
-      output.WriteString(Value);
+    if (Value != 0L) {
+      output.WriteRawTag(16);
+      output.WriteInt64(Value);
     }
-    if (Precision.Length != 0) {
+    if (PrecisionName.Length != 0) {
       output.WriteRawTag(26);
-      output.WriteString(Precision);
+      output.WriteString(PrecisionName);
+    }
+    if (PrecisionExponent != 0) {
+      output.WriteRawTag(32);
+      output.WriteInt32(PrecisionExponent);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -977,11 +995,14 @@ public sealed partial class Timestamp : pb::IMessage<Timestamp> {
     if (Name.Length != 0) {
       size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
     }
-    if (Value.Length != 0) {
-      size += 1 + pb::CodedOutputStream.ComputeStringSize(Value);
+    if (Value != 0L) {
+      size += 1 + pb::CodedOutputStream.ComputeInt64Size(Value);
     }
-    if (Precision.Length != 0) {
-      size += 1 + pb::CodedOutputStream.ComputeStringSize(Precision);
+    if (PrecisionName.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(PrecisionName);
+    }
+    if (PrecisionExponent != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeInt32Size(PrecisionExponent);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -997,11 +1018,14 @@ public sealed partial class Timestamp : pb::IMessage<Timestamp> {
     if (other.Name.Length != 0) {
       Name = other.Name;
     }
-    if (other.Value.Length != 0) {
+    if (other.Value != 0L) {
       Value = other.Value;
     }
-    if (other.Precision.Length != 0) {
-      Precision = other.Precision;
+    if (other.PrecisionName.Length != 0) {
+      PrecisionName = other.PrecisionName;
+    }
+    if (other.PrecisionExponent != 0) {
+      PrecisionExponent = other.PrecisionExponent;
     }
     _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
   }
@@ -1018,12 +1042,16 @@ public sealed partial class Timestamp : pb::IMessage<Timestamp> {
           Name = input.ReadString();
           break;
         }
-        case 18: {
-          Value = input.ReadString();
+        case 16: {
+          Value = input.ReadInt64();
           break;
         }
         case 26: {
-          Precision = input.ReadString();
+          PrecisionName = input.ReadString();
+          break;
+        }
+        case 32: {
+          PrecisionExponent = input.ReadInt32();
           break;
         }
       }

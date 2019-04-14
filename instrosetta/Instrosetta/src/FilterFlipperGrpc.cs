@@ -12,12 +12,10 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
   {
     static readonly string __ServiceName = "instrosetta.interfaces.optomechanics.filter_flipper.v1.FilterFlipper";
 
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_EchoRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_EchoResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_ConnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_ConnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_DisconnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_DisconnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_InitializeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_InitializeResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_ShutdownRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_ShutdownResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_GetPositionRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_GetPositionResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.SetPositionRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_SetPositionRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.SetPositionRequest.Parser.ParseFrom);
@@ -27,26 +25,19 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.SetInfoRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_SetInfoRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.SetInfoRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.SetInfoResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_SetInfoResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.SetInfoResponse.Parser.ParseFrom);
 
-    static readonly grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse> __Method_Echo = new grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse> __Method_Initialize = new grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Echo",
-        __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_EchoRequest,
-        __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_EchoResponse);
+        "Initialize",
+        __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_InitializeRequest,
+        __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_InitializeResponse);
 
-    static readonly grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse> __Method_Connect = new grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse> __Method_Shutdown = new grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Connect",
-        __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_ConnectRequest,
-        __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_ConnectResponse);
-
-    static readonly grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse> __Method_Disconnect = new grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "Disconnect",
-        __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_DisconnectRequest,
-        __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_DisconnectResponse);
+        "Shutdown",
+        __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_ShutdownRequest,
+        __Marshaller_instrosetta_interfaces_optomechanics_filter_flipper_v1_ShutdownResponse);
 
     static readonly grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionResponse> __Method_GetPosition = new grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionResponse>(
         grpc::MethodType.Unary,
@@ -85,17 +76,12 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     /// <summary>Base class for server-side implementations of FilterFlipper</summary>
     public abstract partial class FilterFlipperBase
     {
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse> Echo(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse> Initialize(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse> Connect(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse> Disconnect(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse> Shutdown(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -145,53 +131,37 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
       {
       }
 
-      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse Echo(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse Initialize(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return Echo(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return Initialize(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse Echo(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse Initialize(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_Echo, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_Initialize, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse> EchoAsync(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse> InitializeAsync(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return EchoAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return InitializeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse> EchoAsync(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse> InitializeAsync(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_Echo, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_Initialize, null, options, request);
       }
-      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse Connect(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse Shutdown(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return Connect(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return Shutdown(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse Connect(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse Shutdown(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_Connect, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_Shutdown, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse> ConnectAsync(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse> ShutdownAsync(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return ConnectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return ShutdownAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse> ConnectAsync(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse> ShutdownAsync(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_Connect, null, options, request);
-      }
-      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse Disconnect(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return Disconnect(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse Disconnect(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_Disconnect, null, options, request);
-      }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse> DisconnectAsync(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return DisconnectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse> DisconnectAsync(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_Disconnect, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_Shutdown, null, options, request);
       }
       public virtual global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionResponse GetPosition(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
@@ -269,9 +239,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     public static grpc::ServerServiceDefinition BindService(FilterFlipperBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_Echo, serviceImpl.Echo)
-          .AddMethod(__Method_Connect, serviceImpl.Connect)
-          .AddMethod(__Method_Disconnect, serviceImpl.Disconnect)
+          .AddMethod(__Method_Initialize, serviceImpl.Initialize)
+          .AddMethod(__Method_Shutdown, serviceImpl.Shutdown)
           .AddMethod(__Method_GetPosition, serviceImpl.GetPosition)
           .AddMethod(__Method_SetPosition, serviceImpl.SetPosition)
           .AddMethod(__Method_GetInfo, serviceImpl.GetInfo)
@@ -284,9 +253,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     public static void BindService(grpc::ServiceBinderBase serviceBinder, FilterFlipperBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_Echo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse>(serviceImpl.Echo));
-      serviceBinder.AddMethod(__Method_Connect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse>(serviceImpl.Connect));
-      serviceBinder.AddMethod(__Method_Disconnect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse>(serviceImpl.Disconnect));
+      serviceBinder.AddMethod(__Method_Initialize, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse>(serviceImpl.Initialize));
+      serviceBinder.AddMethod(__Method_Shutdown, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse>(serviceImpl.Shutdown));
       serviceBinder.AddMethod(__Method_GetPosition, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionResponse>(serviceImpl.GetPosition));
       serviceBinder.AddMethod(__Method_SetPosition, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.SetPositionRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.SetPositionResponse>(serviceImpl.SetPosition));
       serviceBinder.AddMethod(__Method_GetInfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetInfoRequest, global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetInfoResponse>(serviceImpl.GetInfo));

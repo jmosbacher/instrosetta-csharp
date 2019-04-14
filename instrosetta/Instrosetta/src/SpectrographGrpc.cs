@@ -12,10 +12,10 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
   {
     static readonly string __ServiceName = "instrosetta.interfaces.light_analysis.spectrograph.v1.Spectrograph";
 
-    static readonly grpc::Marshaller<global::ConnectRequest> __Marshaller_ConnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ConnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::ConnectResponse> __Marshaller_ConnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ConnectResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::DisconnectRequest> __Marshaller_DisconnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::DisconnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::DisconnectResponse> __Marshaller_DisconnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::DisconnectResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_InitializeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_InitializeResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_ShutdownRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_ShutdownResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SaveRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SaveResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_RunRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunRequest.Parser.ParseFrom);
@@ -49,19 +49,19 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetReadoutModeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetReadoutModeResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse.Parser.ParseFrom);
 
-    static readonly grpc::Method<global::ConnectRequest, global::ConnectResponse> __Method_Connect = new grpc::Method<global::ConnectRequest, global::ConnectResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeResponse> __Method_Initialize = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Connect",
-        __Marshaller_ConnectRequest,
-        __Marshaller_ConnectResponse);
+        "Initialize",
+        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_InitializeRequest,
+        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_InitializeResponse);
 
-    static readonly grpc::Method<global::DisconnectRequest, global::DisconnectResponse> __Method_Disconnect = new grpc::Method<global::DisconnectRequest, global::DisconnectResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownResponse> __Method_Shutdown = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Disconnect",
-        __Marshaller_DisconnectRequest,
-        __Marshaller_DisconnectResponse);
+        "Shutdown",
+        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_ShutdownRequest,
+        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_ShutdownResponse);
 
     static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse> __Method_Save = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse>(
         grpc::MethodType.Unary,
@@ -184,12 +184,12 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     /// <summary>Base class for server-side implementations of Spectrograph</summary>
     public abstract partial class SpectrographBase
     {
-      public virtual global::System.Threading.Tasks.Task<global::ConnectResponse> Connect(global::ConnectRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeResponse> Initialize(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::DisconnectResponse> Disconnect(global::DisconnectRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownResponse> Shutdown(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -299,37 +299,37 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       {
       }
 
-      public virtual global::ConnectResponse Connect(global::ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeResponse Initialize(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return Connect(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return Initialize(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::ConnectResponse Connect(global::ConnectRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeResponse Initialize(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_Connect, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_Initialize, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::ConnectResponse> ConnectAsync(global::ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeResponse> InitializeAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return ConnectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return InitializeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::ConnectResponse> ConnectAsync(global::ConnectRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeResponse> InitializeAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_Connect, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_Initialize, null, options, request);
       }
-      public virtual global::DisconnectResponse Disconnect(global::DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownResponse Shutdown(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return Disconnect(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return Shutdown(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::DisconnectResponse Disconnect(global::DisconnectRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownResponse Shutdown(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_Disconnect, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_Shutdown, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::DisconnectResponse> DisconnectAsync(global::DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownResponse> ShutdownAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return DisconnectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return ShutdownAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::DisconnectResponse> DisconnectAsync(global::DisconnectRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownResponse> ShutdownAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_Disconnect, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_Shutdown, null, options, request);
       }
       public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse Save(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
@@ -599,8 +599,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public static grpc::ServerServiceDefinition BindService(SpectrographBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_Connect, serviceImpl.Connect)
-          .AddMethod(__Method_Disconnect, serviceImpl.Disconnect)
+          .AddMethod(__Method_Initialize, serviceImpl.Initialize)
+          .AddMethod(__Method_Shutdown, serviceImpl.Shutdown)
           .AddMethod(__Method_Save, serviceImpl.Save)
           .AddMethod(__Method_Run, serviceImpl.Run)
           .AddMethod(__Method_ClearScreen, serviceImpl.ClearScreen)
@@ -625,8 +625,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     public static void BindService(grpc::ServiceBinderBase serviceBinder, SpectrographBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_Connect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::ConnectRequest, global::ConnectResponse>(serviceImpl.Connect));
-      serviceBinder.AddMethod(__Method_Disconnect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::DisconnectRequest, global::DisconnectResponse>(serviceImpl.Disconnect));
+      serviceBinder.AddMethod(__Method_Initialize, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.InitializeResponse>(serviceImpl.Initialize));
+      serviceBinder.AddMethod(__Method_Shutdown, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutdownResponse>(serviceImpl.Shutdown));
       serviceBinder.AddMethod(__Method_Save, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse>(serviceImpl.Save));
       serviceBinder.AddMethod(__Method_Run, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunResponse>(serviceImpl.Run));
       serviceBinder.AddMethod(__Method_ClearScreen, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse>(serviceImpl.ClearScreen));

@@ -26,52 +26,67 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
           string.Concat(
             "CjZpbnN0cm9zZXR0YS9pbnRlcmZhY2VzL21vdGlvbl9jb250cm9sL3Npbmds",
             "ZWF4aXMucHJvdG8SM2luc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2Nv",
-            "bnRyb2wuc2luZ2xlYXhpcy52MRojaW5zdHJvc2V0dGEvY29tbW9uL2Nvbm5l",
-            "Y3Rpb24ucHJvdG8iPQoSU2NhbkRldmljZXNSZXF1ZXN0EgwKBG5hbWUYASAB",
-            "KAkSGQoRaW5jbHVkZV9zaW11bGF0ZWQYAiABKAgiNgoTU2NhbkRldmljZXNS",
-            "ZXNwb25zZRIMCgRuYW1lGAEgASgJEhEKCWRldmljZV9pZBgCIAEoCSIgChBI",
-            "b21lTW90b3JSZXF1ZXN0EgwKBG5hbWUYASABKAkiLgoPR2V0UmFuZ2VSZXF1",
-            "ZXN0EgwKBG5hbWUYASABKAkSDQoFdW5pdHMYAiABKAkiVwoKU3RhZ2VSYW5n",
-            "ZRIMCgRuYW1lGAEgASgJEg0KBXVuaXRzGAIgASgJEgsKA21pbhgDIAEoARIL",
-            "CgNtYXgYBCABKAESEgoKcmVzb2x1dGlvbhgFIAEoASIjChJHZXRQb3NpdGlv",
-            "blJlcXVlc3QSDQoFdW5pdHMYASABKAkiuwEKCERpc3RhbmNlEg0KBXZhbHVl",
-            "GAEgASgBEg0KBXVuaXRzGAIgASgJEloKCWRpcmVjdGlvbhgDIAEoDjJHLmlu",
+            "bnRyb2wuc2luZ2xlYXhpcy52MSLAAQoRSW5pdGlhbGl6ZVJlcXVlc3QSDAoE",
+            "bmFtZRgBIAEoCRJqCgpwcm9wZXJ0aWVzGAIgAygLMlYuaW5zdHJvc2V0dGEu",
+            "aW50ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLkluaXRp",
+            "YWxpemVSZXF1ZXN0LlByb3BlcnRpZXNFbnRyeRoxCg9Qcm9wZXJ0aWVzRW50",
+            "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIzChJJbml0aWFs",
+            "aXplUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgIIh8K",
+            "D1NodXRkb3duUmVxdWVzdBIMCgRuYW1lGAEgASgJIjEKEFNodXRkb3duUmVz",
+            "cG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgIIj0KElNjYW5E",
+            "ZXZpY2VzUmVxdWVzdBIMCgRuYW1lGAEgASgJEhkKEWluY2x1ZGVfc2ltdWxh",
+            "dGVkGAIgASgIIjYKE1NjYW5EZXZpY2VzUmVzcG9uc2USDAoEbmFtZRgBIAEo",
+            "CRIRCglkZXZpY2VfaWQYAiABKAkiIAoQSG9tZU1vdG9yUmVxdWVzdBIMCgRu",
+            "YW1lGAEgASgJIi4KD0dldFJhbmdlUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0K",
+            "BXVuaXRzGAIgASgJIlcKClN0YWdlUmFuZ2USDAoEbmFtZRgBIAEoCRINCgV1",
+            "bml0cxgCIAEoCRILCgNtaW4YAyABKAESCwoDbWF4GAQgASgBEhIKCnJlc29s",
+            "dXRpb24YBSABKAEiIwoSR2V0UG9zaXRpb25SZXF1ZXN0Eg0KBXVuaXRzGAEg",
+            "ASgJIrsBCghEaXN0YW5jZRINCgV2YWx1ZRgBIAEoARINCgV1bml0cxgCIAEo",
+            "CRJaCglkaXJlY3Rpb24YAyABKA4yRy5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
+            "Lm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuRGlzdGFuY2UuRGlyZWN0",
+            "aW9uIjUKCURpcmVjdGlvbhINCgl1bmRlZmluZWQQABILCgdmb3J3YXJkEAES",
+            "DAoIYmFja3dhcmQQAiIoCghQb3NpdGlvbhINCgV2YWx1ZRgBIAEoARINCgV1",
+            "bml0cxgCIAEoCSJ0ChNNb3ZlQWJzb2x1dGVSZXF1ZXN0EgwKBG5hbWUYASAB",
+            "KAkSTwoIcG9zaXRpb24YAiABKAsyPS5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
+            "Lm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuUG9zaXRpb24idAoTTW92",
+            "ZVJlbGF0aXZlUmVxdWVzdBIMCgRuYW1lGAEgASgJEk8KCGRpc3RhbmNlGAIg",
+            "ASgLMj0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5z",
+            "aW5nbGVheGlzLnYxLkRpc3RhbmNlMvMJCgpTaW5nbGVBeGlzEqQBCgtTY2Fu",
+            "RGV2aWNlcxJHLmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRy",
+            "b2wuc2luZ2xlYXhpcy52MS5TY2FuRGV2aWNlc1JlcXVlc3QaSC5pbnN0cm9z",
+            "ZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEu",
+            "U2NhbkRldmljZXNSZXNwb25zZSIAMAESnwEKCkluaXRpYWxpemUSRi5pbnN0",
+            "cm9zZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMu",
+            "djEuSW5pdGlhbGl6ZVJlcXVlc3QaRy5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
+            "Lm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuSW5pdGlhbGl6ZVJlc3Bv",
+            "bnNlIgASmQEKCFNodXRkb3duEkQuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5t",
+            "b3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLlNodXRkb3duUmVxdWVzdBpF",
+            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xl",
+            "YXhpcy52MS5TaHV0ZG93blJlc3BvbnNlIgASkwEKCUhvbWVNb3RvchJFLmlu",
             "c3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xlYXhp",
-            "cy52MS5EaXN0YW5jZS5EaXJlY3Rpb24iNQoJRGlyZWN0aW9uEg0KCXVuZGVm",
-            "aW5lZBAAEgsKB2ZvcndhcmQQARIMCghiYWNrd2FyZBACIigKCFBvc2l0aW9u",
-            "Eg0KBXZhbHVlGAEgASgBEg0KBXVuaXRzGAIgASgJInQKE01vdmVBYnNvbHV0",
-            "ZVJlcXVlc3QSDAoEbmFtZRgBIAEoCRJPCghwb3NpdGlvbhgCIAEoCzI9Lmlu",
-            "c3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xlYXhp",
-            "cy52MS5Qb3NpdGlvbiJ0ChNNb3ZlUmVsYXRpdmVSZXF1ZXN0EgwKBG5hbWUY",
-            "ASABKAkSTwoIZGlzdGFuY2UYAiABKAsyPS5pbnN0cm9zZXR0YS5pbnRlcmZh",
-            "Y2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4aXMudjEuRGlzdGFuY2UynggK",
-            "ClNpbmdsZUF4aXMSpAEKC1NjYW5EZXZpY2VzEkcuaW5zdHJvc2V0dGEuaW50",
-            "ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLlNjYW5EZXZp",
-            "Y2VzUmVxdWVzdBpILmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2Nv",
-            "bnRyb2wuc2luZ2xlYXhpcy52MS5TY2FuRGV2aWNlc1Jlc3BvbnNlIgAwARIu",
-            "CgdDb25uZWN0Eg8uQ29ubmVjdFJlcXVlc3QaEC5Db25uZWN0UmVzcG9uc2Ui",
-            "ABI3CgpEaXNjb25uZWN0EhIuRGlzY29ubmVjdFJlcXVlc3QaEy5EaXNjb25u",
-            "ZWN0UmVzcG9uc2UiABKTAQoJSG9tZU1vdG9yEkUuaW5zdHJvc2V0dGEuaW50",
-            "ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLkhvbWVNb3Rv",
-            "clJlcXVlc3QaPS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250",
-            "cm9sLnNpbmdsZWF4aXMudjEuUG9zaXRpb24iABKTAQoIR2V0UmFuZ2USRC5p",
-            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4",
-            "aXMudjEuR2V0UmFuZ2VSZXF1ZXN0Gj8uaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
-            "cy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLlN0YWdlUmFuZ2UiABKX",
-            "AQoLR2V0UG9zaXRpb24SRy5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm1vdGlv",
-            "bl9jb250cm9sLnNpbmdsZWF4aXMudjEuR2V0UG9zaXRpb25SZXF1ZXN0Gj0u",
-            "aW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5zaW5nbGVh",
-            "eGlzLnYxLlBvc2l0aW9uIgASmwEKDE1vdmVBYnNvbHV0ZRJILmluc3Ryb3Nl",
-            "dHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xlYXhpcy52MS5N",
-            "b3ZlQWJzb2x1dGVSZXF1ZXN0Gj0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5t",
-            "b3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLlBvc2l0aW9uIgAwARKbAQoM",
-            "TW92ZVJlbGF0aXZlEkguaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25f",
-            "Y29udHJvbC5zaW5nbGVheGlzLnYxLk1vdmVSZWxhdGl2ZVJlcXVlc3QaPS5p",
-            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNpbmdsZWF4",
-            "aXMudjEuUG9zaXRpb24iADABYgZwcm90bzM="));
+            "cy52MS5Ib21lTW90b3JSZXF1ZXN0Gj0uaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
+            "cy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLlBvc2l0aW9uIgASkwEK",
+            "CEdldFJhbmdlEkQuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25fY29u",
+            "dHJvbC5zaW5nbGVheGlzLnYxLkdldFJhbmdlUmVxdWVzdBo/Lmluc3Ryb3Nl",
+            "dHRhLmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xlYXhpcy52MS5T",
+            "dGFnZVJhbmdlIgASlwEKC0dldFBvc2l0aW9uEkcuaW5zdHJvc2V0dGEuaW50",
+            "ZXJmYWNlcy5tb3Rpb25fY29udHJvbC5zaW5nbGVheGlzLnYxLkdldFBvc2l0",
+            "aW9uUmVxdWVzdBo9Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubW90aW9uX2Nv",
+            "bnRyb2wuc2luZ2xlYXhpcy52MS5Qb3NpdGlvbiIAEpsBCgxNb3ZlQWJzb2x1",
+            "dGUSSC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm1vdGlvbl9jb250cm9sLnNp",
+            "bmdsZWF4aXMudjEuTW92ZUFic29sdXRlUmVxdWVzdBo9Lmluc3Ryb3NldHRh",
+            "LmludGVyZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xlYXhpcy52MS5Qb3Np",
+            "dGlvbiIAMAESmwEKDE1vdmVSZWxhdGl2ZRJILmluc3Ryb3NldHRhLmludGVy",
+            "ZmFjZXMubW90aW9uX2NvbnRyb2wuc2luZ2xlYXhpcy52MS5Nb3ZlUmVsYXRp",
+            "dmVSZXF1ZXN0Gj0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5tb3Rpb25fY29u",
+            "dHJvbC5zaW5nbGVheGlzLnYxLlBvc2l0aW9uIgAwAWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::ConnectionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.InitializeRequest), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.InitializeRequest.Parser, new[]{ "Name", "Properties" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.InitializeResponse), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.InitializeResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ShutdownRequest), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ShutdownRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ShutdownResponse), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ShutdownResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ScanDevicesRequest), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ScanDevicesRequest.Parser, new[]{ "Name", "IncludeSimulated" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ScanDevicesResponse), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.ScanDevicesResponse.Parser, new[]{ "Name", "DeviceId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.HomeMotorRequest), global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.HomeMotorRequest.Parser, new[]{ "Name" }, null, null, null),
@@ -88,6 +103,598 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
   }
   #region Messages
+  public sealed partial class InitializeRequest : pb::IMessage<InitializeRequest> {
+    private static readonly pb::MessageParser<InitializeRequest> _parser = new pb::MessageParser<InitializeRequest>(() => new InitializeRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest(InitializeRequest other) : this() {
+      name_ = other.name_;
+      properties_ = other.properties_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest Clone() {
+      return new InitializeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "properties" field.</summary>
+    public const int PropertiesFieldNumber = 2;
+    private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+    private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, string> Properties {
+      get { return properties_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!Properties.Equals(other.Properties)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      hash ^= Properties.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      properties_.WriteTo(output, _map_properties_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      size += properties_.CalculateSize(_map_properties_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      properties_.Add(other.properties_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            properties_.AddEntriesFrom(input, _map_properties_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class InitializeResponse : pb::IMessage<InitializeResponse> {
+    private static readonly pb::MessageParser<InitializeResponse> _parser = new pb::MessageParser<InitializeResponse>(() => new InitializeResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse(InitializeResponse other) : this() {
+      name_ = other.name_;
+      success_ = other.success_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse Clone() {
+      return new InitializeResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Success != other.Success) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ShutdownRequest : pb::IMessage<ShutdownRequest> {
+    private static readonly pb::MessageParser<ShutdownRequest> _parser = new pb::MessageParser<ShutdownRequest>(() => new ShutdownRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ShutdownRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest(ShutdownRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest Clone() {
+      return new ShutdownRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ShutdownRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ShutdownRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ShutdownRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ShutdownResponse : pb::IMessage<ShutdownResponse> {
+    private static readonly pb::MessageParser<ShutdownResponse> _parser = new pb::MessageParser<ShutdownResponse>(() => new ShutdownResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ShutdownResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse(ShutdownResponse other) : this() {
+      name_ = other.name_;
+      success_ = other.success_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse Clone() {
+      return new ShutdownResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ShutdownResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ShutdownResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Success != other.Success) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ShutdownResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class ScanDevicesRequest : pb::IMessage<ScanDevicesRequest> {
     private static readonly pb::MessageParser<ScanDevicesRequest> _parser = new pb::MessageParser<ScanDevicesRequest>(() => new ScanDevicesRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -96,7 +703,7 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -253,7 +860,7 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -410,7 +1017,7 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -539,7 +1146,7 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -696,7 +1303,7 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -937,7 +1544,7 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1066,7 +1673,7 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1264,7 +1871,7 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1421,7 +2028,7 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1584,7 +2191,7 @@ namespace Instrosetta.Interfaces.MotionControl.Singleaxis.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Instrosetta.Interfaces.MotionControl.Singleaxis.V1.SingleaxisReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

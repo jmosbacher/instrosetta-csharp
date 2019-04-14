@@ -26,72 +26,88 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
           string.Concat(
             "CjlpbnN0cm9zZXR0YS9pbnRlcmZhY2VzL2xpZ2h0X2FuYWx5c2lzL21vbm9j",
             "aHJvbWF0b3IucHJvdG8SM2luc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRf",
-            "YW5hbHlzaXMubW9ub2Nocm9tYXRvchojaW5zdHJvc2V0dGEvY29tbW9uL2Nv",
-            "bm5lY3Rpb24ucHJvdG8iKQoZR2V0V2F2ZWxlbmd0aFJhbmdlUmVxdWVzdBIM",
-            "CgRuYW1lGAEgASgJIlsKGkdldFdhdmVsZW5ndGhSYW5nZVJlc3BvbnNlEgwK",
-            "BG5hbWUYASABKAkSDwoHbWluaW11bRgCIAEoAhIPCgdtYXhpbXVtGAMgASgC",
-            "Eg0KBXVuaXRzGAQgASgJIiQKFEdldFdhdmVsZW5ndGhSZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkiRwoVR2V0V2F2ZWxlbmd0aFJlc3BvbnNlEgwKBG5hbWUYASAB",
-            "KAkSEQoJbWFnbml0dWRlGAIgASgCEg0KBXVuaXRzGAMgASgJIkYKFFNldFdh",
-            "dmVsZW5ndGhSZXF1ZXN0EgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIg",
-            "ASgCEg0KBXVuaXRzGAMgASgJIkcKFVNldFdhdmVsZW5ndGhSZXNwb25zZRIM",
-            "CgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoAhINCgV1bml0cxgDIAEo",
-            "CSIoChhHZXRHcmF0aW5nT3B0aW9uc1JlcXVlc3QSDAoEbmFtZRgBIAEoCSI+",
-            "ChlHZXRHcmF0aW5nT3B0aW9uc1Jlc3BvbnNlEgwKBG5hbWUYASABKAkSEwoL",
-            "Z3JhdGluZ19pZHMYAiADKA0iIQoRR2V0R3JhdGluZ1JlcXVlc3QSDAoEbmFt",
-            "ZRgBIAEoCSI2ChJHZXRHcmF0aW5nUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIS",
-            "CgpncmF0aW5nX2lkGAIgASgNIjUKEVNldEdyYXRpbmdSZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkSEgoKZ3JhdGluZ19pZBgCIAEoDSI2ChJTZXRHcmF0aW5nUmVz",
-            "cG9uc2USDAoEbmFtZRgBIAEoCRISCgpncmF0aW5nX2lkGAIgASgNIigKGEdl",
-            "dFNsaXRXaWR0aFJhbmdlUmVxdWVzdBIMCgRuYW1lGAEgASgJIloKGUdldFNs",
-            "aXRXaWR0aFJhbmdlUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdtaW5pbXVt",
-            "GAIgASgCEg8KB21heGltdW0YAyABKAISDQoFdW5pdHMYBCABKAkiIwoTR2V0",
-            "U2xpdFdpZHRoUmVxdWVzdBIMCgRuYW1lGAEgASgJIkYKFEdldFNsaXRXaWR0",
-            "aFJlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgCEg0K",
-            "BXVuaXRzGAMgASgJIkUKE1NldFNsaXRXaWR0aFJlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCRIRCgltYWduaXR1ZGUYAiABKAISDQoFdW5pdHMYAyABKAkiRgoUU2V0",
-            "U2xpdFdpZHRoUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUY",
-            "AiABKAISDQoFdW5pdHMYAyABKAkyig0KDU1vbm9jaHJvbWF0b3ISLgoHQ29u",
-            "bmVjdBIPLkNvbm5lY3RSZXF1ZXN0GhAuQ29ubmVjdFJlc3BvbnNlIgASNwoK",
-            "RGlzY29ubmVjdBISLkRpc2Nvbm5lY3RSZXF1ZXN0GhMuRGlzY29ubmVjdFJl",
-            "c3BvbnNlIgAStwEKEkdldFdhdmVsZW5ndGhSYW5nZRJOLmluc3Ryb3NldHRh",
-            "LmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5HZXRX",
-            "YXZlbGVuZ3RoUmFuZ2VSZXF1ZXN0Gk8uaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
-            "cy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkdldFdhdmVsZW5ndGhS",
-            "YW5nZVJlc3BvbnNlIgASqAEKDUdldFdhdmVsZW5ndGgSSS5pbnN0cm9zZXR0",
+            "YW5hbHlzaXMubW9ub2Nocm9tYXRvciLAAQoRSW5pdGlhbGl6ZVJlcXVlc3QS",
+            "DAoEbmFtZRgBIAEoCRJqCgpwcm9wZXJ0aWVzGAIgAygLMlYuaW5zdHJvc2V0",
+            "dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLklu",
+            "aXRpYWxpemVSZXF1ZXN0LlByb3BlcnRpZXNFbnRyeRoxCg9Qcm9wZXJ0aWVz",
+            "RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIzChJJbml0",
+            "aWFsaXplUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgI",
+            "Ih8KD1NodXRkb3duUmVxdWVzdBIMCgRuYW1lGAEgASgJIjEKEFNodXRkb3du",
+            "UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgIIikKGUdl",
+            "dFdhdmVsZW5ndGhSYW5nZVJlcXVlc3QSDAoEbmFtZRgBIAEoCSJbChpHZXRX",
+            "YXZlbGVuZ3RoUmFuZ2VSZXNwb25zZRIMCgRuYW1lGAEgASgJEg8KB21pbmlt",
+            "dW0YAiABKAISDwoHbWF4aW11bRgDIAEoAhINCgV1bml0cxgEIAEoCSIkChRH",
+            "ZXRXYXZlbGVuZ3RoUmVxdWVzdBIMCgRuYW1lGAEgASgJIkcKFUdldFdhdmVs",
+            "ZW5ndGhSZXNwb25zZRIMCgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEo",
+            "AhINCgV1bml0cxgDIAEoCSJGChRTZXRXYXZlbGVuZ3RoUmVxdWVzdBIMCgRu",
+            "YW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoAhINCgV1bml0cxgDIAEoCSJH",
+            "ChVTZXRXYXZlbGVuZ3RoUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWdu",
+            "aXR1ZGUYAiABKAISDQoFdW5pdHMYAyABKAkiKAoYR2V0R3JhdGluZ09wdGlv",
+            "bnNSZXF1ZXN0EgwKBG5hbWUYASABKAkiPgoZR2V0R3JhdGluZ09wdGlvbnNS",
+            "ZXNwb25zZRIMCgRuYW1lGAEgASgJEhMKC2dyYXRpbmdfaWRzGAIgAygNIiEK",
+            "EUdldEdyYXRpbmdSZXF1ZXN0EgwKBG5hbWUYASABKAkiNgoSR2V0R3JhdGlu",
+            "Z1Jlc3BvbnNlEgwKBG5hbWUYASABKAkSEgoKZ3JhdGluZ19pZBgCIAEoDSI1",
+            "ChFTZXRHcmF0aW5nUmVxdWVzdBIMCgRuYW1lGAEgASgJEhIKCmdyYXRpbmdf",
+            "aWQYAiABKA0iNgoSU2V0R3JhdGluZ1Jlc3BvbnNlEgwKBG5hbWUYASABKAkS",
+            "EgoKZ3JhdGluZ19pZBgCIAEoDSIoChhHZXRTbGl0V2lkdGhSYW5nZVJlcXVl",
+            "c3QSDAoEbmFtZRgBIAEoCSJaChlHZXRTbGl0V2lkdGhSYW5nZVJlc3BvbnNl",
+            "EgwKBG5hbWUYASABKAkSDwoHbWluaW11bRgCIAEoAhIPCgdtYXhpbXVtGAMg",
+            "ASgCEg0KBXVuaXRzGAQgASgJIiMKE0dldFNsaXRXaWR0aFJlcXVlc3QSDAoE",
+            "bmFtZRgBIAEoCSJGChRHZXRTbGl0V2lkdGhSZXNwb25zZRIMCgRuYW1lGAEg",
+            "ASgJEhEKCW1hZ25pdHVkZRgCIAEoAhINCgV1bml0cxgDIAEoCSJFChNTZXRT",
+            "bGl0V2lkdGhSZXF1ZXN0EgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIg",
+            "ASgCEg0KBXVuaXRzGAMgASgJIkYKFFNldFNsaXRXaWR0aFJlc3BvbnNlEgwK",
+            "BG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgCEg0KBXVuaXRzGAMgASgJ",
+            "Mt8OCg1Nb25vY2hyb21hdG9yEp8BCgpJbml0aWFsaXplEkYuaW5zdHJvc2V0",
+            "dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLklu",
+            "aXRpYWxpemVSZXF1ZXN0GkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdo",
+            "dF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkluaXRpYWxpemVSZXNwb25zZSIA",
+            "EpkBCghTaHV0ZG93bhJELmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRf",
+            "YW5hbHlzaXMubW9ub2Nocm9tYXRvci5TaHV0ZG93blJlcXVlc3QaRS5pbnN0",
+            "cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0",
+            "b3IuU2h1dGRvd25SZXNwb25zZSIAErcBChJHZXRXYXZlbGVuZ3RoUmFuZ2US",
+            "Ti5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9j",
+            "aHJvbWF0b3IuR2V0V2F2ZWxlbmd0aFJhbmdlUmVxdWVzdBpPLmluc3Ryb3Nl",
+            "dHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5H",
+            "ZXRXYXZlbGVuZ3RoUmFuZ2VSZXNwb25zZSIAEqgBCg1HZXRXYXZlbGVuZ3Ro",
+            "EkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25v",
+            "Y2hyb21hdG9yLkdldFdhdmVsZW5ndGhSZXF1ZXN0GkouaW5zdHJvc2V0dGEu",
+            "aW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkdldFdh",
+            "dmVsZW5ndGhSZXNwb25zZSIAEqgBCg1TZXRXYXZlbGVuZ3RoEkkuaW5zdHJv",
+            "c2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9y",
+            "LlNldFdhdmVsZW5ndGhSZXF1ZXN0GkouaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
+            "cy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLlNldFdhdmVsZW5ndGhS",
+            "ZXNwb25zZSIAErQBChFHZXRHcmF0aW5nT3B0aW9ucxJNLmluc3Ryb3NldHRh",
+            "LmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5HZXRH",
+            "cmF0aW5nT3B0aW9uc1JlcXVlc3QaTi5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
+            "LmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuR2V0R3JhdGluZ09wdGlv",
+            "bnNSZXNwb25zZSIAEp8BCgpHZXRHcmF0aW5nEkYuaW5zdHJvc2V0dGEuaW50",
+            "ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkdldEdyYXRp",
+            "bmdSZXF1ZXN0GkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFs",
+            "eXNpcy5tb25vY2hyb21hdG9yLkdldEdyYXRpbmdSZXNwb25zZSIAEp8BCgpT",
+            "ZXRHcmF0aW5nEkYuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFs",
+            "eXNpcy5tb25vY2hyb21hdG9yLlNldEdyYXRpbmdSZXF1ZXN0GkcuaW5zdHJv",
+            "c2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9y",
+            "LlNldEdyYXRpbmdSZXNwb25zZSIAErQBChFHZXRTbGl0V2lkdGhSYW5nZRJN",
+            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMubW9ub2No",
+            "cm9tYXRvci5HZXRTbGl0V2lkdGhSYW5nZVJlcXVlc3QaTi5pbnN0cm9zZXR0",
             "YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuR2V0",
-            "V2F2ZWxlbmd0aFJlcXVlc3QaSi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxp",
-            "Z2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuR2V0V2F2ZWxlbmd0aFJlc3Bv",
-            "bnNlIgASqAEKDVNldFdhdmVsZW5ndGgSSS5pbnN0cm9zZXR0YS5pbnRlcmZh",
-            "Y2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuU2V0V2F2ZWxlbmd0",
-            "aFJlcXVlc3QaSi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5",
-            "c2lzLm1vbm9jaHJvbWF0b3IuU2V0V2F2ZWxlbmd0aFJlc3BvbnNlIgAStAEK",
-            "EUdldEdyYXRpbmdPcHRpb25zEk0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5s",
-            "aWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkdldEdyYXRpbmdPcHRpb25z",
-            "UmVxdWVzdBpOLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlz",
-            "aXMubW9ub2Nocm9tYXRvci5HZXRHcmF0aW5nT3B0aW9uc1Jlc3BvbnNlIgAS",
-            "nwEKCkdldEdyYXRpbmcSRi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0",
-            "X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuR2V0R3JhdGluZ1JlcXVlc3QaRy5p",
+            "U2xpdFdpZHRoUmFuZ2VSZXNwb25zZSIAEqUBCgxHZXRTbGl0V2lkdGgSSC5p",
             "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJv",
-            "bWF0b3IuR2V0R3JhdGluZ1Jlc3BvbnNlIgASnwEKClNldEdyYXRpbmcSRi5p",
-            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJv",
-            "bWF0b3IuU2V0R3JhdGluZ1JlcXVlc3QaRy5pbnN0cm9zZXR0YS5pbnRlcmZh",
-            "Y2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuU2V0R3JhdGluZ1Jl",
-            "c3BvbnNlIgAStAEKEUdldFNsaXRXaWR0aFJhbmdlEk0uaW5zdHJvc2V0dGEu",
-            "aW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkdldFNs",
-            "aXRXaWR0aFJhbmdlUmVxdWVzdBpOLmluc3Ryb3NldHRhLmludGVyZmFjZXMu",
-            "bGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5HZXRTbGl0V2lkdGhSYW5n",
-            "ZVJlc3BvbnNlIgASpQEKDEdldFNsaXRXaWR0aBJILmluc3Ryb3NldHRhLmlu",
-            "dGVyZmFjZXMubGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5HZXRTbGl0",
-            "V2lkdGhSZXF1ZXN0GkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9h",
-            "bmFseXNpcy5tb25vY2hyb21hdG9yLkdldFNsaXRXaWR0aFJlc3BvbnNlIgAS",
-            "pQEKDFNldFNsaXRXaWR0aBJILmluc3Ryb3NldHRhLmludGVyZmFjZXMubGln",
-            "aHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5TZXRTbGl0V2lkdGhSZXF1ZXN0",
-            "GkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25v",
-            "Y2hyb21hdG9yLlNldFNsaXRXaWR0aFJlc3BvbnNlIgBiBnByb3RvMw=="));
+            "bWF0b3IuR2V0U2xpdFdpZHRoUmVxdWVzdBpJLmluc3Ryb3NldHRhLmludGVy",
+            "ZmFjZXMubGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5HZXRTbGl0V2lk",
+            "dGhSZXNwb25zZSIAEqUBCgxTZXRTbGl0V2lkdGgSSC5pbnN0cm9zZXR0YS5p",
+            "bnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuU2V0U2xp",
+            "dFdpZHRoUmVxdWVzdBpJLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRf",
+            "YW5hbHlzaXMubW9ub2Nocm9tYXRvci5TZXRTbGl0V2lkdGhSZXNwb25zZSIA",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::ConnectionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest.Parser, new[]{ "Name", "Properties" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeResponse.Parser, new[]{ "Name", "Minimum", "Maximum", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRequest.Parser, new[]{ "Name" }, null, null, null),
@@ -116,6 +132,598 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
   }
   #region Messages
+  public sealed partial class InitializeRequest : pb::IMessage<InitializeRequest> {
+    private static readonly pb::MessageParser<InitializeRequest> _parser = new pb::MessageParser<InitializeRequest>(() => new InitializeRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest(InitializeRequest other) : this() {
+      name_ = other.name_;
+      properties_ = other.properties_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest Clone() {
+      return new InitializeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "properties" field.</summary>
+    public const int PropertiesFieldNumber = 2;
+    private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+    private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, string> Properties {
+      get { return properties_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!Properties.Equals(other.Properties)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      hash ^= Properties.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      properties_.WriteTo(output, _map_properties_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      size += properties_.CalculateSize(_map_properties_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      properties_.Add(other.properties_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            properties_.AddEntriesFrom(input, _map_properties_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class InitializeResponse : pb::IMessage<InitializeResponse> {
+    private static readonly pb::MessageParser<InitializeResponse> _parser = new pb::MessageParser<InitializeResponse>(() => new InitializeResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse(InitializeResponse other) : this() {
+      name_ = other.name_;
+      success_ = other.success_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse Clone() {
+      return new InitializeResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Success != other.Success) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ShutdownRequest : pb::IMessage<ShutdownRequest> {
+    private static readonly pb::MessageParser<ShutdownRequest> _parser = new pb::MessageParser<ShutdownRequest>(() => new ShutdownRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ShutdownRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest(ShutdownRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest Clone() {
+      return new ShutdownRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ShutdownRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ShutdownRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ShutdownRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ShutdownResponse : pb::IMessage<ShutdownResponse> {
+    private static readonly pb::MessageParser<ShutdownResponse> _parser = new pb::MessageParser<ShutdownResponse>(() => new ShutdownResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ShutdownResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse(ShutdownResponse other) : this() {
+      name_ = other.name_;
+      success_ = other.success_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse Clone() {
+      return new ShutdownResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ShutdownResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ShutdownResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Success != other.Success) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ShutdownResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class GetWavelengthRangeRequest : pb::IMessage<GetWavelengthRangeRequest> {
     private static readonly pb::MessageParser<GetWavelengthRangeRequest> _parser = new pb::MessageParser<GetWavelengthRangeRequest>(() => new GetWavelengthRangeRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -124,7 +732,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -253,7 +861,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -466,7 +1074,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -595,7 +1203,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -780,7 +1388,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -965,7 +1573,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1150,7 +1758,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1279,7 +1887,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1429,7 +2037,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1558,7 +2166,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1715,7 +2323,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1872,7 +2480,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2029,7 +2637,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2158,7 +2766,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2371,7 +2979,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2500,7 +3108,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2685,7 +3293,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2870,7 +3478,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -12,10 +12,10 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
   {
     static readonly string __ServiceName = "instrosetta.interfaces.light_analysis.monochromator.Monochromator";
 
-    static readonly grpc::Marshaller<global::ConnectRequest> __Marshaller_ConnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ConnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::ConnectResponse> __Marshaller_ConnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ConnectResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::DisconnectRequest> __Marshaller_DisconnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::DisconnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::DisconnectResponse> __Marshaller_DisconnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::DisconnectResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest> __Marshaller_instrosetta_interfaces_light_analysis_monochromator_InitializeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse> __Marshaller_instrosetta_interfaces_light_analysis_monochromator_InitializeResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest> __Marshaller_instrosetta_interfaces_light_analysis_monochromator_ShutdownRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse> __Marshaller_instrosetta_interfaces_light_analysis_monochromator_ShutdownResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeRequest> __Marshaller_instrosetta_interfaces_light_analysis_monochromator_GetWavelengthRangeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeResponse> __Marshaller_instrosetta_interfaces_light_analysis_monochromator_GetWavelengthRangeResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRequest> __Marshaller_instrosetta_interfaces_light_analysis_monochromator_GetWavelengthRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRequest.Parser.ParseFrom);
@@ -35,19 +35,19 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetSlitWidthRequest> __Marshaller_instrosetta_interfaces_light_analysis_monochromator_SetSlitWidthRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetSlitWidthRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetSlitWidthResponse> __Marshaller_instrosetta_interfaces_light_analysis_monochromator_SetSlitWidthResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetSlitWidthResponse.Parser.ParseFrom);
 
-    static readonly grpc::Method<global::ConnectRequest, global::ConnectResponse> __Method_Connect = new grpc::Method<global::ConnectRequest, global::ConnectResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse> __Method_Initialize = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Connect",
-        __Marshaller_ConnectRequest,
-        __Marshaller_ConnectResponse);
+        "Initialize",
+        __Marshaller_instrosetta_interfaces_light_analysis_monochromator_InitializeRequest,
+        __Marshaller_instrosetta_interfaces_light_analysis_monochromator_InitializeResponse);
 
-    static readonly grpc::Method<global::DisconnectRequest, global::DisconnectResponse> __Method_Disconnect = new grpc::Method<global::DisconnectRequest, global::DisconnectResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse> __Method_Shutdown = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Disconnect",
-        __Marshaller_DisconnectRequest,
-        __Marshaller_DisconnectResponse);
+        "Shutdown",
+        __Marshaller_instrosetta_interfaces_light_analysis_monochromator_ShutdownRequest,
+        __Marshaller_instrosetta_interfaces_light_analysis_monochromator_ShutdownResponse);
 
     static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeResponse> __Method_GetWavelengthRange = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeResponse>(
         grpc::MethodType.Unary,
@@ -121,12 +121,12 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     /// <summary>Base class for server-side implementations of Monochromator</summary>
     public abstract partial class MonochromatorBase
     {
-      public virtual global::System.Threading.Tasks.Task<global::ConnectResponse> Connect(global::ConnectRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse> Initialize(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::DisconnectResponse> Disconnect(global::DisconnectRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse> Shutdown(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -201,37 +201,37 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       {
       }
 
-      public virtual global::ConnectResponse Connect(global::ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse Initialize(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return Connect(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return Initialize(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::ConnectResponse Connect(global::ConnectRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse Initialize(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_Connect, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_Initialize, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::ConnectResponse> ConnectAsync(global::ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse> InitializeAsync(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return ConnectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return InitializeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::ConnectResponse> ConnectAsync(global::ConnectRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse> InitializeAsync(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_Connect, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_Initialize, null, options, request);
       }
-      public virtual global::DisconnectResponse Disconnect(global::DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse Shutdown(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return Disconnect(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return Shutdown(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::DisconnectResponse Disconnect(global::DisconnectRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse Shutdown(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_Disconnect, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_Shutdown, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::DisconnectResponse> DisconnectAsync(global::DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse> ShutdownAsync(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return DisconnectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return ShutdownAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::DisconnectResponse> DisconnectAsync(global::DisconnectRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse> ShutdownAsync(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_Disconnect, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_Shutdown, null, options, request);
       }
       public virtual global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeResponse GetWavelengthRange(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
@@ -389,8 +389,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     public static grpc::ServerServiceDefinition BindService(MonochromatorBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_Connect, serviceImpl.Connect)
-          .AddMethod(__Method_Disconnect, serviceImpl.Disconnect)
+          .AddMethod(__Method_Initialize, serviceImpl.Initialize)
+          .AddMethod(__Method_Shutdown, serviceImpl.Shutdown)
           .AddMethod(__Method_GetWavelengthRange, serviceImpl.GetWavelengthRange)
           .AddMethod(__Method_GetWavelength, serviceImpl.GetWavelength)
           .AddMethod(__Method_SetWavelength, serviceImpl.SetWavelength)
@@ -408,8 +408,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     public static void BindService(grpc::ServiceBinderBase serviceBinder, MonochromatorBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_Connect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::ConnectRequest, global::ConnectResponse>(serviceImpl.Connect));
-      serviceBinder.AddMethod(__Method_Disconnect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::DisconnectRequest, global::DisconnectResponse>(serviceImpl.Disconnect));
+      serviceBinder.AddMethod(__Method_Initialize, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.InitializeResponse>(serviceImpl.Initialize));
+      serviceBinder.AddMethod(__Method_Shutdown, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ShutdownResponse>(serviceImpl.Shutdown));
       serviceBinder.AddMethod(__Method_GetWavelengthRange, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeResponse>(serviceImpl.GetWavelengthRange));
       serviceBinder.AddMethod(__Method_GetWavelength, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthResponse>(serviceImpl.GetWavelength));
       serviceBinder.AddMethod(__Method_SetWavelength, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetWavelengthRequest, global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetWavelengthResponse>(serviceImpl.SetWavelength));

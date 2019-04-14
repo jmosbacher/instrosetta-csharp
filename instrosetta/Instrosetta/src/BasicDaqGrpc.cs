@@ -14,10 +14,10 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAvailbleDevicesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAvailbleDevicesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::ConnectRequest> __Marshaller_ConnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ConnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::ConnectResponse> __Marshaller_ConnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ConnectResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::DisconnectRequest> __Marshaller_DisconnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::DisconnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::DisconnectResponse> __Marshaller_DisconnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::DisconnectResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_InitializeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_InitializeResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_ShutdownRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_ShutdownResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_ReadDigitalRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_ReadDigitalResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadAnalogRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_ReadAnalogRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadAnalogRequest.Parser.ParseFrom);
@@ -28,14 +28,12 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteAnalogResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_WriteAnalogResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteAnalogResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDeviceDetailsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDeviceDetailsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalOutputsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalOutputsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalInputsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalInputsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogOutputsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogOutputsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogInputsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogInputsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalChannelsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalChannelsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogChannelsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogChannelsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_SetChannelModeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse> __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_SetChannelModeResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesResponse> __Method_GetAvailbleDevices = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesResponse>(
         grpc::MethodType.ServerStreaming,
@@ -44,19 +42,19 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
         __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAvailbleDevicesRequest,
         __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAvailbleDevicesResponse);
 
-    static readonly grpc::Method<global::ConnectRequest, global::ConnectResponse> __Method_Connect = new grpc::Method<global::ConnectRequest, global::ConnectResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse> __Method_Initialize = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Connect",
-        __Marshaller_ConnectRequest,
-        __Marshaller_ConnectResponse);
+        "Initialize",
+        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_InitializeRequest,
+        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_InitializeResponse);
 
-    static readonly grpc::Method<global::DisconnectRequest, global::DisconnectResponse> __Method_Disconnect = new grpc::Method<global::DisconnectRequest, global::DisconnectResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse> __Method_Shutdown = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Disconnect",
-        __Marshaller_DisconnectRequest,
-        __Marshaller_DisconnectResponse);
+        "Shutdown",
+        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_ShutdownRequest,
+        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_ShutdownResponse);
 
     static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalResponse> __Method_ReadDigital = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalResponse>(
         grpc::MethodType.Unary,
@@ -93,33 +91,26 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
         __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDeviceDetailsRequest,
         __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDeviceDetailsResponse);
 
-    static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse> __Method_GetDigitalOutputs = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse> __Method_GetDigitalChannels = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "GetDigitalOutputs",
-        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalOutputsRequest,
-        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalOutputsResponse);
+        "GetDigitalChannels",
+        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalChannelsRequest,
+        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalChannelsResponse);
 
-    static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse> __Method_GetDigitalInputs = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse> __Method_GetAnalogChannels = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "GetDigitalInputs",
-        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalInputsRequest,
-        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetDigitalInputsResponse);
+        "GetAnalogChannels",
+        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogChannelsRequest,
+        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogChannelsResponse);
 
-    static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse> __Method_GetAnalogOutputs = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse> __Method_SetChannelMode = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "GetAnalogOutputs",
-        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogOutputsRequest,
-        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogOutputsResponse);
-
-    static readonly grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse> __Method_GetAnalogInputs = new grpc::Method<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "GetAnalogInputs",
-        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogInputsRequest,
-        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_GetAnalogInputsResponse);
+        "SetChannelMode",
+        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_SetChannelModeRequest,
+        __Marshaller_instrosetta_interfaces_data_aquisition_basic_daq_v1_SetChannelModeResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -135,12 +126,12 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::ConnectResponse> Connect(global::ConnectRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse> Initialize(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::DisconnectResponse> Disconnect(global::DisconnectRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse> Shutdown(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -170,22 +161,17 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse> GetDigitalOutputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse> GetDigitalChannels(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse> GetDigitalInputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse> GetAnalogChannels(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse> GetAnalogOutputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse> GetAnalogInputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse> SetChannelMode(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -223,37 +209,37 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_GetAvailbleDevices, null, options, request);
       }
-      public virtual global::ConnectResponse Connect(global::ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse Initialize(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return Connect(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return Initialize(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::ConnectResponse Connect(global::ConnectRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse Initialize(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_Connect, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_Initialize, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::ConnectResponse> ConnectAsync(global::ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse> InitializeAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return ConnectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return InitializeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::ConnectResponse> ConnectAsync(global::ConnectRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse> InitializeAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_Connect, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_Initialize, null, options, request);
       }
-      public virtual global::DisconnectResponse Disconnect(global::DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse Shutdown(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return Disconnect(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return Shutdown(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::DisconnectResponse Disconnect(global::DisconnectRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse Shutdown(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_Disconnect, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_Shutdown, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::DisconnectResponse> DisconnectAsync(global::DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse> ShutdownAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return DisconnectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return ShutdownAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::DisconnectResponse> DisconnectAsync(global::DisconnectRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse> ShutdownAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_Disconnect, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_Shutdown, null, options, request);
       }
       public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalResponse ReadDigital(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
@@ -335,69 +321,53 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetDeviceDetails, null, options, request);
       }
-      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse GetDigitalOutputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse GetDigitalChannels(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetDigitalOutputs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetDigitalChannels(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse GetDigitalOutputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse GetDigitalChannels(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_GetDigitalOutputs, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_GetDigitalChannels, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse> GetDigitalOutputsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse> GetDigitalChannelsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetDigitalOutputsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetDigitalChannelsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse> GetDigitalOutputsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse> GetDigitalChannelsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_GetDigitalOutputs, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_GetDigitalChannels, null, options, request);
       }
-      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse GetDigitalInputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse GetAnalogChannels(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetDigitalInputs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetAnalogChannels(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse GetDigitalInputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse GetAnalogChannels(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_GetDigitalInputs, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_GetAnalogChannels, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse> GetDigitalInputsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse> GetAnalogChannelsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetDigitalInputsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetAnalogChannelsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse> GetDigitalInputsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse> GetAnalogChannelsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_GetDigitalInputs, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_GetAnalogChannels, null, options, request);
       }
-      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse GetAnalogOutputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse SetChannelMode(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetAnalogOutputs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return SetChannelMode(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse GetAnalogOutputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse SetChannelMode(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_GetAnalogOutputs, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_SetChannelMode, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse> GetAnalogOutputsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse> SetChannelModeAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetAnalogOutputsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return SetChannelModeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse> GetAnalogOutputsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse> SetChannelModeAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_GetAnalogOutputs, null, options, request);
-      }
-      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse GetAnalogInputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return GetAnalogInputs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse GetAnalogInputs(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_GetAnalogInputs, null, options, request);
-      }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse> GetAnalogInputsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return GetAnalogInputsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse> GetAnalogInputsAsync(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_GetAnalogInputs, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_SetChannelMode, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override BasicDaqClient NewInstance(ClientBaseConfiguration configuration)
@@ -412,17 +382,16 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_GetAvailbleDevices, serviceImpl.GetAvailbleDevices)
-          .AddMethod(__Method_Connect, serviceImpl.Connect)
-          .AddMethod(__Method_Disconnect, serviceImpl.Disconnect)
+          .AddMethod(__Method_Initialize, serviceImpl.Initialize)
+          .AddMethod(__Method_Shutdown, serviceImpl.Shutdown)
           .AddMethod(__Method_ReadDigital, serviceImpl.ReadDigital)
           .AddMethod(__Method_ReadAnalog, serviceImpl.ReadAnalog)
           .AddMethod(__Method_WriteDigital, serviceImpl.WriteDigital)
           .AddMethod(__Method_WriteAnalog, serviceImpl.WriteAnalog)
           .AddMethod(__Method_GetDeviceDetails, serviceImpl.GetDeviceDetails)
-          .AddMethod(__Method_GetDigitalOutputs, serviceImpl.GetDigitalOutputs)
-          .AddMethod(__Method_GetDigitalInputs, serviceImpl.GetDigitalInputs)
-          .AddMethod(__Method_GetAnalogOutputs, serviceImpl.GetAnalogOutputs)
-          .AddMethod(__Method_GetAnalogInputs, serviceImpl.GetAnalogInputs).Build();
+          .AddMethod(__Method_GetDigitalChannels, serviceImpl.GetDigitalChannels)
+          .AddMethod(__Method_GetAnalogChannels, serviceImpl.GetAnalogChannels)
+          .AddMethod(__Method_SetChannelMode, serviceImpl.SetChannelMode).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -432,17 +401,16 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, BasicDaqBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_GetAvailbleDevices, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesResponse>(serviceImpl.GetAvailbleDevices));
-      serviceBinder.AddMethod(__Method_Connect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::ConnectRequest, global::ConnectResponse>(serviceImpl.Connect));
-      serviceBinder.AddMethod(__Method_Disconnect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::DisconnectRequest, global::DisconnectResponse>(serviceImpl.Disconnect));
+      serviceBinder.AddMethod(__Method_Initialize, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse>(serviceImpl.Initialize));
+      serviceBinder.AddMethod(__Method_Shutdown, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse>(serviceImpl.Shutdown));
       serviceBinder.AddMethod(__Method_ReadDigital, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalResponse>(serviceImpl.ReadDigital));
       serviceBinder.AddMethod(__Method_ReadAnalog, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadAnalogRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadAnalogResponse>(serviceImpl.ReadAnalog));
       serviceBinder.AddMethod(__Method_WriteDigital, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteDigitalRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteDigitalResponse>(serviceImpl.WriteDigital));
       serviceBinder.AddMethod(__Method_WriteAnalog, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteAnalogRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteAnalogResponse>(serviceImpl.WriteAnalog));
       serviceBinder.AddMethod(__Method_GetDeviceDetails, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsResponse>(serviceImpl.GetDeviceDetails));
-      serviceBinder.AddMethod(__Method_GetDigitalOutputs, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse>(serviceImpl.GetDigitalOutputs));
-      serviceBinder.AddMethod(__Method_GetDigitalInputs, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse>(serviceImpl.GetDigitalInputs));
-      serviceBinder.AddMethod(__Method_GetAnalogOutputs, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse>(serviceImpl.GetAnalogOutputs));
-      serviceBinder.AddMethod(__Method_GetAnalogInputs, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse>(serviceImpl.GetAnalogInputs));
+      serviceBinder.AddMethod(__Method_GetDigitalChannels, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse>(serviceImpl.GetDigitalChannels));
+      serviceBinder.AddMethod(__Method_GetAnalogChannels, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse>(serviceImpl.GetAnalogChannels));
+      serviceBinder.AddMethod(__Method_SetChannelMode, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest, global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse>(serviceImpl.SetChannelMode));
     }
 
   }

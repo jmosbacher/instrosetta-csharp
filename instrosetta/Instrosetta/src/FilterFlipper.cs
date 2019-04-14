@@ -26,57 +26,55 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
           string.Concat(
             "CjlpbnN0cm9zZXR0YS9pbnRlcmZhY2VzL29wdG9tZWNoYW5pY3MvZmlsdGVy",
             "X2ZsaXBwZXIucHJvdG8SNmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21l",
-            "Y2hhbmljcy5maWx0ZXJfZmxpcHBlci52MSIbCgtFY2hvUmVxdWVzdBIMCgRu",
-            "YW1lGAEgASgJIhwKDEVjaG9SZXNwb25zZRIMCgRuYW1lGAEgASgJIh4KDkNv",
-            "bm5lY3RSZXF1ZXN0EgwKBG5hbWUYASABKAkiHwoPQ29ubmVjdFJlc3BvbnNl",
-            "EgwKBG5hbWUYASABKAkiIQoRRGlzY29ubmVjdFJlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCSIiChJEaXNjb25uZWN0UmVzcG9uc2USDAoEbmFtZRgBIAEoCSIxChJH",
-            "ZXRQb3NpdGlvblJlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgV1bml0cxgCIAEo",
-            "CSJBChNHZXRQb3NpdGlvblJlc3BvbnNlEgwKBG5hbWUYASABKAkSDQoFdmFs",
-            "dWUYAiABKAESDQoFdW5pdHMYAyABKAkiQAoSU2V0UG9zaXRpb25SZXF1ZXN0",
-            "EgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAESDQoFdW5pdHMYAyABKAki",
-            "QQoTU2V0UG9zaXRpb25SZXNwb25zZRIMCgRuYW1lGAEgASgJEg0KBXZhbHVl",
-            "GAIgASgBEg0KBXVuaXRzGAMgASgJIi0KDkdldEluZm9SZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkSDQoFdW5pdHMYAiABKAkiPQoPR2V0SW5mb1Jlc3BvbnNlEgwK",
-            "BG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAESDQoFdW5pdHMYAyABKAkiPAoO",
-            "U2V0SW5mb1JlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoARIN",
-            "CgV1bml0cxgDIAEoCSI9Cg9TZXRJbmZvUmVzcG9uc2USDAoEbmFtZRgBIAEo",
-            "CRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCTKACQoNRmlsdGVyRmxp",
-            "cHBlchKTAQoERWNobxJDLmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21l",
-            "Y2hhbmljcy5maWx0ZXJfZmxpcHBlci52MS5FY2hvUmVxdWVzdBpELmluc3Ry",
-            "b3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfZmxpcHBl",
-            "ci52MS5FY2hvUmVzcG9uc2UiABKcAQoHQ29ubmVjdBJGLmluc3Ryb3NldHRh",
-            "LmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfZmxpcHBlci52MS5D",
-            "b25uZWN0UmVxdWVzdBpHLmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21l",
-            "Y2hhbmljcy5maWx0ZXJfZmxpcHBlci52MS5Db25uZWN0UmVzcG9uc2UiABKl",
-            "AQoKRGlzY29ubmVjdBJJLmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21l",
-            "Y2hhbmljcy5maWx0ZXJfZmxpcHBlci52MS5EaXNjb25uZWN0UmVxdWVzdBpK",
-            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJf",
-            "ZmxpcHBlci52MS5EaXNjb25uZWN0UmVzcG9uc2UiABKoAQoLR2V0UG9zaXRp",
-            "b24SSi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5pY3MuZmls",
-            "dGVyX2ZsaXBwZXIudjEuR2V0UG9zaXRpb25SZXF1ZXN0GksuaW5zdHJvc2V0",
-            "dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl9mbGlwcGVyLnYx",
-            "LkdldFBvc2l0aW9uUmVzcG9uc2UiABKoAQoLU2V0UG9zaXRpb24SSi5pbnN0",
+            "Y2hhbmljcy5maWx0ZXJfZmxpcHBlci52MSLDAQoRSW5pdGlhbGl6ZVJlcXVl",
+            "c3QSDAoEbmFtZRgBIAEoCRJtCgpwcm9wZXJ0aWVzGAIgAygLMlkuaW5zdHJv",
+            "c2V0dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl9mbGlwcGVy",
+            "LnYxLkluaXRpYWxpemVSZXF1ZXN0LlByb3BlcnRpZXNFbnRyeRoxCg9Qcm9w",
+            "ZXJ0aWVzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIz",
+            "ChJJbml0aWFsaXplUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNz",
+            "GAIgASgIIh8KD1NodXRkb3duUmVxdWVzdBIMCgRuYW1lGAEgASgJIjEKEFNo",
+            "dXRkb3duUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgI",
+            "IjEKEkdldFBvc2l0aW9uUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXVuaXRz",
+            "GAIgASgJIkEKE0dldFBvc2l0aW9uUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIN",
+            "CgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSJAChJTZXRQb3NpdGlvblJl",
+            "cXVlc3QSDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgD",
+            "IAEoCSJBChNTZXRQb3NpdGlvblJlc3BvbnNlEgwKBG5hbWUYASABKAkSDQoF",
+            "dmFsdWUYAiABKAESDQoFdW5pdHMYAyABKAkiLQoOR2V0SW5mb1JlcXVlc3QS",
+            "DAoEbmFtZRgBIAEoCRINCgV1bml0cxgCIAEoCSI9Cg9HZXRJbmZvUmVzcG9u",
+            "c2USDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEo",
+            "CSI8Cg5TZXRJbmZvUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIg",
+            "ASgBEg0KBXVuaXRzGAMgASgJIj0KD1NldEluZm9SZXNwb25zZRIMCgRuYW1l",
+            "GAEgASgJEg0KBXZhbHVlGAIgASgBEg0KBXVuaXRzGAMgASgJMu0HCg1GaWx0",
+            "ZXJGbGlwcGVyEqUBCgpJbml0aWFsaXplEkkuaW5zdHJvc2V0dGEuaW50ZXJm",
+            "YWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl9mbGlwcGVyLnYxLkluaXRpYWxp",
+            "emVSZXF1ZXN0GkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFu",
+            "aWNzLmZpbHRlcl9mbGlwcGVyLnYxLkluaXRpYWxpemVSZXNwb25zZSIAEp8B",
+            "CghTaHV0ZG93bhJHLmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hh",
+            "bmljcy5maWx0ZXJfZmxpcHBlci52MS5TaHV0ZG93blJlcXVlc3QaSC5pbnN0",
             "cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5pY3MuZmlsdGVyX2ZsaXBw",
-            "ZXIudjEuU2V0UG9zaXRpb25SZXF1ZXN0GksuaW5zdHJvc2V0dGEuaW50ZXJm",
-            "YWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl9mbGlwcGVyLnYxLlNldFBvc2l0",
-            "aW9uUmVzcG9uc2UiABKcAQoHR2V0SW5mbxJGLmluc3Ryb3NldHRhLmludGVy",
-            "ZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfZmxpcHBlci52MS5HZXRJbmZv",
-            "UmVxdWVzdBpHLmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmlj",
-            "cy5maWx0ZXJfZmxpcHBlci52MS5HZXRJbmZvUmVzcG9uc2UiABKcAQoHU2V0",
-            "SW5mbxJGLmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5m",
-            "aWx0ZXJfZmxpcHBlci52MS5TZXRJbmZvUmVxdWVzdBpHLmluc3Ryb3NldHRh",
+            "ZXIudjEuU2h1dGRvd25SZXNwb25zZSIAEqgBCgtHZXRQb3NpdGlvbhJKLmlu",
+            "c3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfZmxp",
+            "cHBlci52MS5HZXRQb3NpdGlvblJlcXVlc3QaSy5pbnN0cm9zZXR0YS5pbnRl",
+            "cmZhY2VzLm9wdG9tZWNoYW5pY3MuZmlsdGVyX2ZsaXBwZXIudjEuR2V0UG9z",
+            "aXRpb25SZXNwb25zZSIAEqgBCgtTZXRQb3NpdGlvbhJKLmluc3Ryb3NldHRh",
             "LmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfZmxpcHBlci52MS5T",
-            "ZXRJbmZvUmVzcG9uc2UiAGIGcHJvdG8z"));
+            "ZXRQb3NpdGlvblJlcXVlc3QaSy5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9w",
+            "dG9tZWNoYW5pY3MuZmlsdGVyX2ZsaXBwZXIudjEuU2V0UG9zaXRpb25SZXNw",
+            "b25zZSIAEpwBCgdHZXRJbmZvEkYuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5v",
+            "cHRvbWVjaGFuaWNzLmZpbHRlcl9mbGlwcGVyLnYxLkdldEluZm9SZXF1ZXN0",
+            "GkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRl",
+            "cl9mbGlwcGVyLnYxLkdldEluZm9SZXNwb25zZSIAEpwBCgdTZXRJbmZvEkYu",
+            "aW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl9m",
+            "bGlwcGVyLnYxLlNldEluZm9SZXF1ZXN0GkcuaW5zdHJvc2V0dGEuaW50ZXJm",
+            "YWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl9mbGlwcGVyLnYxLlNldEluZm9S",
+            "ZXNwb25zZSIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.EchoResponse.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ConnectResponse.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.DisconnectResponse.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeRequest.Parser, new[]{ "Name", "Properties" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.InitializeResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.ShutdownResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionRequest), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionResponse), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.GetPositionResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.SetPositionRequest), global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.SetPositionRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
@@ -91,11 +89,16 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
   }
   #region Messages
-  public sealed partial class EchoRequest : pb::IMessage<EchoRequest> {
-    private static readonly pb::MessageParser<EchoRequest> _parser = new pb::MessageParser<EchoRequest>(() => new EchoRequest());
+  /// <summary>
+  /// The first property of all messages is called "name" and reserved for
+  /// a unique identifier of the request-response session.
+  /// How the uid is generated is implementation specific and should not be relied on for functionality.
+  /// </summary>
+  public sealed partial class InitializeRequest : pb::IMessage<InitializeRequest> {
+    private static readonly pb::MessageParser<InitializeRequest> _parser = new pb::MessageParser<InitializeRequest>(() => new InitializeRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<EchoRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<InitializeRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -108,21 +111,22 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoRequest() {
+    public InitializeRequest() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoRequest(EchoRequest other) : this() {
+    public InitializeRequest(InitializeRequest other) : this() {
       name_ = other.name_;
+      properties_ = other.properties_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoRequest Clone() {
-      return new EchoRequest(this);
+    public InitializeRequest Clone() {
+      return new InitializeRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -136,13 +140,23 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
       }
     }
 
+    /// <summary>Field number for the "properties" field.</summary>
+    public const int PropertiesFieldNumber = 2;
+    private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+    private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as EchoRequest);
+    public pbc::MapField<string, string> Properties {
+      get { return properties_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(EchoRequest other) {
+    public override bool Equals(object other) {
+      return Equals(other as InitializeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -150,6 +164,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (!Properties.Equals(other.Properties)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -157,6 +172,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      hash ^= Properties.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -174,6 +190,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      properties_.WriteTo(output, _map_properties_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -185,6 +202,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
+      size += properties_.CalculateSize(_map_properties_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -192,13 +210,14 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(EchoRequest other) {
+    public void MergeFrom(InitializeRequest other) {
       if (other == null) {
         return;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
+      properties_.Add(other.properties_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -214,17 +233,21 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
             Name = input.ReadString();
             break;
           }
+          case 18: {
+            properties_.AddEntriesFrom(input, _map_properties_codec);
+            break;
+          }
         }
       }
     }
 
   }
 
-  public sealed partial class EchoResponse : pb::IMessage<EchoResponse> {
-    private static readonly pb::MessageParser<EchoResponse> _parser = new pb::MessageParser<EchoResponse>(() => new EchoResponse());
+  public sealed partial class InitializeResponse : pb::IMessage<InitializeResponse> {
+    private static readonly pb::MessageParser<InitializeResponse> _parser = new pb::MessageParser<InitializeResponse>(() => new InitializeResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<EchoResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<InitializeResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -237,21 +260,22 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoResponse() {
+    public InitializeResponse() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoResponse(EchoResponse other) : this() {
+    public InitializeResponse(InitializeResponse other) : this() {
       name_ = other.name_;
+      success_ = other.success_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoResponse Clone() {
-      return new EchoResponse(this);
+    public InitializeResponse Clone() {
+      return new InitializeResponse(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -265,13 +289,24 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
       }
     }
 
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as EchoResponse);
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(EchoResponse other) {
+    public override bool Equals(object other) {
+      return Equals(other as InitializeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -279,6 +314,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (Success != other.Success) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -286,6 +322,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -303,6 +340,10 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -314,6 +355,9 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
+      if (Success != false) {
+        size += 1 + 1;
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -321,12 +365,15 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(EchoResponse other) {
+    public void MergeFrom(InitializeResponse other) {
       if (other == null) {
         return;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -343,17 +390,21 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
             Name = input.ReadString();
             break;
           }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
         }
       }
     }
 
   }
 
-  public sealed partial class ConnectRequest : pb::IMessage<ConnectRequest> {
-    private static readonly pb::MessageParser<ConnectRequest> _parser = new pb::MessageParser<ConnectRequest>(() => new ConnectRequest());
+  public sealed partial class ShutdownRequest : pb::IMessage<ShutdownRequest> {
+    private static readonly pb::MessageParser<ShutdownRequest> _parser = new pb::MessageParser<ShutdownRequest>(() => new ShutdownRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConnectRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<ShutdownRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -366,21 +417,21 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest() {
+    public ShutdownRequest() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest(ConnectRequest other) : this() {
+    public ShutdownRequest(ShutdownRequest other) : this() {
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest Clone() {
-      return new ConnectRequest(this);
+    public ShutdownRequest Clone() {
+      return new ShutdownRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -396,11 +447,11 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as ConnectRequest);
+      return Equals(other as ShutdownRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConnectRequest other) {
+    public bool Equals(ShutdownRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -450,7 +501,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConnectRequest other) {
+    public void MergeFrom(ShutdownRequest other) {
       if (other == null) {
         return;
       }
@@ -478,11 +529,11 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
   }
 
-  public sealed partial class ConnectResponse : pb::IMessage<ConnectResponse> {
-    private static readonly pb::MessageParser<ConnectResponse> _parser = new pb::MessageParser<ConnectResponse>(() => new ConnectResponse());
+  public sealed partial class ShutdownResponse : pb::IMessage<ShutdownResponse> {
+    private static readonly pb::MessageParser<ShutdownResponse> _parser = new pb::MessageParser<ShutdownResponse>(() => new ShutdownResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConnectResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<ShutdownResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -495,21 +546,22 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse() {
+    public ShutdownResponse() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse(ConnectResponse other) : this() {
+    public ShutdownResponse(ShutdownResponse other) : this() {
       name_ = other.name_;
+      success_ = other.success_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse Clone() {
-      return new ConnectResponse(this);
+    public ShutdownResponse Clone() {
+      return new ShutdownResponse(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -523,13 +575,24 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
       }
     }
 
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConnectResponse);
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConnectResponse other) {
+    public override bool Equals(object other) {
+      return Equals(other as ShutdownResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ShutdownResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -537,6 +600,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
         return true;
       }
       if (Name != other.Name) return false;
+      if (Success != other.Success) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -544,6 +608,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -561,6 +626,10 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -572,6 +641,9 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
+      if (Success != false) {
+        size += 1 + 1;
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -579,12 +651,15 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConnectResponse other) {
+    public void MergeFrom(ShutdownResponse other) {
       if (other == null) {
         return;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -601,262 +676,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
             Name = input.ReadString();
             break;
           }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class DisconnectRequest : pb::IMessage<DisconnectRequest> {
-    private static readonly pb::MessageParser<DisconnectRequest> _parser = new pb::MessageParser<DisconnectRequest>(() => new DisconnectRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DisconnectRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[4]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest(DisconnectRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest Clone() {
-      return new DisconnectRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DisconnectRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DisconnectRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DisconnectRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class DisconnectResponse : pb::IMessage<DisconnectResponse> {
-    private static readonly pb::MessageParser<DisconnectResponse> _parser = new pb::MessageParser<DisconnectResponse>(() => new DisconnectResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DisconnectResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[5]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse(DisconnectResponse other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse Clone() {
-      return new DisconnectResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DisconnectResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DisconnectResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DisconnectResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
+          case 16: {
+            Success = input.ReadBool();
             break;
           }
         }
@@ -873,7 +694,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1030,7 +851,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1215,7 +1036,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1400,7 +1221,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1585,7 +1406,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1742,7 +1563,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1927,7 +1748,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2112,7 +1933,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterFlipper.V1.FilterFlipperReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

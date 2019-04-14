@@ -26,78 +26,94 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
           string.Concat(
             "CjdpbnN0cm9zZXR0YS9pbnRlcmZhY2VzL2xpZ2h0X2FuYWx5c2lzL3Bvd2Vy",
             "X21ldGVyLnByb3RvEjRpbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2Fu",
-            "YWx5c2lzLnBvd2VyX21ldGVyLnYxGiNpbnN0cm9zZXR0YS9jb21tb24vY29u",
-            "bmVjdGlvbi5wcm90byIuCg9HZXRQb3dlclJlcXVlc3QSDAoEbmFtZRgBIAEo",
-            "CRINCgV1bml0cxgCIAEoCSJCChBHZXRQb3dlclJlc3BvbnNlEgwKBG5hbWUY",
-            "ASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJIkEKD1Nl",
-            "dFBvd2VyUmVxdWVzdBIMCgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEo",
-            "ARINCgV1bml0cxgDIAEoCSJCChBTZXRQb3dlclJlc3BvbnNlEgwKBG5hbWUY",
-            "ASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJIi4KD0dl",
-            "dENvdW50UmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXVuaXRzGAIgASgJIkIK",
-            "EEdldENvdW50UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUY",
-            "AiABKAESDQoFdW5pdHMYAyABKAkiQQoPU2V0Q291bnRSZXF1ZXN0EgwKBG5h",
+            "YWx5c2lzLnBvd2VyX21ldGVyLnYxIsEBChFJbml0aWFsaXplUmVxdWVzdBIM",
+            "CgRuYW1lGAEgASgJEmsKCnByb3BlcnRpZXMYAiADKAsyVy5pbnN0cm9zZXR0",
+            "YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYxLklu",
+            "aXRpYWxpemVSZXF1ZXN0LlByb3BlcnRpZXNFbnRyeRoxCg9Qcm9wZXJ0aWVz",
+            "RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIzChJJbml0",
+            "aWFsaXplUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgI",
+            "Ih8KD1NodXRkb3duUmVxdWVzdBIMCgRuYW1lGAEgASgJIjEKEFNodXRkb3du",
+            "UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgIIi4KD0dl",
+            "dFBvd2VyUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXVuaXRzGAIgASgJIkIK",
+            "EEdldFBvd2VyUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUY",
+            "AiABKAESDQoFdW5pdHMYAyABKAkiQQoPU2V0UG93ZXJSZXF1ZXN0EgwKBG5h",
             "bWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJIkIK",
-            "EFNldENvdW50UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUY",
-            "AiABKAESDQoFdW5pdHMYAyABKAkiMwoUR2V0V2F2ZWxlbmd0aFJlcXVlc3QS",
-            "DAoEbmFtZRgBIAEoCRINCgV1bml0cxgCIAEoCSJHChVHZXRXYXZlbGVuZ3Ro",
-            "UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUYAiABKAESDQoF",
-            "dW5pdHMYAyABKAkiRgoUU2V0V2F2ZWxlbmd0aFJlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCRIRCgltYWduaXR1ZGUYAiABKAESDQoFdW5pdHMYAyABKAkiRwoVU2V0",
-            "V2F2ZWxlbmd0aFJlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRl",
-            "GAIgASgBEg0KBXVuaXRzGAMgASgJIi0KDkdldE1vZGVSZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkSDQoFdW5pdHMYAiABKAkiQQoPR2V0TW9kZVJlc3BvbnNlEgwK",
-            "BG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJ",
-            "IkAKDlNldE1vZGVSZXF1ZXN0EgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRl",
-            "GAIgASgBEg0KBXVuaXRzGAMgASgJIkEKD1NldE1vZGVSZXNwb25zZRIMCgRu",
-            "YW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoARINCgV1bml0cxgDIAEoCSIy",
-            "ChNHZXRBdXRvcmFuZ2VSZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFdW5pdHMY",
-            "AiABKAkiRgoUR2V0QXV0b3JhbmdlUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIR",
-            "CgltYWduaXR1ZGUYAiABKAESDQoFdW5pdHMYAyABKAkiRQoTU2V0QXV0b3Jh",
-            "bmdlUmVxdWVzdBIMCgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoARIN",
-            "CgV1bml0cxgDIAEoCSJGChRTZXRBdXRvcmFuZ2VSZXNwb25zZRIMCgRuYW1l",
-            "GAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoARINCgV1bml0cxgDIAEoCTLRDQoK",
-            "UG93ZXJNZXRlchIuCgdDb25uZWN0Eg8uQ29ubmVjdFJlcXVlc3QaEC5Db25u",
-            "ZWN0UmVzcG9uc2UiABI3CgpEaXNjb25uZWN0EhIuRGlzY29ubmVjdFJlcXVl",
-            "c3QaEy5EaXNjb25uZWN0UmVzcG9uc2UiABKbAQoIR2V0UG93ZXISRS5pbnN0",
+            "EFNldFBvd2VyUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUY",
+            "AiABKAESDQoFdW5pdHMYAyABKAkiLgoPR2V0Q291bnRSZXF1ZXN0EgwKBG5h",
+            "bWUYASABKAkSDQoFdW5pdHMYAiABKAkiQgoQR2V0Q291bnRSZXNwb25zZRIM",
+            "CgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoARINCgV1bml0cxgDIAEo",
+            "CSJBCg9TZXRDb3VudFJlcXVlc3QSDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1",
+            "ZGUYAiABKAESDQoFdW5pdHMYAyABKAkiQgoQU2V0Q291bnRSZXNwb25zZRIM",
+            "CgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoARINCgV1bml0cxgDIAEo",
+            "CSIzChRHZXRXYXZlbGVuZ3RoUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXVu",
+            "aXRzGAIgASgJIkcKFUdldFdhdmVsZW5ndGhSZXNwb25zZRIMCgRuYW1lGAEg",
+            "ASgJEhEKCW1hZ25pdHVkZRgCIAEoARINCgV1bml0cxgDIAEoCSJGChRTZXRX",
+            "YXZlbGVuZ3RoUmVxdWVzdBIMCgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgC",
+            "IAEoARINCgV1bml0cxgDIAEoCSJHChVTZXRXYXZlbGVuZ3RoUmVzcG9uc2US",
+            "DAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUYAiABKAESDQoFdW5pdHMYAyAB",
+            "KAkiLQoOR2V0TW9kZVJlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgV1bml0cxgC",
+            "IAEoCSJBCg9HZXRNb2RlUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWdu",
+            "aXR1ZGUYAiABKAESDQoFdW5pdHMYAyABKAkiQAoOU2V0TW9kZVJlcXVlc3QS",
+            "DAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUYAiABKAESDQoFdW5pdHMYAyAB",
+            "KAkiQQoPU2V0TW9kZVJlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJbWFnbml0",
+            "dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJIjIKE0dldEF1dG9yYW5nZVJlcXVl",
+            "c3QSDAoEbmFtZRgBIAEoCRINCgV1bml0cxgCIAEoCSJGChRHZXRBdXRvcmFu",
+            "Z2VSZXNwb25zZRIMCgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoARIN",
+            "CgV1bml0cxgDIAEoCSJFChNTZXRBdXRvcmFuZ2VSZXF1ZXN0EgwKBG5hbWUY",
+            "ASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJIkYKFFNl",
+            "dEF1dG9yYW5nZVJlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRl",
+            "GAIgASgBEg0KBXVuaXRzGAMgASgJMqoPCgpQb3dlck1ldGVyEqEBCgpJbml0",
+            "aWFsaXplEkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNp",
+            "cy5wb3dlcl9tZXRlci52MS5Jbml0aWFsaXplUmVxdWVzdBpILmluc3Ryb3Nl",
+            "dHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEu",
+            "SW5pdGlhbGl6ZVJlc3BvbnNlIgASmwEKCFNodXRkb3duEkUuaW5zdHJvc2V0",
+            "dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5T",
+            "aHV0ZG93blJlcXVlc3QaRi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0",
+            "X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYxLlNodXRkb3duUmVzcG9uc2UiABKb",
+            "AQoIR2V0UG93ZXISRS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2Fu",
+            "YWx5c2lzLnBvd2VyX21ldGVyLnYxLkdldFBvd2VyUmVxdWVzdBpGLmluc3Ry",
+            "b3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIu",
+            "djEuR2V0UG93ZXJSZXNwb25zZSIAEpsBCghTZXRQb3dlchJFLmluc3Ryb3Nl",
+            "dHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEu",
+            "U2V0UG93ZXJSZXF1ZXN0GkYuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdo",
+            "dF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5TZXRQb3dlclJlc3BvbnNlIgAS",
+            "mwEKCEdldENvdW50EkUuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9h",
+            "bmFseXNpcy5wb3dlcl9tZXRlci52MS5HZXRDb3VudFJlcXVlc3QaRi5pbnN0",
             "cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVy",
-            "LnYxLkdldFBvd2VyUmVxdWVzdBpGLmluc3Ryb3NldHRhLmludGVyZmFjZXMu",
-            "bGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0UG93ZXJSZXNwb25z",
-            "ZSIAEpsBCghTZXRQb3dlchJFLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGln",
-            "aHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuU2V0UG93ZXJSZXF1ZXN0GkYu",
+            "LnYxLkdldENvdW50UmVzcG9uc2UiABKbAQoIU2V0Q291bnQSRS5pbnN0cm9z",
+            "ZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYx",
+            "LlNldENvdW50UmVxdWVzdBpGLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGln",
+            "aHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuU2V0Q291bnRSZXNwb25zZSIA",
+            "EqoBCg1HZXRXYXZlbGVuZ3RoEkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5s",
+            "aWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5HZXRXYXZlbGVuZ3RoUmVx",
+            "dWVzdBpLLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMu",
+            "cG93ZXJfbWV0ZXIudjEuR2V0V2F2ZWxlbmd0aFJlc3BvbnNlIgASqgEKDVNl",
+            "dFdhdmVsZW5ndGgSSi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2Fu",
+            "YWx5c2lzLnBvd2VyX21ldGVyLnYxLlNldFdhdmVsZW5ndGhSZXF1ZXN0Gksu",
             "aW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9t",
-            "ZXRlci52MS5TZXRQb3dlclJlc3BvbnNlIgASmwEKCEdldENvdW50EkUuaW5z",
-            "dHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9tZXRl",
-            "ci52MS5HZXRDb3VudFJlcXVlc3QaRi5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
-            "LmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYxLkdldENvdW50UmVzcG9u",
-            "c2UiABKbAQoIU2V0Q291bnQSRS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxp",
-            "Z2h0X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYxLlNldENvdW50UmVxdWVzdBpG",
+            "ZXRlci52MS5TZXRXYXZlbGVuZ3RoUmVzcG9uc2UiABKYAQoHR2V0TW9kZRJE",
             "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJf",
-            "bWV0ZXIudjEuU2V0Q291bnRSZXNwb25zZSIAEqoBCg1HZXRXYXZlbGVuZ3Ro",
-            "EkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dl",
-            "cl9tZXRlci52MS5HZXRXYXZlbGVuZ3RoUmVxdWVzdBpLLmluc3Ryb3NldHRh",
-            "LmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0",
-            "V2F2ZWxlbmd0aFJlc3BvbnNlIgASqgEKDVNldFdhdmVsZW5ndGgSSi5pbnN0",
-            "cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVy",
-            "LnYxLlNldFdhdmVsZW5ndGhSZXF1ZXN0GksuaW5zdHJvc2V0dGEuaW50ZXJm",
-            "YWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5TZXRXYXZlbGVu",
-            "Z3RoUmVzcG9uc2UiABKYAQoHR2V0TW9kZRJELmluc3Ryb3NldHRhLmludGVy",
-            "ZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0TW9kZVJl",
-            "cXVlc3QaRS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lz",
-            "LnBvd2VyX21ldGVyLnYxLkdldE1vZGVSZXNwb25zZSIAEpgBCgdTZXRNb2Rl",
-            "EkQuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dl",
-            "cl9tZXRlci52MS5TZXRNb2RlUmVxdWVzdBpFLmluc3Ryb3NldHRhLmludGVy",
-            "ZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuU2V0TW9kZVJl",
-            "c3BvbnNlIgASpwEKDEdldEF1dG9yYW5nZRJJLmluc3Ryb3NldHRhLmludGVy",
-            "ZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0QXV0b3Jh",
-            "bmdlUmVxdWVzdBpKLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5h",
-            "bHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0QXV0b3JhbmdlUmVzcG9uc2UiABKn",
-            "AQoMU2V0QXV0b3JhbmdlEkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdo",
-            "dF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5TZXRBdXRvcmFuZ2VSZXF1ZXN0",
-            "GkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dl",
-            "cl9tZXRlci52MS5TZXRBdXRvcmFuZ2VSZXNwb25zZSIAYgZwcm90bzM="));
+            "bWV0ZXIudjEuR2V0TW9kZVJlcXVlc3QaRS5pbnN0cm9zZXR0YS5pbnRlcmZh",
+            "Y2VzLmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYxLkdldE1vZGVSZXNw",
+            "b25zZSIAEpgBCgdTZXRNb2RlEkQuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5s",
+            "aWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5TZXRNb2RlUmVxdWVzdBpF",
+            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJf",
+            "bWV0ZXIudjEuU2V0TW9kZVJlc3BvbnNlIgASpwEKDEdldEF1dG9yYW5nZRJJ",
+            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJf",
+            "bWV0ZXIudjEuR2V0QXV0b3JhbmdlUmVxdWVzdBpKLmluc3Ryb3NldHRhLmlu",
+            "dGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0QXV0",
+            "b3JhbmdlUmVzcG9uc2UiABKnAQoMU2V0QXV0b3JhbmdlEkkuaW5zdHJvc2V0",
+            "dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5T",
+            "ZXRBdXRvcmFuZ2VSZXF1ZXN0GkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5s",
+            "aWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5TZXRBdXRvcmFuZ2VSZXNw",
+            "b25zZSIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::ConnectionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.InitializeRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.InitializeRequest.Parser, new[]{ "Name", "Properties" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.InitializeResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.InitializeResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ShutdownRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ShutdownRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ShutdownResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ShutdownResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
@@ -124,6 +140,598 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
   }
   #region Messages
+  public sealed partial class InitializeRequest : pb::IMessage<InitializeRequest> {
+    private static readonly pb::MessageParser<InitializeRequest> _parser = new pb::MessageParser<InitializeRequest>(() => new InitializeRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest(InitializeRequest other) : this() {
+      name_ = other.name_;
+      properties_ = other.properties_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest Clone() {
+      return new InitializeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "properties" field.</summary>
+    public const int PropertiesFieldNumber = 2;
+    private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+    private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, string> Properties {
+      get { return properties_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!Properties.Equals(other.Properties)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      hash ^= Properties.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      properties_.WriteTo(output, _map_properties_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      size += properties_.CalculateSize(_map_properties_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      properties_.Add(other.properties_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            properties_.AddEntriesFrom(input, _map_properties_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class InitializeResponse : pb::IMessage<InitializeResponse> {
+    private static readonly pb::MessageParser<InitializeResponse> _parser = new pb::MessageParser<InitializeResponse>(() => new InitializeResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse(InitializeResponse other) : this() {
+      name_ = other.name_;
+      success_ = other.success_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse Clone() {
+      return new InitializeResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Success != other.Success) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ShutdownRequest : pb::IMessage<ShutdownRequest> {
+    private static readonly pb::MessageParser<ShutdownRequest> _parser = new pb::MessageParser<ShutdownRequest>(() => new ShutdownRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ShutdownRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest(ShutdownRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest Clone() {
+      return new ShutdownRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ShutdownRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ShutdownRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ShutdownRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ShutdownResponse : pb::IMessage<ShutdownResponse> {
+    private static readonly pb::MessageParser<ShutdownResponse> _parser = new pb::MessageParser<ShutdownResponse>(() => new ShutdownResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ShutdownResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse(ShutdownResponse other) : this() {
+      name_ = other.name_;
+      success_ = other.success_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse Clone() {
+      return new ShutdownResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ShutdownResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ShutdownResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Success != other.Success) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ShutdownResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class GetPowerRequest : pb::IMessage<GetPowerRequest> {
     private static readonly pb::MessageParser<GetPowerRequest> _parser = new pb::MessageParser<GetPowerRequest>(() => new GetPowerRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -132,7 +740,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -289,7 +897,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -474,7 +1082,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -659,7 +1267,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -844,7 +1452,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1001,7 +1609,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1186,7 +1794,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1371,7 +1979,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1556,7 +2164,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1713,7 +2321,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1898,7 +2506,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2083,7 +2691,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2268,7 +2876,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2425,7 +3033,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2610,7 +3218,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2795,7 +3403,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2980,7 +3588,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3137,7 +3745,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3322,7 +3930,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3507,7 +4115,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

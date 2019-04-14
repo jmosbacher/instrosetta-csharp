@@ -26,81 +26,101 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
           string.Concat(
             "CjZpbnN0cm9zZXR0YS9pbnRlcmZhY2VzL2RhdGFfYXF1aXNpdGlvbi9iYXNp",
             "Y19kYXEucHJvdG8SM2luc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVp",
-            "c2l0aW9uLmJhc2ljX2RhcS52MRojaW5zdHJvc2V0dGEvY29tbW9uL2Nvbm5l",
-            "Y3Rpb24ucHJvdG8iKQoZR2V0QXZhaWxibGVEZXZpY2VzUmVxdWVzdBIMCgRu",
-            "YW1lGAEgASgJIioKGkdldEF2YWlsYmxlRGV2aWNlc1Jlc3BvbnNlEgwKBG5h",
-            "bWUYASABKAkiIgoSUmVhZERpZ2l0YWxSZXF1ZXN0EgwKBG5hbWUYASABKAki",
-            "MgoTUmVhZERpZ2l0YWxSZXNwb25zZRIMCgRuYW1lGAEgASgJEg0KBXZhbHVl",
-            "GAIgASgIIiEKEVJlYWRBbmFsb2dSZXF1ZXN0EgwKBG5hbWUYASABKAkiMQoS",
-            "UmVhZEFuYWxvZ1Jlc3BvbnNlEgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiAB",
-            "KAEiMgoTV3JpdGVEaWdpdGFsUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXZh",
-            "bHVlGAIgASgIIjMKFFdyaXRlRGlnaXRhbFJlc3BvbnNlEgwKBG5hbWUYASAB",
-            "KAkSDQoFdmFsdWUYAiABKAgiMQoSV3JpdGVBbmFsb2dSZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkSDQoFdmFsdWUYAiABKAEiMgoTV3JpdGVBbmFsb2dSZXNwb25z",
-            "ZRIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgBIjcKF0dldERldmljZURl",
-            "dGFpbHNSZXF1ZXN0EgwKBG5hbWUYASABKAkSDgoGZGV2aWNlGAIgASgJIsUB",
-            "ChhHZXREZXZpY2VEZXRhaWxzUmVzcG9uc2USDAoEbmFtZRgBIAEoCRJrCgdk",
-            "ZXRhaWxzGAIgAygLMlouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2Fx",
-            "dWlzaXRpb24uYmFzaWNfZGFxLnYxLkdldERldmljZURldGFpbHNSZXNwb25z",
-            "ZS5EZXRhaWxzRW50cnkaLgoMRGV0YWlsc0VudHJ5EgsKA2tleRgBIAEoCRIN",
-            "CgV2YWx1ZRgCIAEoCToCOAEiNwoYR2V0RGlnaXRhbE91dHB1dHNSZXF1ZXN0",
-            "EgwKBG5hbWUYASABKAkSDQoFdW5pdHMYAiABKAkiSAoZR2V0RGlnaXRhbE91",
-            "dHB1dHNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg4KBm51bWJlchgCIAEoBRIN",
-            "CgVuYW1lcxgDIAMoCSInChdHZXREaWdpdGFsSW5wdXRzUmVxdWVzdBIMCgRu",
-            "YW1lGAEgASgJIkcKGEdldERpZ2l0YWxJbnB1dHNSZXNwb25zZRIMCgRuYW1l",
-            "GAEgASgJEg4KBm51bWJlchgCIAEoBRINCgVuYW1lcxgDIAMoCSInChdHZXRB",
-            "bmFsb2dPdXRwdXRzUmVxdWVzdBIMCgRuYW1lGAEgASgJIkcKGEdldEFuYWxv",
-            "Z091dHB1dHNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg4KBm51bWJlchgCIAEo",
-            "BRINCgVuYW1lcxgDIAMoCSI1ChZHZXRBbmFsb2dJbnB1dHNSZXF1ZXN0EgwK",
-            "BG5hbWUYASABKAkSDQoFdW5pdHMYAiABKAkiRgoXR2V0QW5hbG9nSW5wdXRz",
-            "UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIOCgZudW1iZXIYAiABKAUSDQoFbmFt",
-            "ZXMYAyADKAkyxw4KCEJhc2ljRGFxErkBChJHZXRBdmFpbGJsZURldmljZXMS",
-            "Ti5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNp",
-            "Y19kYXEudjEuR2V0QXZhaWxibGVEZXZpY2VzUmVxdWVzdBpPLmluc3Ryb3Nl",
-            "dHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52MS5H",
-            "ZXRBdmFpbGJsZURldmljZXNSZXNwb25zZSIAMAESLgoHQ29ubmVjdBIPLkNv",
-            "bm5lY3RSZXF1ZXN0GhAuQ29ubmVjdFJlc3BvbnNlIgASNwoKRGlzY29ubmVj",
-            "dBISLkRpc2Nvbm5lY3RSZXF1ZXN0GhMuRGlzY29ubmVjdFJlc3BvbnNlIgAS",
-            "ogEKC1JlYWREaWdpdGFsEkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRh",
-            "X2FxdWlzaXRpb24uYmFzaWNfZGFxLnYxLlJlYWREaWdpdGFsUmVxdWVzdBpI",
-            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2lj",
-            "X2RhcS52MS5SZWFkRGlnaXRhbFJlc3BvbnNlIgASnwEKClJlYWRBbmFsb2cS",
-            "Ri5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNp",
-            "Y19kYXEudjEuUmVhZEFuYWxvZ1JlcXVlc3QaRy5pbnN0cm9zZXR0YS5pbnRl",
-            "cmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEudjEuUmVhZEFuYWxv",
-            "Z1Jlc3BvbnNlIgASpQEKDFdyaXRlRGlnaXRhbBJILmluc3Ryb3NldHRhLmlu",
-            "dGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52MS5Xcml0ZURp",
-            "Z2l0YWxSZXF1ZXN0GkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2Fx",
-            "dWlzaXRpb24uYmFzaWNfZGFxLnYxLldyaXRlRGlnaXRhbFJlc3BvbnNlIgAS",
-            "ogEKC1dyaXRlQW5hbG9nEkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRh",
-            "X2FxdWlzaXRpb24uYmFzaWNfZGFxLnYxLldyaXRlQW5hbG9nUmVxdWVzdBpI",
-            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2lj",
-            "X2RhcS52MS5Xcml0ZUFuYWxvZ1Jlc3BvbnNlIgASsQEKEEdldERldmljZURl",
-            "dGFpbHMSTC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlv",
-            "bi5iYXNpY19kYXEudjEuR2V0RGV2aWNlRGV0YWlsc1JlcXVlc3QaTS5pbnN0",
+            "c2l0aW9uLmJhc2ljX2RhcS52MSIpChlHZXRBdmFpbGJsZURldmljZXNSZXF1",
+            "ZXN0EgwKBG5hbWUYASABKAkiKgoaR2V0QXZhaWxibGVEZXZpY2VzUmVzcG9u",
+            "c2USDAoEbmFtZRgBIAEoCSLAAQoRSW5pdGlhbGl6ZVJlcXVlc3QSDAoEbmFt",
+            "ZRgBIAEoCRJqCgpwcm9wZXJ0aWVzGAIgAygLMlYuaW5zdHJvc2V0dGEuaW50",
+            "ZXJmYWNlcy5kYXRhX2FxdWlzaXRpb24uYmFzaWNfZGFxLnYxLkluaXRpYWxp",
+            "emVSZXF1ZXN0LlByb3BlcnRpZXNFbnRyeRoxCg9Qcm9wZXJ0aWVzRW50cnkS",
+            "CwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIzChJJbml0aWFsaXpl",
+            "UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgIIh8KD1No",
+            "dXRkb3duUmVxdWVzdBIMCgRuYW1lGAEgASgJIjEKEFNodXRkb3duUmVzcG9u",
+            "c2USDAoEbmFtZRgBIAEoCRIPCgdzdWNjZXNzGAIgASgIIiIKElJlYWREaWdp",
+            "dGFsUmVxdWVzdBIMCgRuYW1lGAEgASgJIjIKE1JlYWREaWdpdGFsUmVzcG9u",
+            "c2USDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoCCIhChFSZWFkQW5hbG9n",
+            "UmVxdWVzdBIMCgRuYW1lGAEgASgJIjEKElJlYWRBbmFsb2dSZXNwb25zZRIM",
+            "CgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgBIjIKE1dyaXRlRGlnaXRhbFJl",
+            "cXVlc3QSDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoCCIzChRXcml0ZURp",
+            "Z2l0YWxSZXNwb25zZRIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgIIjEK",
+            "EldyaXRlQW5hbG9nUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIg",
+            "ASgBIjIKE1dyaXRlQW5hbG9nUmVzcG9uc2USDAoEbmFtZRgBIAEoCRINCgV2",
+            "YWx1ZRgCIAEoASI3ChdHZXREZXZpY2VEZXRhaWxzUmVxdWVzdBIMCgRuYW1l",
+            "GAEgASgJEg4KBmRldmljZRgCIAEoCSLFAQoYR2V0RGV2aWNlRGV0YWlsc1Jl",
+            "c3BvbnNlEgwKBG5hbWUYASABKAkSawoHZGV0YWlscxgCIAMoCzJaLmluc3Ry",
+            "b3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52",
+            "MS5HZXREZXZpY2VEZXRhaWxzUmVzcG9uc2UuRGV0YWlsc0VudHJ5Gi4KDERl",
+            "dGFpbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIikK",
+            "GUdldERpZ2l0YWxDaGFubmVsc1JlcXVlc3QSDAoEbmFtZRgBIAEoCSJJChpH",
+            "ZXREaWdpdGFsQ2hhbm5lbHNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg4KBm51",
+            "bWJlchgCIAEoBRINCgVuYW1lcxgDIAMoCSI3ChhHZXRBbmFsb2dDaGFubmVs",
+            "c1JlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgV1bml0cxgCIAEoCSJIChlHZXRB",
+            "bmFsb2dDaGFubmVsc1Jlc3BvbnNlEgwKBG5hbWUYASABKAkSDgoGbnVtYmVy",
+            "GAIgASgFEg0KBW5hbWVzGAMgAygJIqABChVTZXRDaGFubmVsTW9kZVJlcXVl",
+            "c3QSDAoEbmFtZRgBIAEoCRIUCgxjaGFubmVsX25hbWUYAiABKAkSEwoLY2hh",
+            "bm5lbF91aWQYAyABKAkSTgoEbW9kZRgEIAEoDjJALmluc3Ryb3NldHRhLmlu",
+            "dGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52MS5DaGFubmVs",
+            "TW9kZSKhAQoWU2V0Q2hhbm5lbE1vZGVSZXNwb25zZRIMCgRuYW1lGAEgASgJ",
+            "EhQKDGNoYW5uZWxfbmFtZRgCIAEoCRITCgtjaGFubmVsX3VpZBgDIAEoCRJO",
+            "CgRtb2RlGAQgASgOMkAuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2Fx",
+            "dWlzaXRpb24uYmFzaWNfZGFxLnYxLkNoYW5uZWxNb2RlIlAKFUdldENoYW5u",
+            "ZWxNb2RlUmVxdWVzdBIMCgRuYW1lGAEgASgJEhQKDGNoYW5uZWxfbmFtZRgC",
+            "IAEoCRITCgtjaGFubmVsX3VpZBgDIAEoCSKhAQoWR2V0Q2hhbm5lbE1vZGVS",
+            "ZXNwb25zZRIMCgRuYW1lGAEgASgJEhQKDGNoYW5uZWxfbmFtZRgCIAEoCRIT",
+            "CgtjaGFubmVsX3VpZBgDIAEoCRJOCgRtb2RlGAQgASgOMkAuaW5zdHJvc2V0",
+            "dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRpb24uYmFzaWNfZGFxLnYxLkNo",
+            "YW5uZWxNb2RlKjEKC0NoYW5uZWxNb2RlEgsKB1VOS05PV04QABIJCgVJTlBV",
+            "VBABEgoKBk9VVFBVVBACMusOCghCYXNpY0RhcRK5AQoSR2V0QXZhaWxibGVE",
+            "ZXZpY2VzEk4uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRp",
+            "b24uYmFzaWNfZGFxLnYxLkdldEF2YWlsYmxlRGV2aWNlc1JlcXVlc3QaTy5p",
+            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19k",
+            "YXEudjEuR2V0QXZhaWxibGVEZXZpY2VzUmVzcG9uc2UiADABEp8BCgpJbml0",
+            "aWFsaXplEkYuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRp",
+            "b24uYmFzaWNfZGFxLnYxLkluaXRpYWxpemVSZXF1ZXN0GkcuaW5zdHJvc2V0",
+            "dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRpb24uYmFzaWNfZGFxLnYxLklu",
+            "aXRpYWxpemVSZXNwb25zZSIAEpkBCghTaHV0ZG93bhJELmluc3Ryb3NldHRh",
+            "LmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52MS5TaHV0",
+            "ZG93blJlcXVlc3QaRS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1",
+            "aXNpdGlvbi5iYXNpY19kYXEudjEuU2h1dGRvd25SZXNwb25zZSIAEqIBCgtS",
+            "ZWFkRGlnaXRhbBJHLmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVp",
+            "c2l0aW9uLmJhc2ljX2RhcS52MS5SZWFkRGlnaXRhbFJlcXVlc3QaSC5pbnN0",
             "cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEu",
-            "djEuR2V0RGV2aWNlRGV0YWlsc1Jlc3BvbnNlIgAStAEKEUdldERpZ2l0YWxP",
-            "dXRwdXRzEk0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRp",
-            "b24uYmFzaWNfZGFxLnYxLkdldERpZ2l0YWxPdXRwdXRzUmVxdWVzdBpOLmlu",
-            "c3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2Rh",
-            "cS52MS5HZXREaWdpdGFsT3V0cHV0c1Jlc3BvbnNlIgASsQEKEEdldERpZ2l0",
-            "YWxJbnB1dHMSTC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNp",
-            "dGlvbi5iYXNpY19kYXEudjEuR2V0RGlnaXRhbElucHV0c1JlcXVlc3QaTS5p",
-            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19k",
-            "YXEudjEuR2V0RGlnaXRhbElucHV0c1Jlc3BvbnNlIgASsQEKEEdldEFuYWxv",
-            "Z091dHB1dHMSTC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNp",
-            "dGlvbi5iYXNpY19kYXEudjEuR2V0QW5hbG9nT3V0cHV0c1JlcXVlc3QaTS5p",
-            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19k",
-            "YXEudjEuR2V0QW5hbG9nT3V0cHV0c1Jlc3BvbnNlIgASrgEKD0dldEFuYWxv",
-            "Z0lucHV0cxJLLmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0",
-            "aW9uLmJhc2ljX2RhcS52MS5HZXRBbmFsb2dJbnB1dHNSZXF1ZXN0GkwuaW5z",
+            "djEuUmVhZERpZ2l0YWxSZXNwb25zZSIAEp8BCgpSZWFkQW5hbG9nEkYuaW5z",
             "dHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRpb24uYmFzaWNfZGFx",
-            "LnYxLkdldEFuYWxvZ0lucHV0c1Jlc3BvbnNlIgBiBnByb3RvMw=="));
+            "LnYxLlJlYWRBbmFsb2dSZXF1ZXN0GkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
+            "cy5kYXRhX2FxdWlzaXRpb24uYmFzaWNfZGFxLnYxLlJlYWRBbmFsb2dSZXNw",
+            "b25zZSIAEqUBCgxXcml0ZURpZ2l0YWwSSC5pbnN0cm9zZXR0YS5pbnRlcmZh",
+            "Y2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEudjEuV3JpdGVEaWdpdGFs",
+            "UmVxdWVzdBpJLmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0",
+            "aW9uLmJhc2ljX2RhcS52MS5Xcml0ZURpZ2l0YWxSZXNwb25zZSIAEqIBCgtX",
+            "cml0ZUFuYWxvZxJHLmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVp",
+            "c2l0aW9uLmJhc2ljX2RhcS52MS5Xcml0ZUFuYWxvZ1JlcXVlc3QaSC5pbnN0",
+            "cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEu",
+            "djEuV3JpdGVBbmFsb2dSZXNwb25zZSIAErEBChBHZXREZXZpY2VEZXRhaWxz",
+            "EkwuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRpb24uYmFz",
+            "aWNfZGFxLnYxLkdldERldmljZURldGFpbHNSZXF1ZXN0Gk0uaW5zdHJvc2V0",
+            "dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRpb24uYmFzaWNfZGFxLnYxLkdl",
+            "dERldmljZURldGFpbHNSZXNwb25zZSIAErcBChJHZXREaWdpdGFsQ2hhbm5l",
+            "bHMSTi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5i",
+            "YXNpY19kYXEudjEuR2V0RGlnaXRhbENoYW5uZWxzUmVxdWVzdBpPLmluc3Ry",
+            "b3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52",
+            "MS5HZXREaWdpdGFsQ2hhbm5lbHNSZXNwb25zZSIAErQBChFHZXRBbmFsb2dD",
+            "aGFubmVscxJNLmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0",
+            "aW9uLmJhc2ljX2RhcS52MS5HZXRBbmFsb2dDaGFubmVsc1JlcXVlc3QaTi5p",
+            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19k",
+            "YXEudjEuR2V0QW5hbG9nQ2hhbm5lbHNSZXNwb25zZSIAEqsBCg5TZXRDaGFu",
+            "bmVsTW9kZRJKLmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0",
+            "aW9uLmJhc2ljX2RhcS52MS5TZXRDaGFubmVsTW9kZVJlcXVlc3QaSy5pbnN0",
+            "cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEu",
+            "djEuU2V0Q2hhbm5lbE1vZGVSZXNwb25zZSIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::ConnectionReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::FileDescriptor[] { },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ChannelMode), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAvailbleDevicesResponse.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeRequest.Parser, new[]{ "Name", "Properties" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.InitializeResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ShutdownResponse.Parser, new[]{ "Name", "Success" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadDigitalResponse.Parser, new[]{ "Name", "Value" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadAnalogRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ReadAnalogRequest.Parser, new[]{ "Name" }, null, null, null),
@@ -111,19 +131,28 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteAnalogResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteAnalogResponse.Parser, new[]{ "Name", "Value" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsRequest.Parser, new[]{ "Name", "Device" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsResponse.Parser, new[]{ "Name", "Details" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse.Parser, new[]{ "Name", "Number", "Names" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsResponse.Parser, new[]{ "Name", "Number", "Names" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogOutputsResponse.Parser, new[]{ "Name", "Number", "Names" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogInputsResponse.Parser, new[]{ "Name", "Number", "Names" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalChannelsResponse.Parser, new[]{ "Name", "Number", "Names" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetAnalogChannelsResponse.Parser, new[]{ "Name", "Number", "Names" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeRequest.Parser, new[]{ "Name", "ChannelName", "ChannelUid", "Mode" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.SetChannelModeResponse.Parser, new[]{ "Name", "ChannelName", "ChannelUid", "Mode" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetChannelModeRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetChannelModeRequest.Parser, new[]{ "Name", "ChannelName", "ChannelUid" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetChannelModeResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetChannelModeResponse.Parser, new[]{ "Name", "ChannelName", "ChannelUid", "Mode" }, null, null, null)
           }));
     }
     #endregion
 
   }
+  #region Enums
+  public enum ChannelMode {
+    [pbr::OriginalName("UNKNOWN")] Unknown = 0,
+    [pbr::OriginalName("INPUT")] Input = 1,
+    [pbr::OriginalName("OUTPUT")] Output = 2,
+  }
+
+  #endregion
+
   #region Messages
   public sealed partial class GetAvailbleDevicesRequest : pb::IMessage<GetAvailbleDevicesRequest> {
     private static readonly pb::MessageParser<GetAvailbleDevicesRequest> _parser = new pb::MessageParser<GetAvailbleDevicesRequest>(() => new GetAvailbleDevicesRequest());
@@ -383,6 +412,598 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
   }
 
+  public sealed partial class InitializeRequest : pb::IMessage<InitializeRequest> {
+    private static readonly pb::MessageParser<InitializeRequest> _parser = new pb::MessageParser<InitializeRequest>(() => new InitializeRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest(InitializeRequest other) : this() {
+      name_ = other.name_;
+      properties_ = other.properties_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeRequest Clone() {
+      return new InitializeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "properties" field.</summary>
+    public const int PropertiesFieldNumber = 2;
+    private static readonly pbc::MapField<string, string>.Codec _map_properties_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+    private readonly pbc::MapField<string, string> properties_ = new pbc::MapField<string, string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, string> Properties {
+      get { return properties_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!Properties.Equals(other.Properties)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      hash ^= Properties.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      properties_.WriteTo(output, _map_properties_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      size += properties_.CalculateSize(_map_properties_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      properties_.Add(other.properties_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            properties_.AddEntriesFrom(input, _map_properties_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class InitializeResponse : pb::IMessage<InitializeResponse> {
+    private static readonly pb::MessageParser<InitializeResponse> _parser = new pb::MessageParser<InitializeResponse>(() => new InitializeResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<InitializeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse(InitializeResponse other) : this() {
+      name_ = other.name_;
+      success_ = other.success_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public InitializeResponse Clone() {
+      return new InitializeResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as InitializeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(InitializeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Success != other.Success) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(InitializeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ShutdownRequest : pb::IMessage<ShutdownRequest> {
+    private static readonly pb::MessageParser<ShutdownRequest> _parser = new pb::MessageParser<ShutdownRequest>(() => new ShutdownRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ShutdownRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest(ShutdownRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownRequest Clone() {
+      return new ShutdownRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ShutdownRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ShutdownRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ShutdownRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ShutdownResponse : pb::IMessage<ShutdownResponse> {
+    private static readonly pb::MessageParser<ShutdownResponse> _parser = new pb::MessageParser<ShutdownResponse>(() => new ShutdownResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ShutdownResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse(ShutdownResponse other) : this() {
+      name_ = other.name_;
+      success_ = other.success_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ShutdownResponse Clone() {
+      return new ShutdownResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ShutdownResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ShutdownResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Success != other.Success) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ShutdownResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class ReadDigitalRequest : pb::IMessage<ReadDigitalRequest> {
     private static readonly pb::MessageParser<ReadDigitalRequest> _parser = new pb::MessageParser<ReadDigitalRequest>(() => new ReadDigitalRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -391,7 +1012,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -520,7 +1141,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -677,7 +1298,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -806,7 +1427,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -963,7 +1584,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1120,7 +1741,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1277,7 +1898,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1434,7 +2055,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1591,7 +2212,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1748,7 +2369,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1889,651 +2510,11 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
   }
 
-  public sealed partial class GetDigitalOutputsRequest : pb::IMessage<GetDigitalOutputsRequest> {
-    private static readonly pb::MessageParser<GetDigitalOutputsRequest> _parser = new pb::MessageParser<GetDigitalOutputsRequest>(() => new GetDigitalOutputsRequest());
+  public sealed partial class GetDigitalChannelsRequest : pb::IMessage<GetDigitalChannelsRequest> {
+    private static readonly pb::MessageParser<GetDigitalChannelsRequest> _parser = new pb::MessageParser<GetDigitalChannelsRequest>(() => new GetDigitalChannelsRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetDigitalOutputsRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[12]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalOutputsRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalOutputsRequest(GetDigitalOutputsRequest other) : this() {
-      name_ = other.name_;
-      units_ = other.units_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalOutputsRequest Clone() {
-      return new GetDigitalOutputsRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 2;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as GetDigitalOutputsRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetDigitalOutputsRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (Units != other.Units) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Units.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Units);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetDigitalOutputsRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 18: {
-            Units = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class GetDigitalOutputsResponse : pb::IMessage<GetDigitalOutputsResponse> {
-    private static readonly pb::MessageParser<GetDigitalOutputsResponse> _parser = new pb::MessageParser<GetDigitalOutputsResponse>(() => new GetDigitalOutputsResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetDigitalOutputsResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[13]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalOutputsResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalOutputsResponse(GetDigitalOutputsResponse other) : this() {
-      name_ = other.name_;
-      number_ = other.number_;
-      names_ = other.names_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalOutputsResponse Clone() {
-      return new GetDigitalOutputsResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "number" field.</summary>
-    public const int NumberFieldNumber = 2;
-    private int number_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Number {
-      get { return number_; }
-      set {
-        number_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "names" field.</summary>
-    public const int NamesFieldNumber = 3;
-    private static readonly pb::FieldCodec<string> _repeated_names_codec
-        = pb::FieldCodec.ForString(26);
-    private readonly pbc::RepeatedField<string> names_ = new pbc::RepeatedField<string>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<string> Names {
-      get { return names_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as GetDigitalOutputsResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetDigitalOutputsResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (Number != other.Number) return false;
-      if(!names_.Equals(other.names_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Number != 0) hash ^= Number.GetHashCode();
-      hash ^= names_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Number != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Number);
-      }
-      names_.WriteTo(output, _repeated_names_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Number != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Number);
-      }
-      size += names_.CalculateSize(_repeated_names_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetDigitalOutputsResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.Number != 0) {
-        Number = other.Number;
-      }
-      names_.Add(other.names_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 16: {
-            Number = input.ReadInt32();
-            break;
-          }
-          case 26: {
-            names_.AddEntriesFrom(input, _repeated_names_codec);
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class GetDigitalInputsRequest : pb::IMessage<GetDigitalInputsRequest> {
-    private static readonly pb::MessageParser<GetDigitalInputsRequest> _parser = new pb::MessageParser<GetDigitalInputsRequest>(() => new GetDigitalInputsRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetDigitalInputsRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[14]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalInputsRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalInputsRequest(GetDigitalInputsRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalInputsRequest Clone() {
-      return new GetDigitalInputsRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as GetDigitalInputsRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetDigitalInputsRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetDigitalInputsRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class GetDigitalInputsResponse : pb::IMessage<GetDigitalInputsResponse> {
-    private static readonly pb::MessageParser<GetDigitalInputsResponse> _parser = new pb::MessageParser<GetDigitalInputsResponse>(() => new GetDigitalInputsResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetDigitalInputsResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[15]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalInputsResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalInputsResponse(GetDigitalInputsResponse other) : this() {
-      name_ = other.name_;
-      number_ = other.number_;
-      names_ = other.names_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetDigitalInputsResponse Clone() {
-      return new GetDigitalInputsResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "number" field.</summary>
-    public const int NumberFieldNumber = 2;
-    private int number_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Number {
-      get { return number_; }
-      set {
-        number_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "names" field.</summary>
-    public const int NamesFieldNumber = 3;
-    private static readonly pb::FieldCodec<string> _repeated_names_codec
-        = pb::FieldCodec.ForString(26);
-    private readonly pbc::RepeatedField<string> names_ = new pbc::RepeatedField<string>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<string> Names {
-      get { return names_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as GetDigitalInputsResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetDigitalInputsResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (Number != other.Number) return false;
-      if(!names_.Equals(other.names_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Number != 0) hash ^= Number.GetHashCode();
-      hash ^= names_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Number != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Number);
-      }
-      names_.WriteTo(output, _repeated_names_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Number != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Number);
-      }
-      size += names_.CalculateSize(_repeated_names_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetDigitalInputsResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.Number != 0) {
-        Number = other.Number;
-      }
-      names_.Add(other.names_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 16: {
-            Number = input.ReadInt32();
-            break;
-          }
-          case 26: {
-            names_.AddEntriesFrom(input, _repeated_names_codec);
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class GetAnalogOutputsRequest : pb::IMessage<GetAnalogOutputsRequest> {
-    private static readonly pb::MessageParser<GetAnalogOutputsRequest> _parser = new pb::MessageParser<GetAnalogOutputsRequest>(() => new GetAnalogOutputsRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetAnalogOutputsRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetDigitalChannelsRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -2546,21 +2527,21 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogOutputsRequest() {
+    public GetDigitalChannelsRequest() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogOutputsRequest(GetAnalogOutputsRequest other) : this() {
+    public GetDigitalChannelsRequest(GetDigitalChannelsRequest other) : this() {
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogOutputsRequest Clone() {
-      return new GetAnalogOutputsRequest(this);
+    public GetDigitalChannelsRequest Clone() {
+      return new GetDigitalChannelsRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -2576,11 +2557,11 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as GetAnalogOutputsRequest);
+      return Equals(other as GetDigitalChannelsRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetAnalogOutputsRequest other) {
+    public bool Equals(GetDigitalChannelsRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -2630,7 +2611,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetAnalogOutputsRequest other) {
+    public void MergeFrom(GetDigitalChannelsRequest other) {
       if (other == null) {
         return;
       }
@@ -2658,11 +2639,11 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
   }
 
-  public sealed partial class GetAnalogOutputsResponse : pb::IMessage<GetAnalogOutputsResponse> {
-    private static readonly pb::MessageParser<GetAnalogOutputsResponse> _parser = new pb::MessageParser<GetAnalogOutputsResponse>(() => new GetAnalogOutputsResponse());
+  public sealed partial class GetDigitalChannelsResponse : pb::IMessage<GetDigitalChannelsResponse> {
+    private static readonly pb::MessageParser<GetDigitalChannelsResponse> _parser = new pb::MessageParser<GetDigitalChannelsResponse>(() => new GetDigitalChannelsResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetAnalogOutputsResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetDigitalChannelsResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -2675,14 +2656,14 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogOutputsResponse() {
+    public GetDigitalChannelsResponse() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogOutputsResponse(GetAnalogOutputsResponse other) : this() {
+    public GetDigitalChannelsResponse(GetDigitalChannelsResponse other) : this() {
       name_ = other.name_;
       number_ = other.number_;
       names_ = other.names_.Clone();
@@ -2690,8 +2671,8 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogOutputsResponse Clone() {
-      return new GetAnalogOutputsResponse(this);
+    public GetDigitalChannelsResponse Clone() {
+      return new GetDigitalChannelsResponse(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -2728,11 +2709,11 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as GetAnalogOutputsResponse);
+      return Equals(other as GetDigitalChannelsResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetAnalogOutputsResponse other) {
+    public bool Equals(GetDigitalChannelsResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -2795,7 +2776,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetAnalogOutputsResponse other) {
+    public void MergeFrom(GetDigitalChannelsResponse other) {
       if (other == null) {
         return;
       }
@@ -2835,11 +2816,11 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
   }
 
-  public sealed partial class GetAnalogInputsRequest : pb::IMessage<GetAnalogInputsRequest> {
-    private static readonly pb::MessageParser<GetAnalogInputsRequest> _parser = new pb::MessageParser<GetAnalogInputsRequest>(() => new GetAnalogInputsRequest());
+  public sealed partial class GetAnalogChannelsRequest : pb::IMessage<GetAnalogChannelsRequest> {
+    private static readonly pb::MessageParser<GetAnalogChannelsRequest> _parser = new pb::MessageParser<GetAnalogChannelsRequest>(() => new GetAnalogChannelsRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetAnalogInputsRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetAnalogChannelsRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -2852,22 +2833,22 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogInputsRequest() {
+    public GetAnalogChannelsRequest() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogInputsRequest(GetAnalogInputsRequest other) : this() {
+    public GetAnalogChannelsRequest(GetAnalogChannelsRequest other) : this() {
       name_ = other.name_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogInputsRequest Clone() {
-      return new GetAnalogInputsRequest(this);
+    public GetAnalogChannelsRequest Clone() {
+      return new GetAnalogChannelsRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -2894,11 +2875,11 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as GetAnalogInputsRequest);
+      return Equals(other as GetAnalogChannelsRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetAnalogInputsRequest other) {
+    public bool Equals(GetAnalogChannelsRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -2957,7 +2938,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetAnalogInputsRequest other) {
+    public void MergeFrom(GetAnalogChannelsRequest other) {
       if (other == null) {
         return;
       }
@@ -2992,11 +2973,11 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
   }
 
-  public sealed partial class GetAnalogInputsResponse : pb::IMessage<GetAnalogInputsResponse> {
-    private static readonly pb::MessageParser<GetAnalogInputsResponse> _parser = new pb::MessageParser<GetAnalogInputsResponse>(() => new GetAnalogInputsResponse());
+  public sealed partial class GetAnalogChannelsResponse : pb::IMessage<GetAnalogChannelsResponse> {
+    private static readonly pb::MessageParser<GetAnalogChannelsResponse> _parser = new pb::MessageParser<GetAnalogChannelsResponse>(() => new GetAnalogChannelsResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetAnalogInputsResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetAnalogChannelsResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -3009,14 +2990,14 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogInputsResponse() {
+    public GetAnalogChannelsResponse() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogInputsResponse(GetAnalogInputsResponse other) : this() {
+    public GetAnalogChannelsResponse(GetAnalogChannelsResponse other) : this() {
       name_ = other.name_;
       number_ = other.number_;
       names_ = other.names_.Clone();
@@ -3024,8 +3005,8 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetAnalogInputsResponse Clone() {
-      return new GetAnalogInputsResponse(this);
+    public GetAnalogChannelsResponse Clone() {
+      return new GetAnalogChannelsResponse(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -3062,11 +3043,11 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as GetAnalogInputsResponse);
+      return Equals(other as GetAnalogChannelsResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetAnalogInputsResponse other) {
+    public bool Equals(GetAnalogChannelsResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -3129,7 +3110,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetAnalogInputsResponse other) {
+    public void MergeFrom(GetAnalogChannelsResponse other) {
       if (other == null) {
         return;
       }
@@ -3161,6 +3142,830 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
           }
           case 26: {
             names_.AddEntriesFrom(input, _repeated_names_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class SetChannelModeRequest : pb::IMessage<SetChannelModeRequest> {
+    private static readonly pb::MessageParser<SetChannelModeRequest> _parser = new pb::MessageParser<SetChannelModeRequest>(() => new SetChannelModeRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SetChannelModeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[20]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetChannelModeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetChannelModeRequest(SetChannelModeRequest other) : this() {
+      name_ = other.name_;
+      channelName_ = other.channelName_;
+      channelUid_ = other.channelUid_;
+      mode_ = other.mode_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetChannelModeRequest Clone() {
+      return new SetChannelModeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "channel_name" field.</summary>
+    public const int ChannelNameFieldNumber = 2;
+    private string channelName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ChannelName {
+      get { return channelName_; }
+      set {
+        channelName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "channel_uid" field.</summary>
+    public const int ChannelUidFieldNumber = 3;
+    private string channelUid_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ChannelUid {
+      get { return channelUid_; }
+      set {
+        channelUid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "mode" field.</summary>
+    public const int ModeFieldNumber = 4;
+    private global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ChannelMode mode_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ChannelMode Mode {
+      get { return mode_; }
+      set {
+        mode_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SetChannelModeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SetChannelModeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (ChannelName != other.ChannelName) return false;
+      if (ChannelUid != other.ChannelUid) return false;
+      if (Mode != other.Mode) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (ChannelName.Length != 0) hash ^= ChannelName.GetHashCode();
+      if (ChannelUid.Length != 0) hash ^= ChannelUid.GetHashCode();
+      if (Mode != 0) hash ^= Mode.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (ChannelName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ChannelName);
+      }
+      if (ChannelUid.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ChannelUid);
+      }
+      if (Mode != 0) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) Mode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (ChannelName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ChannelName);
+      }
+      if (ChannelUid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ChannelUid);
+      }
+      if (Mode != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SetChannelModeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.ChannelName.Length != 0) {
+        ChannelName = other.ChannelName;
+      }
+      if (other.ChannelUid.Length != 0) {
+        ChannelUid = other.ChannelUid;
+      }
+      if (other.Mode != 0) {
+        Mode = other.Mode;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            ChannelName = input.ReadString();
+            break;
+          }
+          case 26: {
+            ChannelUid = input.ReadString();
+            break;
+          }
+          case 32: {
+            mode_ = (global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ChannelMode) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class SetChannelModeResponse : pb::IMessage<SetChannelModeResponse> {
+    private static readonly pb::MessageParser<SetChannelModeResponse> _parser = new pb::MessageParser<SetChannelModeResponse>(() => new SetChannelModeResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SetChannelModeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[21]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetChannelModeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetChannelModeResponse(SetChannelModeResponse other) : this() {
+      name_ = other.name_;
+      channelName_ = other.channelName_;
+      channelUid_ = other.channelUid_;
+      mode_ = other.mode_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetChannelModeResponse Clone() {
+      return new SetChannelModeResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "channel_name" field.</summary>
+    public const int ChannelNameFieldNumber = 2;
+    private string channelName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ChannelName {
+      get { return channelName_; }
+      set {
+        channelName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "channel_uid" field.</summary>
+    public const int ChannelUidFieldNumber = 3;
+    private string channelUid_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ChannelUid {
+      get { return channelUid_; }
+      set {
+        channelUid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "mode" field.</summary>
+    public const int ModeFieldNumber = 4;
+    private global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ChannelMode mode_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ChannelMode Mode {
+      get { return mode_; }
+      set {
+        mode_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SetChannelModeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SetChannelModeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (ChannelName != other.ChannelName) return false;
+      if (ChannelUid != other.ChannelUid) return false;
+      if (Mode != other.Mode) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (ChannelName.Length != 0) hash ^= ChannelName.GetHashCode();
+      if (ChannelUid.Length != 0) hash ^= ChannelUid.GetHashCode();
+      if (Mode != 0) hash ^= Mode.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (ChannelName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ChannelName);
+      }
+      if (ChannelUid.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ChannelUid);
+      }
+      if (Mode != 0) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) Mode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (ChannelName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ChannelName);
+      }
+      if (ChannelUid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ChannelUid);
+      }
+      if (Mode != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SetChannelModeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.ChannelName.Length != 0) {
+        ChannelName = other.ChannelName;
+      }
+      if (other.ChannelUid.Length != 0) {
+        ChannelUid = other.ChannelUid;
+      }
+      if (other.Mode != 0) {
+        Mode = other.Mode;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            ChannelName = input.ReadString();
+            break;
+          }
+          case 26: {
+            ChannelUid = input.ReadString();
+            break;
+          }
+          case 32: {
+            mode_ = (global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ChannelMode) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class GetChannelModeRequest : pb::IMessage<GetChannelModeRequest> {
+    private static readonly pb::MessageParser<GetChannelModeRequest> _parser = new pb::MessageParser<GetChannelModeRequest>(() => new GetChannelModeRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetChannelModeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[22]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetChannelModeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetChannelModeRequest(GetChannelModeRequest other) : this() {
+      name_ = other.name_;
+      channelName_ = other.channelName_;
+      channelUid_ = other.channelUid_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetChannelModeRequest Clone() {
+      return new GetChannelModeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "channel_name" field.</summary>
+    public const int ChannelNameFieldNumber = 2;
+    private string channelName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ChannelName {
+      get { return channelName_; }
+      set {
+        channelName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "channel_uid" field.</summary>
+    public const int ChannelUidFieldNumber = 3;
+    private string channelUid_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ChannelUid {
+      get { return channelUid_; }
+      set {
+        channelUid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetChannelModeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetChannelModeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (ChannelName != other.ChannelName) return false;
+      if (ChannelUid != other.ChannelUid) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (ChannelName.Length != 0) hash ^= ChannelName.GetHashCode();
+      if (ChannelUid.Length != 0) hash ^= ChannelUid.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (ChannelName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ChannelName);
+      }
+      if (ChannelUid.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ChannelUid);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (ChannelName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ChannelName);
+      }
+      if (ChannelUid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ChannelUid);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetChannelModeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.ChannelName.Length != 0) {
+        ChannelName = other.ChannelName;
+      }
+      if (other.ChannelUid.Length != 0) {
+        ChannelUid = other.ChannelUid;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            ChannelName = input.ReadString();
+            break;
+          }
+          case 26: {
+            ChannelUid = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class GetChannelModeResponse : pb::IMessage<GetChannelModeResponse> {
+    private static readonly pb::MessageParser<GetChannelModeResponse> _parser = new pb::MessageParser<GetChannelModeResponse>(() => new GetChannelModeResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetChannelModeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.BasicDaqReflection.Descriptor.MessageTypes[23]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetChannelModeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetChannelModeResponse(GetChannelModeResponse other) : this() {
+      name_ = other.name_;
+      channelName_ = other.channelName_;
+      channelUid_ = other.channelUid_;
+      mode_ = other.mode_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetChannelModeResponse Clone() {
+      return new GetChannelModeResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "channel_name" field.</summary>
+    public const int ChannelNameFieldNumber = 2;
+    private string channelName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ChannelName {
+      get { return channelName_; }
+      set {
+        channelName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "channel_uid" field.</summary>
+    public const int ChannelUidFieldNumber = 3;
+    private string channelUid_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ChannelUid {
+      get { return channelUid_; }
+      set {
+        channelUid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "mode" field.</summary>
+    public const int ModeFieldNumber = 4;
+    private global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ChannelMode mode_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ChannelMode Mode {
+      get { return mode_; }
+      set {
+        mode_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetChannelModeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetChannelModeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (ChannelName != other.ChannelName) return false;
+      if (ChannelUid != other.ChannelUid) return false;
+      if (Mode != other.Mode) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (ChannelName.Length != 0) hash ^= ChannelName.GetHashCode();
+      if (ChannelUid.Length != 0) hash ^= ChannelUid.GetHashCode();
+      if (Mode != 0) hash ^= Mode.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (ChannelName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ChannelName);
+      }
+      if (ChannelUid.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ChannelUid);
+      }
+      if (Mode != 0) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) Mode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (ChannelName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ChannelName);
+      }
+      if (ChannelUid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ChannelUid);
+      }
+      if (Mode != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetChannelModeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.ChannelName.Length != 0) {
+        ChannelName = other.ChannelName;
+      }
+      if (other.ChannelUid.Length != 0) {
+        ChannelUid = other.ChannelUid;
+      }
+      if (other.Mode != 0) {
+        Mode = other.Mode;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            ChannelName = input.ReadString();
+            break;
+          }
+          case 26: {
+            ChannelUid = input.ReadString();
+            break;
+          }
+          case 32: {
+            mode_ = (global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.ChannelMode) input.ReadEnum();
             break;
           }
         }
