@@ -26,23 +26,40 @@ public static partial class UnitsReflection {
           "RGltZW5zaW9uEgwKBG5hbWUYASABKAkSFgoOZGltZW5zaW9uX25hbWUYAiAB",
           "KAkSDAoEdGltZRgDIAEoAhIOCgZsZW5ndGgYBCABKAISDAoEbWFzcxgFIAEo",
           "AhIPCgdjdXJyZW50GAYgASgCEhMKC3RlbXBlcmF0dXJlGAcgASgCEhEKCXN1",
-          "YnN0YW5jZRgIIAEoAhIaChJsdW1pbm91c19pbnRlbnNpdHkYCSABKAIieQoM",
+          "YnN0YW5jZRgIIAEoAhIaChJsdW1pbm91c19pbnRlbnNpdHkYCSABKAIifgoM",
           "UGh5c2ljYWxVbml0EgwKBG5hbWUYASABKAkSEQoJdW5pdF9uYW1lGAIgASgJ",
           "Eg8KB2FsaWFzZXMYAyADKAkSJQoJZGltZW5zaW9uGAQgASgLMhIuUGh5c2lj",
-          "YWxEaW1lbnNpb24SEAoIc2lfc2NhbGUYBSABKAEiUAoQUGh5c2ljYWxRdWFu",
-          "dGl0eRIMCgRuYW1lGAEgASgJEhsKBHVuaXQYAiABKAsyDS5QaHlzaWNhbFVu",
-          "aXQSEQoJbWFnbml0dWRlGAMgASgBYgZwcm90bzM="));
+          "YWxEaW1lbnNpb24SFQoNc2lfbXVsdGlwbGllchgFIAEoASJQChBQaHlzaWNh",
+          "bFF1YW50aXR5EgwKBG5hbWUYASABKAkSGwoEdW5pdBgCIAEoCzINLlBoeXNp",
+          "Y2FsVW5pdBIRCgltYWduaXR1ZGUYAyABKAEiOwoJVGltZXN0YW1wEgwKBG5h",
+          "bWUYASABKAkSDQoFdmFsdWUYAiABKAkSEQoJcHJlY2lzaW9uGAMgASgJIoMB",
+          "ChNQaHlzaWNhbE1lYXN1cmVtZW50EgwKBG5hbWUYASABKAkSIAoFdmFsdWUY",
+          "AiABKAsyES5QaHlzaWNhbFF1YW50aXR5Eh0KB3F1YWxpdHkYAyABKA4yDC5E",
+          "YXRhUXVhbGl0eRIdCgl0aW1lc3RhbXAYBCABKAsyCi5UaW1lc3RhbXAqLQoL",
+          "RGF0YVF1YWxpdHkSCwoHVU5LTk9XThAAEggKBEdPT0QQARIHCgNCQUQQAmIG",
+          "cHJvdG8z"));
     descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
         new pbr::FileDescriptor[] { },
-        new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
+        new pbr::GeneratedClrTypeInfo(new[] {typeof(global::DataQuality), }, new pbr::GeneratedClrTypeInfo[] {
           new pbr::GeneratedClrTypeInfo(typeof(global::PhysicalDimension), global::PhysicalDimension.Parser, new[]{ "Name", "DimensionName", "Time", "Length", "Mass", "Current", "Temperature", "Substance", "LuminousIntensity" }, null, null, null),
-          new pbr::GeneratedClrTypeInfo(typeof(global::PhysicalUnit), global::PhysicalUnit.Parser, new[]{ "Name", "UnitName", "Aliases", "Dimension", "SiScale" }, null, null, null),
-          new pbr::GeneratedClrTypeInfo(typeof(global::PhysicalQuantity), global::PhysicalQuantity.Parser, new[]{ "Name", "Unit", "Magnitude" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(typeof(global::PhysicalUnit), global::PhysicalUnit.Parser, new[]{ "Name", "UnitName", "Aliases", "Dimension", "SiMultiplier" }, null, null, null),
+          new pbr::GeneratedClrTypeInfo(typeof(global::PhysicalQuantity), global::PhysicalQuantity.Parser, new[]{ "Name", "Unit", "Magnitude" }, null, null, null),
+          new pbr::GeneratedClrTypeInfo(typeof(global::Timestamp), global::Timestamp.Parser, new[]{ "Name", "Value", "Precision" }, null, null, null),
+          new pbr::GeneratedClrTypeInfo(typeof(global::PhysicalMeasurement), global::PhysicalMeasurement.Parser, new[]{ "Name", "Value", "Quality", "Timestamp" }, null, null, null)
         }));
   }
   #endregion
 
 }
+#region Enums
+public enum DataQuality {
+  [pbr::OriginalName("UNKNOWN")] Unknown = 0,
+  [pbr::OriginalName("GOOD")] Good = 1,
+  [pbr::OriginalName("BAD")] Bad = 2,
+}
+
+#endregion
+
 #region Messages
 /// <summary>
 /// Currently only SI derived dimensions are supported
@@ -429,7 +446,7 @@ public sealed partial class PhysicalUnit : pb::IMessage<PhysicalUnit> {
     unitName_ = other.unitName_;
     aliases_ = other.aliases_.Clone();
     dimension_ = other.dimension_ != null ? other.dimension_.Clone() : null;
-    siScale_ = other.siScale_;
+    siMultiplier_ = other.siMultiplier_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
 
@@ -481,14 +498,14 @@ public sealed partial class PhysicalUnit : pb::IMessage<PhysicalUnit> {
     }
   }
 
-  /// <summary>Field number for the "si_scale" field.</summary>
-  public const int SiScaleFieldNumber = 5;
-  private double siScale_;
+  /// <summary>Field number for the "si_multiplier" field.</summary>
+  public const int SiMultiplierFieldNumber = 5;
+  private double siMultiplier_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-  public double SiScale {
-    get { return siScale_; }
+  public double SiMultiplier {
+    get { return siMultiplier_; }
     set {
-      siScale_ = value;
+      siMultiplier_ = value;
     }
   }
 
@@ -509,7 +526,7 @@ public sealed partial class PhysicalUnit : pb::IMessage<PhysicalUnit> {
     if (UnitName != other.UnitName) return false;
     if(!aliases_.Equals(other.aliases_)) return false;
     if (!object.Equals(Dimension, other.Dimension)) return false;
-    if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(SiScale, other.SiScale)) return false;
+    if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(SiMultiplier, other.SiMultiplier)) return false;
     return Equals(_unknownFields, other._unknownFields);
   }
 
@@ -520,7 +537,7 @@ public sealed partial class PhysicalUnit : pb::IMessage<PhysicalUnit> {
     if (UnitName.Length != 0) hash ^= UnitName.GetHashCode();
     hash ^= aliases_.GetHashCode();
     if (dimension_ != null) hash ^= Dimension.GetHashCode();
-    if (SiScale != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(SiScale);
+    if (SiMultiplier != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(SiMultiplier);
     if (_unknownFields != null) {
       hash ^= _unknownFields.GetHashCode();
     }
@@ -547,9 +564,9 @@ public sealed partial class PhysicalUnit : pb::IMessage<PhysicalUnit> {
       output.WriteRawTag(34);
       output.WriteMessage(Dimension);
     }
-    if (SiScale != 0D) {
+    if (SiMultiplier != 0D) {
       output.WriteRawTag(41);
-      output.WriteDouble(SiScale);
+      output.WriteDouble(SiMultiplier);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -569,7 +586,7 @@ public sealed partial class PhysicalUnit : pb::IMessage<PhysicalUnit> {
     if (dimension_ != null) {
       size += 1 + pb::CodedOutputStream.ComputeMessageSize(Dimension);
     }
-    if (SiScale != 0D) {
+    if (SiMultiplier != 0D) {
       size += 1 + 8;
     }
     if (_unknownFields != null) {
@@ -596,8 +613,8 @@ public sealed partial class PhysicalUnit : pb::IMessage<PhysicalUnit> {
       }
       Dimension.MergeFrom(other.Dimension);
     }
-    if (other.SiScale != 0D) {
-      SiScale = other.SiScale;
+    if (other.SiMultiplier != 0D) {
+      SiMultiplier = other.SiMultiplier;
     }
     _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
   }
@@ -630,7 +647,7 @@ public sealed partial class PhysicalUnit : pb::IMessage<PhysicalUnit> {
           break;
         }
         case 41: {
-          SiScale = input.ReadDouble();
+          SiMultiplier = input.ReadDouble();
           break;
         }
       }
@@ -822,6 +839,416 @@ public sealed partial class PhysicalQuantity : pb::IMessage<PhysicalQuantity> {
         }
         case 25: {
           Magnitude = input.ReadDouble();
+          break;
+        }
+      }
+    }
+  }
+
+}
+
+public sealed partial class Timestamp : pb::IMessage<Timestamp> {
+  private static readonly pb::MessageParser<Timestamp> _parser = new pb::MessageParser<Timestamp>(() => new Timestamp());
+  private pb::UnknownFieldSet _unknownFields;
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public static pb::MessageParser<Timestamp> Parser { get { return _parser; } }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public static pbr::MessageDescriptor Descriptor {
+    get { return global::UnitsReflection.Descriptor.MessageTypes[3]; }
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  pbr::MessageDescriptor pb::IMessage.Descriptor {
+    get { return Descriptor; }
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public Timestamp() {
+    OnConstruction();
+  }
+
+  partial void OnConstruction();
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public Timestamp(Timestamp other) : this() {
+    name_ = other.name_;
+    value_ = other.value_;
+    precision_ = other.precision_;
+    _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public Timestamp Clone() {
+    return new Timestamp(this);
+  }
+
+  /// <summary>Field number for the "name" field.</summary>
+  public const int NameFieldNumber = 1;
+  private string name_ = "";
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public string Name {
+    get { return name_; }
+    set {
+      name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+    }
+  }
+
+  /// <summary>Field number for the "value" field.</summary>
+  public const int ValueFieldNumber = 2;
+  private string value_ = "";
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public string Value {
+    get { return value_; }
+    set {
+      value_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+    }
+  }
+
+  /// <summary>Field number for the "precision" field.</summary>
+  public const int PrecisionFieldNumber = 3;
+  private string precision_ = "";
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public string Precision {
+    get { return precision_; }
+    set {
+      precision_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+    }
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public override bool Equals(object other) {
+    return Equals(other as Timestamp);
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public bool Equals(Timestamp other) {
+    if (ReferenceEquals(other, null)) {
+      return false;
+    }
+    if (ReferenceEquals(other, this)) {
+      return true;
+    }
+    if (Name != other.Name) return false;
+    if (Value != other.Value) return false;
+    if (Precision != other.Precision) return false;
+    return Equals(_unknownFields, other._unknownFields);
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public override int GetHashCode() {
+    int hash = 1;
+    if (Name.Length != 0) hash ^= Name.GetHashCode();
+    if (Value.Length != 0) hash ^= Value.GetHashCode();
+    if (Precision.Length != 0) hash ^= Precision.GetHashCode();
+    if (_unknownFields != null) {
+      hash ^= _unknownFields.GetHashCode();
+    }
+    return hash;
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public override string ToString() {
+    return pb::JsonFormatter.ToDiagnosticString(this);
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public void WriteTo(pb::CodedOutputStream output) {
+    if (Name.Length != 0) {
+      output.WriteRawTag(10);
+      output.WriteString(Name);
+    }
+    if (Value.Length != 0) {
+      output.WriteRawTag(18);
+      output.WriteString(Value);
+    }
+    if (Precision.Length != 0) {
+      output.WriteRawTag(26);
+      output.WriteString(Precision);
+    }
+    if (_unknownFields != null) {
+      _unknownFields.WriteTo(output);
+    }
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public int CalculateSize() {
+    int size = 0;
+    if (Name.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+    }
+    if (Value.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Value);
+    }
+    if (Precision.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Precision);
+    }
+    if (_unknownFields != null) {
+      size += _unknownFields.CalculateSize();
+    }
+    return size;
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public void MergeFrom(Timestamp other) {
+    if (other == null) {
+      return;
+    }
+    if (other.Name.Length != 0) {
+      Name = other.Name;
+    }
+    if (other.Value.Length != 0) {
+      Value = other.Value;
+    }
+    if (other.Precision.Length != 0) {
+      Precision = other.Precision;
+    }
+    _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public void MergeFrom(pb::CodedInputStream input) {
+    uint tag;
+    while ((tag = input.ReadTag()) != 0) {
+      switch(tag) {
+        default:
+          _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+          break;
+        case 10: {
+          Name = input.ReadString();
+          break;
+        }
+        case 18: {
+          Value = input.ReadString();
+          break;
+        }
+        case 26: {
+          Precision = input.ReadString();
+          break;
+        }
+      }
+    }
+  }
+
+}
+
+public sealed partial class PhysicalMeasurement : pb::IMessage<PhysicalMeasurement> {
+  private static readonly pb::MessageParser<PhysicalMeasurement> _parser = new pb::MessageParser<PhysicalMeasurement>(() => new PhysicalMeasurement());
+  private pb::UnknownFieldSet _unknownFields;
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public static pb::MessageParser<PhysicalMeasurement> Parser { get { return _parser; } }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public static pbr::MessageDescriptor Descriptor {
+    get { return global::UnitsReflection.Descriptor.MessageTypes[4]; }
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  pbr::MessageDescriptor pb::IMessage.Descriptor {
+    get { return Descriptor; }
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public PhysicalMeasurement() {
+    OnConstruction();
+  }
+
+  partial void OnConstruction();
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public PhysicalMeasurement(PhysicalMeasurement other) : this() {
+    name_ = other.name_;
+    value_ = other.value_ != null ? other.value_.Clone() : null;
+    quality_ = other.quality_;
+    timestamp_ = other.timestamp_ != null ? other.timestamp_.Clone() : null;
+    _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public PhysicalMeasurement Clone() {
+    return new PhysicalMeasurement(this);
+  }
+
+  /// <summary>Field number for the "name" field.</summary>
+  public const int NameFieldNumber = 1;
+  private string name_ = "";
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public string Name {
+    get { return name_; }
+    set {
+      name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+    }
+  }
+
+  /// <summary>Field number for the "value" field.</summary>
+  public const int ValueFieldNumber = 2;
+  private global::PhysicalQuantity value_;
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public global::PhysicalQuantity Value {
+    get { return value_; }
+    set {
+      value_ = value;
+    }
+  }
+
+  /// <summary>Field number for the "quality" field.</summary>
+  public const int QualityFieldNumber = 3;
+  private global::DataQuality quality_ = 0;
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public global::DataQuality Quality {
+    get { return quality_; }
+    set {
+      quality_ = value;
+    }
+  }
+
+  /// <summary>Field number for the "timestamp" field.</summary>
+  public const int TimestampFieldNumber = 4;
+  private global::Timestamp timestamp_;
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public global::Timestamp Timestamp {
+    get { return timestamp_; }
+    set {
+      timestamp_ = value;
+    }
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public override bool Equals(object other) {
+    return Equals(other as PhysicalMeasurement);
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public bool Equals(PhysicalMeasurement other) {
+    if (ReferenceEquals(other, null)) {
+      return false;
+    }
+    if (ReferenceEquals(other, this)) {
+      return true;
+    }
+    if (Name != other.Name) return false;
+    if (!object.Equals(Value, other.Value)) return false;
+    if (Quality != other.Quality) return false;
+    if (!object.Equals(Timestamp, other.Timestamp)) return false;
+    return Equals(_unknownFields, other._unknownFields);
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public override int GetHashCode() {
+    int hash = 1;
+    if (Name.Length != 0) hash ^= Name.GetHashCode();
+    if (value_ != null) hash ^= Value.GetHashCode();
+    if (Quality != 0) hash ^= Quality.GetHashCode();
+    if (timestamp_ != null) hash ^= Timestamp.GetHashCode();
+    if (_unknownFields != null) {
+      hash ^= _unknownFields.GetHashCode();
+    }
+    return hash;
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public override string ToString() {
+    return pb::JsonFormatter.ToDiagnosticString(this);
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public void WriteTo(pb::CodedOutputStream output) {
+    if (Name.Length != 0) {
+      output.WriteRawTag(10);
+      output.WriteString(Name);
+    }
+    if (value_ != null) {
+      output.WriteRawTag(18);
+      output.WriteMessage(Value);
+    }
+    if (Quality != 0) {
+      output.WriteRawTag(24);
+      output.WriteEnum((int) Quality);
+    }
+    if (timestamp_ != null) {
+      output.WriteRawTag(34);
+      output.WriteMessage(Timestamp);
+    }
+    if (_unknownFields != null) {
+      _unknownFields.WriteTo(output);
+    }
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public int CalculateSize() {
+    int size = 0;
+    if (Name.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+    }
+    if (value_ != null) {
+      size += 1 + pb::CodedOutputStream.ComputeMessageSize(Value);
+    }
+    if (Quality != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Quality);
+    }
+    if (timestamp_ != null) {
+      size += 1 + pb::CodedOutputStream.ComputeMessageSize(Timestamp);
+    }
+    if (_unknownFields != null) {
+      size += _unknownFields.CalculateSize();
+    }
+    return size;
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public void MergeFrom(PhysicalMeasurement other) {
+    if (other == null) {
+      return;
+    }
+    if (other.Name.Length != 0) {
+      Name = other.Name;
+    }
+    if (other.value_ != null) {
+      if (value_ == null) {
+        value_ = new global::PhysicalQuantity();
+      }
+      Value.MergeFrom(other.Value);
+    }
+    if (other.Quality != 0) {
+      Quality = other.Quality;
+    }
+    if (other.timestamp_ != null) {
+      if (timestamp_ == null) {
+        timestamp_ = new global::Timestamp();
+      }
+      Timestamp.MergeFrom(other.Timestamp);
+    }
+    _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+  }
+
+  [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+  public void MergeFrom(pb::CodedInputStream input) {
+    uint tag;
+    while ((tag = input.ReadTag()) != 0) {
+      switch(tag) {
+        default:
+          _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+          break;
+        case 10: {
+          Name = input.ReadString();
+          break;
+        }
+        case 18: {
+          if (value_ == null) {
+            value_ = new global::PhysicalQuantity();
+          }
+          input.ReadMessage(value_);
+          break;
+        }
+        case 24: {
+          quality_ = (global::DataQuality) input.ReadEnum();
+          break;
+        }
+        case 34: {
+          if (timestamp_ == null) {
+            timestamp_ = new global::Timestamp();
+          }
+          input.ReadMessage(timestamp_);
           break;
         }
       }

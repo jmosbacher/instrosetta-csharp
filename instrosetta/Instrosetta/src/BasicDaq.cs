@@ -38,61 +38,64 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
             "KAkSDQoFdmFsdWUYAiABKAgiMQoSV3JpdGVBbmFsb2dSZXF1ZXN0EgwKBG5h",
             "bWUYASABKAkSDQoFdmFsdWUYAiABKAEiMgoTV3JpdGVBbmFsb2dSZXNwb25z",
             "ZRIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgBIjcKF0dldERldmljZURl",
-            "dGFpbHNSZXF1ZXN0EgwKBG5hbWUYASABKAkSDgoGZGV2aWNlGAIgASgJIjkK",
-            "GEdldERldmljZURldGFpbHNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg8KB2Rl",
-            "dGFpbHMYAiABKAkiNwoYR2V0RGlnaXRhbE91dHB1dHNSZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkSDQoFdW5pdHMYAiABKAkiSAoZR2V0RGlnaXRhbE91dHB1dHNS",
-            "ZXNwb25zZRIMCgRuYW1lGAEgASgJEg4KBm51bWJlchgCIAEoBRINCgVuYW1l",
-            "cxgDIAMoCSInChdHZXREaWdpdGFsSW5wdXRzUmVxdWVzdBIMCgRuYW1lGAEg",
-            "ASgJIkcKGEdldERpZ2l0YWxJbnB1dHNSZXNwb25zZRIMCgRuYW1lGAEgASgJ",
-            "Eg4KBm51bWJlchgCIAEoBRINCgVuYW1lcxgDIAMoCSInChdHZXRBbmFsb2dP",
-            "dXRwdXRzUmVxdWVzdBIMCgRuYW1lGAEgASgJIkcKGEdldEFuYWxvZ091dHB1",
-            "dHNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg4KBm51bWJlchgCIAEoBRINCgVu",
-            "YW1lcxgDIAMoCSI1ChZHZXRBbmFsb2dJbnB1dHNSZXF1ZXN0EgwKBG5hbWUY",
-            "ASABKAkSDQoFdW5pdHMYAiABKAkiRgoXR2V0QW5hbG9nSW5wdXRzUmVzcG9u",
-            "c2USDAoEbmFtZRgBIAEoCRIOCgZudW1iZXIYAiABKAUSDQoFbmFtZXMYAyAD",
-            "KAkyxw4KCEJhc2ljRGFxErkBChJHZXRBdmFpbGJsZURldmljZXMSTi5pbnN0",
-            "cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEu",
-            "djEuR2V0QXZhaWxibGVEZXZpY2VzUmVxdWVzdBpPLmluc3Ryb3NldHRhLmlu",
-            "dGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52MS5HZXRBdmFp",
-            "bGJsZURldmljZXNSZXNwb25zZSIAMAESLgoHQ29ubmVjdBIPLkNvbm5lY3RS",
-            "ZXF1ZXN0GhAuQ29ubmVjdFJlc3BvbnNlIgASNwoKRGlzY29ubmVjdBISLkRp",
-            "c2Nvbm5lY3RSZXF1ZXN0GhMuRGlzY29ubmVjdFJlc3BvbnNlIgASogEKC1Jl",
-            "YWREaWdpdGFsEkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlz",
-            "aXRpb24uYmFzaWNfZGFxLnYxLlJlYWREaWdpdGFsUmVxdWVzdBpILmluc3Ry",
-            "b3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52",
-            "MS5SZWFkRGlnaXRhbFJlc3BvbnNlIgASnwEKClJlYWRBbmFsb2cSRi5pbnN0",
-            "cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEu",
-            "djEuUmVhZEFuYWxvZ1JlcXVlc3QaRy5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
-            "LmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEudjEuUmVhZEFuYWxvZ1Jlc3Bv",
-            "bnNlIgASpQEKDFdyaXRlRGlnaXRhbBJILmluc3Ryb3NldHRhLmludGVyZmFj",
-            "ZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52MS5Xcml0ZURpZ2l0YWxS",
-            "ZXF1ZXN0GkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRp",
-            "b24uYmFzaWNfZGFxLnYxLldyaXRlRGlnaXRhbFJlc3BvbnNlIgASogEKC1dy",
-            "aXRlQW5hbG9nEkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlz",
-            "aXRpb24uYmFzaWNfZGFxLnYxLldyaXRlQW5hbG9nUmVxdWVzdBpILmluc3Ry",
-            "b3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52",
-            "MS5Xcml0ZUFuYWxvZ1Jlc3BvbnNlIgASsQEKEEdldERldmljZURldGFpbHMS",
-            "TC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNp",
-            "Y19kYXEudjEuR2V0RGV2aWNlRGV0YWlsc1JlcXVlc3QaTS5pbnN0cm9zZXR0",
-            "YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEudjEuR2V0",
-            "RGV2aWNlRGV0YWlsc1Jlc3BvbnNlIgAStAEKEUdldERpZ2l0YWxPdXRwdXRz",
-            "Ek0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRpb24uYmFz",
-            "aWNfZGFxLnYxLkdldERpZ2l0YWxPdXRwdXRzUmVxdWVzdBpOLmluc3Ryb3Nl",
+            "dGFpbHNSZXF1ZXN0EgwKBG5hbWUYASABKAkSDgoGZGV2aWNlGAIgASgJIsUB",
+            "ChhHZXREZXZpY2VEZXRhaWxzUmVzcG9uc2USDAoEbmFtZRgBIAEoCRJrCgdk",
+            "ZXRhaWxzGAIgAygLMlouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2Fx",
+            "dWlzaXRpb24uYmFzaWNfZGFxLnYxLkdldERldmljZURldGFpbHNSZXNwb25z",
+            "ZS5EZXRhaWxzRW50cnkaLgoMRGV0YWlsc0VudHJ5EgsKA2tleRgBIAEoCRIN",
+            "CgV2YWx1ZRgCIAEoCToCOAEiNwoYR2V0RGlnaXRhbE91dHB1dHNSZXF1ZXN0",
+            "EgwKBG5hbWUYASABKAkSDQoFdW5pdHMYAiABKAkiSAoZR2V0RGlnaXRhbE91",
+            "dHB1dHNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg4KBm51bWJlchgCIAEoBRIN",
+            "CgVuYW1lcxgDIAMoCSInChdHZXREaWdpdGFsSW5wdXRzUmVxdWVzdBIMCgRu",
+            "YW1lGAEgASgJIkcKGEdldERpZ2l0YWxJbnB1dHNSZXNwb25zZRIMCgRuYW1l",
+            "GAEgASgJEg4KBm51bWJlchgCIAEoBRINCgVuYW1lcxgDIAMoCSInChdHZXRB",
+            "bmFsb2dPdXRwdXRzUmVxdWVzdBIMCgRuYW1lGAEgASgJIkcKGEdldEFuYWxv",
+            "Z091dHB1dHNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg4KBm51bWJlchgCIAEo",
+            "BRINCgVuYW1lcxgDIAMoCSI1ChZHZXRBbmFsb2dJbnB1dHNSZXF1ZXN0EgwK",
+            "BG5hbWUYASABKAkSDQoFdW5pdHMYAiABKAkiRgoXR2V0QW5hbG9nSW5wdXRz",
+            "UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIOCgZudW1iZXIYAiABKAUSDQoFbmFt",
+            "ZXMYAyADKAkyxw4KCEJhc2ljRGFxErkBChJHZXRBdmFpbGJsZURldmljZXMS",
+            "Ti5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNp",
+            "Y19kYXEudjEuR2V0QXZhaWxibGVEZXZpY2VzUmVxdWVzdBpPLmluc3Ryb3Nl",
             "dHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52MS5H",
-            "ZXREaWdpdGFsT3V0cHV0c1Jlc3BvbnNlIgASsQEKEEdldERpZ2l0YWxJbnB1",
-            "dHMSTC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5i",
-            "YXNpY19kYXEudjEuR2V0RGlnaXRhbElucHV0c1JlcXVlc3QaTS5pbnN0cm9z",
-            "ZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEudjEu",
-            "R2V0RGlnaXRhbElucHV0c1Jlc3BvbnNlIgASsQEKEEdldEFuYWxvZ091dHB1",
-            "dHMSTC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5i",
-            "YXNpY19kYXEudjEuR2V0QW5hbG9nT3V0cHV0c1JlcXVlc3QaTS5pbnN0cm9z",
-            "ZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEudjEu",
-            "R2V0QW5hbG9nT3V0cHV0c1Jlc3BvbnNlIgASrgEKD0dldEFuYWxvZ0lucHV0",
-            "cxJLLmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJh",
-            "c2ljX2RhcS52MS5HZXRBbmFsb2dJbnB1dHNSZXF1ZXN0GkwuaW5zdHJvc2V0",
-            "dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRpb24uYmFzaWNfZGFxLnYxLkdl",
-            "dEFuYWxvZ0lucHV0c1Jlc3BvbnNlIgBiBnByb3RvMw=="));
+            "ZXRBdmFpbGJsZURldmljZXNSZXNwb25zZSIAMAESLgoHQ29ubmVjdBIPLkNv",
+            "bm5lY3RSZXF1ZXN0GhAuQ29ubmVjdFJlc3BvbnNlIgASNwoKRGlzY29ubmVj",
+            "dBISLkRpc2Nvbm5lY3RSZXF1ZXN0GhMuRGlzY29ubmVjdFJlc3BvbnNlIgAS",
+            "ogEKC1JlYWREaWdpdGFsEkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRh",
+            "X2FxdWlzaXRpb24uYmFzaWNfZGFxLnYxLlJlYWREaWdpdGFsUmVxdWVzdBpI",
+            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2lj",
+            "X2RhcS52MS5SZWFkRGlnaXRhbFJlc3BvbnNlIgASnwEKClJlYWRBbmFsb2cS",
+            "Ri5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNp",
+            "Y19kYXEudjEuUmVhZEFuYWxvZ1JlcXVlc3QaRy5pbnN0cm9zZXR0YS5pbnRl",
+            "cmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEudjEuUmVhZEFuYWxv",
+            "Z1Jlc3BvbnNlIgASpQEKDFdyaXRlRGlnaXRhbBJILmluc3Ryb3NldHRhLmlu",
+            "dGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2RhcS52MS5Xcml0ZURp",
+            "Z2l0YWxSZXF1ZXN0GkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2Fx",
+            "dWlzaXRpb24uYmFzaWNfZGFxLnYxLldyaXRlRGlnaXRhbFJlc3BvbnNlIgAS",
+            "ogEKC1dyaXRlQW5hbG9nEkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRh",
+            "X2FxdWlzaXRpb24uYmFzaWNfZGFxLnYxLldyaXRlQW5hbG9nUmVxdWVzdBpI",
+            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2lj",
+            "X2RhcS52MS5Xcml0ZUFuYWxvZ1Jlc3BvbnNlIgASsQEKEEdldERldmljZURl",
+            "dGFpbHMSTC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlv",
+            "bi5iYXNpY19kYXEudjEuR2V0RGV2aWNlRGV0YWlsc1JlcXVlc3QaTS5pbnN0",
+            "cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19kYXEu",
+            "djEuR2V0RGV2aWNlRGV0YWlsc1Jlc3BvbnNlIgAStAEKEUdldERpZ2l0YWxP",
+            "dXRwdXRzEk0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRp",
+            "b24uYmFzaWNfZGFxLnYxLkdldERpZ2l0YWxPdXRwdXRzUmVxdWVzdBpOLmlu",
+            "c3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0aW9uLmJhc2ljX2Rh",
+            "cS52MS5HZXREaWdpdGFsT3V0cHV0c1Jlc3BvbnNlIgASsQEKEEdldERpZ2l0",
+            "YWxJbnB1dHMSTC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNp",
+            "dGlvbi5iYXNpY19kYXEudjEuR2V0RGlnaXRhbElucHV0c1JlcXVlc3QaTS5p",
+            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19k",
+            "YXEudjEuR2V0RGlnaXRhbElucHV0c1Jlc3BvbnNlIgASsQEKEEdldEFuYWxv",
+            "Z091dHB1dHMSTC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNp",
+            "dGlvbi5iYXNpY19kYXEudjEuR2V0QW5hbG9nT3V0cHV0c1JlcXVlc3QaTS5p",
+            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmRhdGFfYXF1aXNpdGlvbi5iYXNpY19k",
+            "YXEudjEuR2V0QW5hbG9nT3V0cHV0c1Jlc3BvbnNlIgASrgEKD0dldEFuYWxv",
+            "Z0lucHV0cxJLLmluc3Ryb3NldHRhLmludGVyZmFjZXMuZGF0YV9hcXVpc2l0",
+            "aW9uLmJhc2ljX2RhcS52MS5HZXRBbmFsb2dJbnB1dHNSZXF1ZXN0GkwuaW5z",
+            "dHJvc2V0dGEuaW50ZXJmYWNlcy5kYXRhX2FxdWlzaXRpb24uYmFzaWNfZGFx",
+            "LnYxLkdldEFuYWxvZ0lucHV0c1Jlc3BvbnNlIgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::ConnectionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -107,7 +110,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteAnalogRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteAnalogRequest.Parser, new[]{ "Name", "Value" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteAnalogResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.WriteAnalogResponse.Parser, new[]{ "Name", "Value" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsRequest.Parser, new[]{ "Name", "Device" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsResponse.Parser, new[]{ "Name", "Details" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDeviceDetailsResponse.Parser, new[]{ "Name", "Details" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalOutputsResponse.Parser, new[]{ "Name", "Number", "Names" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest), global::Instrosetta.Interfaces.DataAquisition.BasicDaq.V1.GetDigitalInputsRequest.Parser, new[]{ "Name" }, null, null, null),
@@ -1763,7 +1766,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetDeviceDetailsResponse(GetDeviceDetailsResponse other) : this() {
       name_ = other.name_;
-      details_ = other.details_;
+      details_ = other.details_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1785,13 +1788,12 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
 
     /// <summary>Field number for the "details" field.</summary>
     public const int DetailsFieldNumber = 2;
-    private string details_ = "";
+    private static readonly pbc::MapField<string, string>.Codec _map_details_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 18);
+    private readonly pbc::MapField<string, string> details_ = new pbc::MapField<string, string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Details {
+    public pbc::MapField<string, string> Details {
       get { return details_; }
-      set {
-        details_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1808,7 +1810,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (Details != other.Details) return false;
+      if (!Details.Equals(other.Details)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1816,7 +1818,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Details.Length != 0) hash ^= Details.GetHashCode();
+      hash ^= Details.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1834,10 +1836,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Details.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Details);
-      }
+      details_.WriteTo(output, _map_details_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1849,9 +1848,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Details.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Details);
-      }
+      size += details_.CalculateSize(_map_details_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1866,9 +1863,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Details.Length != 0) {
-        Details = other.Details;
-      }
+      details_.Add(other.details_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1885,7 +1880,7 @@ namespace Instrosetta.Interfaces.DataAquisition.BasicDaq.V1 {
             break;
           }
           case 18: {
-            Details = input.ReadString();
+            details_.AddEntriesFrom(input, _map_details_codec);
             break;
           }
         }

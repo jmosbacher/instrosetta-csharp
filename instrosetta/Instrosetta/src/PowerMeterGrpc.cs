@@ -12,12 +12,10 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
   {
     static readonly string __ServiceName = "instrosetta.interfaces.light_analysis.power_meter.v1.PowerMeter";
 
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_EchoRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_EchoResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_ConnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_ConnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_DisconnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_DisconnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::ConnectRequest> __Marshaller_ConnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ConnectRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::ConnectResponse> __Marshaller_ConnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ConnectResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::DisconnectRequest> __Marshaller_DisconnectRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::DisconnectRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::DisconnectResponse> __Marshaller_DisconnectResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::DisconnectResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerRequest> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_GetPowerRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_GetPowerResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerRequest> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_SetPowerRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerRequest.Parser.ParseFrom);
@@ -39,26 +37,19 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeRequest> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_SetAutorangeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeResponse> __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_SetAutorangeResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeResponse.Parser.ParseFrom);
 
-    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse> __Method_Echo = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "Echo",
-        __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_EchoRequest,
-        __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_EchoResponse);
-
-    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse> __Method_Connect = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse>(
+    static readonly grpc::Method<global::ConnectRequest, global::ConnectResponse> __Method_Connect = new grpc::Method<global::ConnectRequest, global::ConnectResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Connect",
-        __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_ConnectRequest,
-        __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_ConnectResponse);
+        __Marshaller_ConnectRequest,
+        __Marshaller_ConnectResponse);
 
-    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse> __Method_Disconnect = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse>(
+    static readonly grpc::Method<global::DisconnectRequest, global::DisconnectResponse> __Method_Disconnect = new grpc::Method<global::DisconnectRequest, global::DisconnectResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Disconnect",
-        __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_DisconnectRequest,
-        __Marshaller_instrosetta_interfaces_light_analysis_power_meter_v1_DisconnectResponse);
+        __Marshaller_DisconnectRequest,
+        __Marshaller_DisconnectResponse);
 
     static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse> __Method_GetPower = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse>(
         grpc::MethodType.Unary,
@@ -139,17 +130,12 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     /// <summary>Base class for server-side implementations of PowerMeter</summary>
     public abstract partial class PowerMeterBase
     {
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse> Echo(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::ConnectResponse> Connect(global::ConnectRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse> Connect(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse> Disconnect(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::DisconnectResponse> Disconnect(global::DisconnectRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -229,51 +215,35 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       {
       }
 
-      public virtual global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse Echo(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return Echo(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse Echo(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_Echo, null, options, request);
-      }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse> EchoAsync(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return EchoAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse> EchoAsync(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_Echo, null, options, request);
-      }
-      public virtual global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse Connect(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::ConnectResponse Connect(global::ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Connect(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse Connect(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest request, grpc::CallOptions options)
+      public virtual global::ConnectResponse Connect(global::ConnectRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Connect, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse> ConnectAsync(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::ConnectResponse> ConnectAsync(global::ConnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ConnectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse> ConnectAsync(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::ConnectResponse> ConnectAsync(global::ConnectRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Connect, null, options, request);
       }
-      public virtual global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse Disconnect(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::DisconnectResponse Disconnect(global::DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Disconnect(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse Disconnect(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest request, grpc::CallOptions options)
+      public virtual global::DisconnectResponse Disconnect(global::DisconnectRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Disconnect, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse> DisconnectAsync(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::DisconnectResponse> DisconnectAsync(global::DisconnectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DisconnectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse> DisconnectAsync(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::DisconnectResponse> DisconnectAsync(global::DisconnectRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Disconnect, null, options, request);
       }
@@ -449,7 +419,6 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public static grpc::ServerServiceDefinition BindService(PowerMeterBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_Echo, serviceImpl.Echo)
           .AddMethod(__Method_Connect, serviceImpl.Connect)
           .AddMethod(__Method_Disconnect, serviceImpl.Disconnect)
           .AddMethod(__Method_GetPower, serviceImpl.GetPower)
@@ -470,9 +439,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     public static void BindService(grpc::ServiceBinderBase serviceBinder, PowerMeterBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_Echo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse>(serviceImpl.Echo));
-      serviceBinder.AddMethod(__Method_Connect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse>(serviceImpl.Connect));
-      serviceBinder.AddMethod(__Method_Disconnect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse>(serviceImpl.Disconnect));
+      serviceBinder.AddMethod(__Method_Connect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::ConnectRequest, global::ConnectResponse>(serviceImpl.Connect));
+      serviceBinder.AddMethod(__Method_Disconnect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::DisconnectRequest, global::DisconnectResponse>(serviceImpl.Disconnect));
       serviceBinder.AddMethod(__Method_GetPower, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse>(serviceImpl.GetPower));
       serviceBinder.AddMethod(__Method_SetPower, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerResponse>(serviceImpl.SetPower));
       serviceBinder.AddMethod(__Method_GetCount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetCountRequest, global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetCountResponse>(serviceImpl.GetCount));

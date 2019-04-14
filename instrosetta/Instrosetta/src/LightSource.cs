@@ -26,825 +26,35 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
           string.Concat(
             "Ci9pbnN0cm9zZXR0YS9pbnRlcmZhY2VzL2xpZ2h0L2xpZ2h0X3NvdXJjZS5w",
             "cm90bxIsaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodC5saWdodF9zb3Vy",
-            "Y2UudjEiGwoLRWNob1JlcXVlc3QSDAoEbmFtZRgBIAEoCSIcCgxFY2hvUmVz",
-            "cG9uc2USDAoEbmFtZRgBIAEoCSIeCg5Db25uZWN0UmVxdWVzdBIMCgRuYW1l",
-            "GAEgASgJIh8KD0Nvbm5lY3RSZXNwb25zZRIMCgRuYW1lGAEgASgJIiEKEURp",
-            "c2Nvbm5lY3RSZXF1ZXN0EgwKBG5hbWUYASABKAkiIgoSRGlzY29ubmVjdFJl",
-            "c3BvbnNlEgwKBG5hbWUYASABKAkiLgoPR2V0UG93ZXJSZXF1ZXN0EgwKBG5h",
-            "bWUYASABKAkSDQoFdW5pdHMYAiABKAkiPgoQR2V0UG93ZXJSZXNwb25zZRIM",
-            "CgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgBEg0KBXVuaXRzGAMgASgJIj0K",
-            "D1NldFBvd2VyUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgB",
-            "Eg0KBXVuaXRzGAMgASgJIj4KEFNldFBvd2VyUmVzcG9uc2USDAoEbmFtZRgB",
-            "IAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCTLJBQoLTGlnaHRT",
-            "b3VyY2USfwoERWNobxI5Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHQu",
-            "bGlnaHRfc291cmNlLnYxLkVjaG9SZXF1ZXN0GjouaW5zdHJvc2V0dGEuaW50",
-            "ZXJmYWNlcy5saWdodC5saWdodF9zb3VyY2UudjEuRWNob1Jlc3BvbnNlIgAS",
-            "iAEKB0Nvbm5lY3QSPC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0Lmxp",
-            "Z2h0X3NvdXJjZS52MS5Db25uZWN0UmVxdWVzdBo9Lmluc3Ryb3NldHRhLmlu",
-            "dGVyZmFjZXMubGlnaHQubGlnaHRfc291cmNlLnYxLkNvbm5lY3RSZXNwb25z",
-            "ZSIAEpEBCgpEaXNjb25uZWN0Ej8uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5s",
-            "aWdodC5saWdodF9zb3VyY2UudjEuRGlzY29ubmVjdFJlcXVlc3QaQC5pbnN0",
-            "cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0LmxpZ2h0X3NvdXJjZS52MS5EaXNj",
-            "b25uZWN0UmVzcG9uc2UiABKLAQoIR2V0UG93ZXISPS5pbnN0cm9zZXR0YS5p",
-            "bnRlcmZhY2VzLmxpZ2h0LmxpZ2h0X3NvdXJjZS52MS5HZXRQb3dlclJlcXVl",
+            "Y2UudjEaI2luc3Ryb3NldHRhL2NvbW1vbi9jb25uZWN0aW9uLnByb3RvIi4K",
+            "D0dldFBvd2VyUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXVuaXRzGAIgASgJ",
+            "IkIKEEdldFBvd2VyUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1",
+            "ZGUYAiABKAESDQoFdW5pdHMYAyABKAkiQQoPU2V0UG93ZXJSZXF1ZXN0EgwK",
+            "BG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJ",
+            "IkIKEFNldFBvd2VyUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1",
+            "ZGUYAiABKAESDQoFdW5pdHMYAyABKAkykgMKC0xpZ2h0U291cmNlEi4KB0Nv",
+            "bm5lY3QSDy5Db25uZWN0UmVxdWVzdBoQLkNvbm5lY3RSZXNwb25zZSIAEjcK",
+            "CkRpc2Nvbm5lY3QSEi5EaXNjb25uZWN0UmVxdWVzdBoTLkRpc2Nvbm5lY3RS",
+            "ZXNwb25zZSIAEosBCghHZXRQb3dlchI9Lmluc3Ryb3NldHRhLmludGVyZmFj",
+            "ZXMubGlnaHQubGlnaHRfc291cmNlLnYxLkdldFBvd2VyUmVxdWVzdBo+Lmlu",
+            "c3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHQubGlnaHRfc291cmNlLnYxLkdl",
+            "dFBvd2VyUmVzcG9uc2UiABKLAQoIU2V0UG93ZXISPS5pbnN0cm9zZXR0YS5p",
+            "bnRlcmZhY2VzLmxpZ2h0LmxpZ2h0X3NvdXJjZS52MS5TZXRQb3dlclJlcXVl",
             "c3QaPi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0LmxpZ2h0X3NvdXJj",
-            "ZS52MS5HZXRQb3dlclJlc3BvbnNlIgASiwEKCFNldFBvd2VyEj0uaW5zdHJv",
-            "c2V0dGEuaW50ZXJmYWNlcy5saWdodC5saWdodF9zb3VyY2UudjEuU2V0UG93",
-            "ZXJSZXF1ZXN0Gj4uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodC5saWdo",
-            "dF9zb3VyY2UudjEuU2V0UG93ZXJSZXNwb25zZSIAYgZwcm90bzM="));
+            "ZS52MS5TZXRQb3dlclJlc3BvbnNlIgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { },
+          new pbr::FileDescriptor[] { global::ConnectionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.EchoRequest), global::Instrosetta.Interfaces.Light.LightSource.V1.EchoRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.EchoResponse), global::Instrosetta.Interfaces.Light.LightSource.V1.EchoResponse.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.ConnectRequest), global::Instrosetta.Interfaces.Light.LightSource.V1.ConnectRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.ConnectResponse), global::Instrosetta.Interfaces.Light.LightSource.V1.ConnectResponse.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.DisconnectRequest), global::Instrosetta.Interfaces.Light.LightSource.V1.DisconnectRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.DisconnectResponse), global::Instrosetta.Interfaces.Light.LightSource.V1.DisconnectResponse.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.GetPowerRequest), global::Instrosetta.Interfaces.Light.LightSource.V1.GetPowerRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.GetPowerResponse), global::Instrosetta.Interfaces.Light.LightSource.V1.GetPowerResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.SetPowerRequest), global::Instrosetta.Interfaces.Light.LightSource.V1.SetPowerRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.SetPowerResponse), global::Instrosetta.Interfaces.Light.LightSource.V1.SetPowerResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.GetPowerResponse), global::Instrosetta.Interfaces.Light.LightSource.V1.GetPowerResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.SetPowerRequest), global::Instrosetta.Interfaces.Light.LightSource.V1.SetPowerRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Light.LightSource.V1.SetPowerResponse), global::Instrosetta.Interfaces.Light.LightSource.V1.SetPowerResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
-  public sealed partial class EchoRequest : pb::IMessage<EchoRequest> {
-    private static readonly pb::MessageParser<EchoRequest> _parser = new pb::MessageParser<EchoRequest>(() => new EchoRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<EchoRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[0]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoRequest(EchoRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoRequest Clone() {
-      return new EchoRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as EchoRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(EchoRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(EchoRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class EchoResponse : pb::IMessage<EchoResponse> {
-    private static readonly pb::MessageParser<EchoResponse> _parser = new pb::MessageParser<EchoResponse>(() => new EchoResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<EchoResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoResponse(EchoResponse other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoResponse Clone() {
-      return new EchoResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as EchoResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(EchoResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(EchoResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class ConnectRequest : pb::IMessage<ConnectRequest> {
-    private static readonly pb::MessageParser<ConnectRequest> _parser = new pb::MessageParser<ConnectRequest>(() => new ConnectRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConnectRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[2]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest(ConnectRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest Clone() {
-      return new ConnectRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConnectRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConnectRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConnectRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class ConnectResponse : pb::IMessage<ConnectResponse> {
-    private static readonly pb::MessageParser<ConnectResponse> _parser = new pb::MessageParser<ConnectResponse>(() => new ConnectResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConnectResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse(ConnectResponse other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse Clone() {
-      return new ConnectResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConnectResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConnectResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConnectResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class DisconnectRequest : pb::IMessage<DisconnectRequest> {
-    private static readonly pb::MessageParser<DisconnectRequest> _parser = new pb::MessageParser<DisconnectRequest>(() => new DisconnectRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DisconnectRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[4]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest(DisconnectRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest Clone() {
-      return new DisconnectRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DisconnectRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DisconnectRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DisconnectRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class DisconnectResponse : pb::IMessage<DisconnectResponse> {
-    private static readonly pb::MessageParser<DisconnectResponse> _parser = new pb::MessageParser<DisconnectResponse>(() => new DisconnectResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DisconnectResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[5]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse(DisconnectResponse other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse Clone() {
-      return new DisconnectResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DisconnectResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DisconnectResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DisconnectResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
   public sealed partial class GetPowerRequest : pb::IMessage<GetPowerRequest> {
     private static readonly pb::MessageParser<GetPowerRequest> _parser = new pb::MessageParser<GetPowerRequest>(() => new GetPowerRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -853,7 +63,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1010,7 +220,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1028,7 +238,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetPowerResponse(GetPowerResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1049,14 +259,14 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -1085,7 +295,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1094,7 +304,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1113,9 +323,9 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -1132,7 +342,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -1152,8 +362,8 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -1174,7 +384,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -1195,7 +405,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1213,7 +423,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetPowerRequest(SetPowerRequest other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1234,14 +444,14 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -1270,7 +480,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1279,7 +489,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1298,9 +508,9 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -1317,7 +527,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -1337,8 +547,8 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -1359,7 +569,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -1380,7 +590,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Instrosetta.Interfaces.Light.LightSource.V1.LightSourceReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1398,7 +608,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetPowerResponse(SetPowerResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1419,14 +629,14 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -1455,7 +665,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1464,7 +674,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1483,9 +693,9 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -1502,7 +712,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -1522,8 +732,8 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -1544,7 +754,7 @@ namespace Instrosetta.Interfaces.Light.LightSource.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {

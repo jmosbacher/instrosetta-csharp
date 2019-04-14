@@ -26,711 +26,96 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
           string.Concat(
             "CjlpbnN0cm9zZXR0YS9pbnRlcmZhY2VzL2xpZ2h0X2FuYWx5c2lzL21vbm9j",
             "aHJvbWF0b3IucHJvdG8SM2luc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRf",
-            "YW5hbHlzaXMubW9ub2Nocm9tYXRvciJtCg5Db25uZWN0UmVxdWVzdBIMCgRu",
-            "YW1lGAEgASgJEhUKDXNlcmlhbF9udW1iZXIYAiABKAkSEwoLc2VyaWFsX3Bv",
-            "cnQYAyABKAkSEAoIYmF1ZHJhdGUYBCABKA0SDwoHdGltZW91dBgGIAEoAiIf",
-            "Cg9Db25uZWN0UmVzcG9uc2USDAoEbmFtZRgBIAEoCSIhChFEaXNjb25uZWN0",
-            "UmVxdWVzdBIMCgRuYW1lGAEgASgJIiIKEkRpc2Nvbm5lY3RSZXNwb25zZRIM",
-            "CgRuYW1lGAEgASgJIikKGUdldFdhdmVsZW5ndGhSYW5nZVJlcXVlc3QSDAoE",
-            "bmFtZRgBIAEoCSJbChpHZXRXYXZlbGVuZ3RoUmFuZ2VSZXNwb25zZRIMCgRu",
-            "YW1lGAEgASgJEg8KB21pbmltdW0YAiABKAISDwoHbWF4aW11bRgDIAEoAhIN",
-            "CgV1bml0cxgEIAEoCSIkChRHZXRXYXZlbGVuZ3RoUmVxdWVzdBIMCgRuYW1l",
-            "GAEgASgJIkgKFUdldFdhdmVsZW5ndGhSZXNwb25zZRIMCgRuYW1lGAEgASgJ",
-            "EhIKCndhdmVsZW5ndGgYAiABKAISDQoFdW5pdHMYAyABKAkiRwoUU2V0V2F2",
-            "ZWxlbmd0aFJlcXVlc3QSDAoEbmFtZRgBIAEoCRISCgp3YXZlbGVuZ3RoGAIg",
-            "ASgCEg0KBXVuaXRzGAMgASgJIkgKFVNldFdhdmVsZW5ndGhSZXNwb25zZRIM",
-            "CgRuYW1lGAEgASgJEhIKCndhdmVsZW5ndGgYAiABKAISDQoFdW5pdHMYAyAB",
-            "KAkiKAoYR2V0R3JhdGluZ09wdGlvbnNSZXF1ZXN0EgwKBG5hbWUYASABKAki",
-            "OgoZR2V0R3JhdGluZ09wdGlvbnNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg8K",
-            "B29wdGlvbnMYAiADKA0iIQoRR2V0R3JhdGluZ1JlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCSIzChJHZXRHcmF0aW5nUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdn",
-            "cmF0aW5nGAIgASgNIjIKEVNldEdyYXRpbmdSZXF1ZXN0EgwKBG5hbWUYASAB",
-            "KAkSDwoHZ3JhdGluZxgCIAEoDSIzChJTZXRHcmF0aW5nUmVzcG9uc2USDAoE",
-            "bmFtZRgBIAEoCRIPCgdncmF0aW5nGAIgASgNMtMKCg1Nb25vY2hyb21hdG9y",
-            "EpYBCgdDb25uZWN0EkMuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9h",
-            "bmFseXNpcy5tb25vY2hyb21hdG9yLkNvbm5lY3RSZXF1ZXN0GkQuaW5zdHJv",
-            "c2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9y",
-            "LkNvbm5lY3RSZXNwb25zZSIAEp8BCgpEaXNjb25uZWN0EkYuaW5zdHJvc2V0",
-            "dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkRp",
-            "c2Nvbm5lY3RSZXF1ZXN0GkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdo",
-            "dF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkRpc2Nvbm5lY3RSZXNwb25zZSIA",
-            "ErcBChJHZXRXYXZlbGVuZ3RoUmFuZ2USTi5pbnN0cm9zZXR0YS5pbnRlcmZh",
-            "Y2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuR2V0V2F2ZWxlbmd0",
-            "aFJhbmdlUmVxdWVzdBpPLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRf",
-            "YW5hbHlzaXMubW9ub2Nocm9tYXRvci5HZXRXYXZlbGVuZ3RoUmFuZ2VSZXNw",
-            "b25zZSIAEqgBCg1HZXRXYXZlbGVuZ3RoEkkuaW5zdHJvc2V0dGEuaW50ZXJm",
-            "YWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkdldFdhdmVsZW5n",
-            "dGhSZXF1ZXN0GkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFs",
-            "eXNpcy5tb25vY2hyb21hdG9yLkdldFdhdmVsZW5ndGhSZXNwb25zZSIAEqgB",
-            "Cg1TZXRXYXZlbGVuZ3RoEkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdo",
-            "dF9hbmFseXNpcy5tb25vY2hyb21hdG9yLlNldFdhdmVsZW5ndGhSZXF1ZXN0",
-            "GkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25v",
-            "Y2hyb21hdG9yLlNldFdhdmVsZW5ndGhSZXNwb25zZSIAErIBCg9HZXRHcmF0",
-            "aW5nUmFuZ2USTS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5",
-            "c2lzLm1vbm9jaHJvbWF0b3IuR2V0R3JhdGluZ09wdGlvbnNSZXF1ZXN0Gk4u",
-            "aW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hy",
-            "b21hdG9yLkdldEdyYXRpbmdPcHRpb25zUmVzcG9uc2UiABKfAQoKR2V0R3Jh",
-            "dGluZxJGLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMu",
-            "bW9ub2Nocm9tYXRvci5HZXRHcmF0aW5nUmVxdWVzdBpHLmluc3Ryb3NldHRh",
-            "LmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5HZXRH",
-            "cmF0aW5nUmVzcG9uc2UiABKfAQoKU2V0R3JhdGluZxJGLmluc3Ryb3NldHRh",
-            "LmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5TZXRH",
-            "cmF0aW5nUmVxdWVzdBpHLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRf",
-            "YW5hbHlzaXMubW9ub2Nocm9tYXRvci5TZXRHcmF0aW5nUmVzcG9uc2UiAGIG",
-            "cHJvdG8z"));
+            "YW5hbHlzaXMubW9ub2Nocm9tYXRvchojaW5zdHJvc2V0dGEvY29tbW9uL2Nv",
+            "bm5lY3Rpb24ucHJvdG8iKQoZR2V0V2F2ZWxlbmd0aFJhbmdlUmVxdWVzdBIM",
+            "CgRuYW1lGAEgASgJIlsKGkdldFdhdmVsZW5ndGhSYW5nZVJlc3BvbnNlEgwK",
+            "BG5hbWUYASABKAkSDwoHbWluaW11bRgCIAEoAhIPCgdtYXhpbXVtGAMgASgC",
+            "Eg0KBXVuaXRzGAQgASgJIiQKFEdldFdhdmVsZW5ndGhSZXF1ZXN0EgwKBG5h",
+            "bWUYASABKAkiRwoVR2V0V2F2ZWxlbmd0aFJlc3BvbnNlEgwKBG5hbWUYASAB",
+            "KAkSEQoJbWFnbml0dWRlGAIgASgCEg0KBXVuaXRzGAMgASgJIkYKFFNldFdh",
+            "dmVsZW5ndGhSZXF1ZXN0EgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIg",
+            "ASgCEg0KBXVuaXRzGAMgASgJIkcKFVNldFdhdmVsZW5ndGhSZXNwb25zZRIM",
+            "CgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoAhINCgV1bml0cxgDIAEo",
+            "CSIoChhHZXRHcmF0aW5nT3B0aW9uc1JlcXVlc3QSDAoEbmFtZRgBIAEoCSI+",
+            "ChlHZXRHcmF0aW5nT3B0aW9uc1Jlc3BvbnNlEgwKBG5hbWUYASABKAkSEwoL",
+            "Z3JhdGluZ19pZHMYAiADKA0iIQoRR2V0R3JhdGluZ1JlcXVlc3QSDAoEbmFt",
+            "ZRgBIAEoCSI2ChJHZXRHcmF0aW5nUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIS",
+            "CgpncmF0aW5nX2lkGAIgASgNIjUKEVNldEdyYXRpbmdSZXF1ZXN0EgwKBG5h",
+            "bWUYASABKAkSEgoKZ3JhdGluZ19pZBgCIAEoDSI2ChJTZXRHcmF0aW5nUmVz",
+            "cG9uc2USDAoEbmFtZRgBIAEoCRISCgpncmF0aW5nX2lkGAIgASgNIigKGEdl",
+            "dFNsaXRXaWR0aFJhbmdlUmVxdWVzdBIMCgRuYW1lGAEgASgJIloKGUdldFNs",
+            "aXRXaWR0aFJhbmdlUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdtaW5pbXVt",
+            "GAIgASgCEg8KB21heGltdW0YAyABKAISDQoFdW5pdHMYBCABKAkiIwoTR2V0",
+            "U2xpdFdpZHRoUmVxdWVzdBIMCgRuYW1lGAEgASgJIkYKFEdldFNsaXRXaWR0",
+            "aFJlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgCEg0K",
+            "BXVuaXRzGAMgASgJIkUKE1NldFNsaXRXaWR0aFJlcXVlc3QSDAoEbmFtZRgB",
+            "IAEoCRIRCgltYWduaXR1ZGUYAiABKAISDQoFdW5pdHMYAyABKAkiRgoUU2V0",
+            "U2xpdFdpZHRoUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUY",
+            "AiABKAISDQoFdW5pdHMYAyABKAkyig0KDU1vbm9jaHJvbWF0b3ISLgoHQ29u",
+            "bmVjdBIPLkNvbm5lY3RSZXF1ZXN0GhAuQ29ubmVjdFJlc3BvbnNlIgASNwoK",
+            "RGlzY29ubmVjdBISLkRpc2Nvbm5lY3RSZXF1ZXN0GhMuRGlzY29ubmVjdFJl",
+            "c3BvbnNlIgAStwEKEkdldFdhdmVsZW5ndGhSYW5nZRJOLmluc3Ryb3NldHRh",
+            "LmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5HZXRX",
+            "YXZlbGVuZ3RoUmFuZ2VSZXF1ZXN0Gk8uaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
+            "cy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkdldFdhdmVsZW5ndGhS",
+            "YW5nZVJlc3BvbnNlIgASqAEKDUdldFdhdmVsZW5ndGgSSS5pbnN0cm9zZXR0",
+            "YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuR2V0",
+            "V2F2ZWxlbmd0aFJlcXVlc3QaSi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxp",
+            "Z2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuR2V0V2F2ZWxlbmd0aFJlc3Bv",
+            "bnNlIgASqAEKDVNldFdhdmVsZW5ndGgSSS5pbnN0cm9zZXR0YS5pbnRlcmZh",
+            "Y2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuU2V0V2F2ZWxlbmd0",
+            "aFJlcXVlc3QaSi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5",
+            "c2lzLm1vbm9jaHJvbWF0b3IuU2V0V2F2ZWxlbmd0aFJlc3BvbnNlIgAStAEK",
+            "EUdldEdyYXRpbmdPcHRpb25zEk0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5s",
+            "aWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkdldEdyYXRpbmdPcHRpb25z",
+            "UmVxdWVzdBpOLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlz",
+            "aXMubW9ub2Nocm9tYXRvci5HZXRHcmF0aW5nT3B0aW9uc1Jlc3BvbnNlIgAS",
+            "nwEKCkdldEdyYXRpbmcSRi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0",
+            "X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuR2V0R3JhdGluZ1JlcXVlc3QaRy5p",
+            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJv",
+            "bWF0b3IuR2V0R3JhdGluZ1Jlc3BvbnNlIgASnwEKClNldEdyYXRpbmcSRi5p",
+            "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJv",
+            "bWF0b3IuU2V0R3JhdGluZ1JlcXVlc3QaRy5pbnN0cm9zZXR0YS5pbnRlcmZh",
+            "Y2VzLmxpZ2h0X2FuYWx5c2lzLm1vbm9jaHJvbWF0b3IuU2V0R3JhdGluZ1Jl",
+            "c3BvbnNlIgAStAEKEUdldFNsaXRXaWR0aFJhbmdlEk0uaW5zdHJvc2V0dGEu",
+            "aW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25vY2hyb21hdG9yLkdldFNs",
+            "aXRXaWR0aFJhbmdlUmVxdWVzdBpOLmluc3Ryb3NldHRhLmludGVyZmFjZXMu",
+            "bGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5HZXRTbGl0V2lkdGhSYW5n",
+            "ZVJlc3BvbnNlIgASpQEKDEdldFNsaXRXaWR0aBJILmluc3Ryb3NldHRhLmlu",
+            "dGVyZmFjZXMubGlnaHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5HZXRTbGl0",
+            "V2lkdGhSZXF1ZXN0GkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9h",
+            "bmFseXNpcy5tb25vY2hyb21hdG9yLkdldFNsaXRXaWR0aFJlc3BvbnNlIgAS",
+            "pQEKDFNldFNsaXRXaWR0aBJILmluc3Ryb3NldHRhLmludGVyZmFjZXMubGln",
+            "aHRfYW5hbHlzaXMubW9ub2Nocm9tYXRvci5TZXRTbGl0V2lkdGhSZXF1ZXN0",
+            "GkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5tb25v",
+            "Y2hyb21hdG9yLlNldFNsaXRXaWR0aFJlc3BvbnNlIgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { },
+          new pbr::FileDescriptor[] { global::ConnectionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ConnectRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ConnectRequest.Parser, new[]{ "Name", "SerialNumber", "SerialPort", "Baudrate", "Timeout" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ConnectResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.ConnectResponse.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.DisconnectRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.DisconnectRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.DisconnectResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.DisconnectResponse.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRangeResponse.Parser, new[]{ "Name", "Minimum", "Maximum", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthResponse.Parser, new[]{ "Name", "Wavelength", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetWavelengthRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetWavelengthRequest.Parser, new[]{ "Name", "Wavelength", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetWavelengthResponse.Parser, new[]{ "Name", "Wavelength", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetWavelengthResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetWavelengthRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetWavelengthRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetWavelengthResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingOptionsRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingOptionsRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingOptionsResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingOptionsResponse.Parser, new[]{ "Name", "Options" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingOptionsResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingOptionsResponse.Parser, new[]{ "Name", "GratingIds" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingResponse.Parser, new[]{ "Name", "Grating" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetGratingRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetGratingRequest.Parser, new[]{ "Name", "Grating" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetGratingResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetGratingResponse.Parser, new[]{ "Name", "Grating" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetGratingResponse.Parser, new[]{ "Name", "GratingId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetGratingRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetGratingRequest.Parser, new[]{ "Name", "GratingId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetGratingResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetGratingResponse.Parser, new[]{ "Name", "GratingId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetSlitWidthRangeRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetSlitWidthRangeRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetSlitWidthRangeResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetSlitWidthRangeResponse.Parser, new[]{ "Name", "Minimum", "Maximum", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetSlitWidthRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetSlitWidthRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetSlitWidthResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.GetSlitWidthResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetSlitWidthRequest), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetSlitWidthRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetSlitWidthResponse), global::Instrosetta.Interfaces.LightAnalysis.Monochromator.SetSlitWidthResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
-  public sealed partial class ConnectRequest : pb::IMessage<ConnectRequest> {
-    private static readonly pb::MessageParser<ConnectRequest> _parser = new pb::MessageParser<ConnectRequest>(() => new ConnectRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConnectRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[0]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest(ConnectRequest other) : this() {
-      name_ = other.name_;
-      serialNumber_ = other.serialNumber_;
-      serialPort_ = other.serialPort_;
-      baudrate_ = other.baudrate_;
-      timeout_ = other.timeout_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest Clone() {
-      return new ConnectRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "serial_number" field.</summary>
-    public const int SerialNumberFieldNumber = 2;
-    private string serialNumber_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string SerialNumber {
-      get { return serialNumber_; }
-      set {
-        serialNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "serial_port" field.</summary>
-    public const int SerialPortFieldNumber = 3;
-    private string serialPort_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string SerialPort {
-      get { return serialPort_; }
-      set {
-        serialPort_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "baudrate" field.</summary>
-    public const int BaudrateFieldNumber = 4;
-    private uint baudrate_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint Baudrate {
-      get { return baudrate_; }
-      set {
-        baudrate_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "timeout" field.</summary>
-    public const int TimeoutFieldNumber = 6;
-    private float timeout_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Timeout {
-      get { return timeout_; }
-      set {
-        timeout_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConnectRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConnectRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (SerialNumber != other.SerialNumber) return false;
-      if (SerialPort != other.SerialPort) return false;
-      if (Baudrate != other.Baudrate) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Timeout, other.Timeout)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (SerialNumber.Length != 0) hash ^= SerialNumber.GetHashCode();
-      if (SerialPort.Length != 0) hash ^= SerialPort.GetHashCode();
-      if (Baudrate != 0) hash ^= Baudrate.GetHashCode();
-      if (Timeout != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Timeout);
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (SerialNumber.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(SerialNumber);
-      }
-      if (SerialPort.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(SerialPort);
-      }
-      if (Baudrate != 0) {
-        output.WriteRawTag(32);
-        output.WriteUInt32(Baudrate);
-      }
-      if (Timeout != 0F) {
-        output.WriteRawTag(53);
-        output.WriteFloat(Timeout);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (SerialNumber.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(SerialNumber);
-      }
-      if (SerialPort.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(SerialPort);
-      }
-      if (Baudrate != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Baudrate);
-      }
-      if (Timeout != 0F) {
-        size += 1 + 4;
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConnectRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.SerialNumber.Length != 0) {
-        SerialNumber = other.SerialNumber;
-      }
-      if (other.SerialPort.Length != 0) {
-        SerialPort = other.SerialPort;
-      }
-      if (other.Baudrate != 0) {
-        Baudrate = other.Baudrate;
-      }
-      if (other.Timeout != 0F) {
-        Timeout = other.Timeout;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 18: {
-            SerialNumber = input.ReadString();
-            break;
-          }
-          case 26: {
-            SerialPort = input.ReadString();
-            break;
-          }
-          case 32: {
-            Baudrate = input.ReadUInt32();
-            break;
-          }
-          case 53: {
-            Timeout = input.ReadFloat();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class ConnectResponse : pb::IMessage<ConnectResponse> {
-    private static readonly pb::MessageParser<ConnectResponse> _parser = new pb::MessageParser<ConnectResponse>(() => new ConnectResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConnectResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse(ConnectResponse other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse Clone() {
-      return new ConnectResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConnectResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConnectResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConnectResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class DisconnectRequest : pb::IMessage<DisconnectRequest> {
-    private static readonly pb::MessageParser<DisconnectRequest> _parser = new pb::MessageParser<DisconnectRequest>(() => new DisconnectRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DisconnectRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[2]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest(DisconnectRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest Clone() {
-      return new DisconnectRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DisconnectRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DisconnectRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DisconnectRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class DisconnectResponse : pb::IMessage<DisconnectResponse> {
-    private static readonly pb::MessageParser<DisconnectResponse> _parser = new pb::MessageParser<DisconnectResponse>(() => new DisconnectResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DisconnectResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse(DisconnectResponse other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse Clone() {
-      return new DisconnectResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DisconnectResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DisconnectResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DisconnectResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
   public sealed partial class GetWavelengthRangeRequest : pb::IMessage<GetWavelengthRangeRequest> {
     private static readonly pb::MessageParser<GetWavelengthRangeRequest> _parser = new pb::MessageParser<GetWavelengthRangeRequest>(() => new GetWavelengthRangeRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -739,7 +124,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -868,7 +253,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1081,7 +466,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1210,7 +595,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1228,7 +613,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetWavelengthResponse(GetWavelengthResponse other) : this() {
       name_ = other.name_;
-      wavelength_ = other.wavelength_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1249,14 +634,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       }
     }
 
-    /// <summary>Field number for the "wavelength" field.</summary>
-    public const int WavelengthFieldNumber = 2;
-    private float wavelength_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private float magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Wavelength {
-      get { return wavelength_; }
+    public float Magnitude {
+      get { return magnitude_; }
       set {
-        wavelength_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -1285,7 +670,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Wavelength, other.Wavelength)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1294,7 +679,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Wavelength != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Wavelength);
+      if (Magnitude != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1313,9 +698,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Wavelength != 0F) {
+      if (Magnitude != 0F) {
         output.WriteRawTag(21);
-        output.WriteFloat(Wavelength);
+        output.WriteFloat(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -1332,7 +717,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Wavelength != 0F) {
+      if (Magnitude != 0F) {
         size += 1 + 4;
       }
       if (Units.Length != 0) {
@@ -1352,8 +737,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Wavelength != 0F) {
-        Wavelength = other.Wavelength;
+      if (other.Magnitude != 0F) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -1374,7 +759,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
             break;
           }
           case 21: {
-            Wavelength = input.ReadFloat();
+            Magnitude = input.ReadFloat();
             break;
           }
           case 26: {
@@ -1395,7 +780,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1413,7 +798,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetWavelengthRequest(SetWavelengthRequest other) : this() {
       name_ = other.name_;
-      wavelength_ = other.wavelength_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1434,14 +819,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       }
     }
 
-    /// <summary>Field number for the "wavelength" field.</summary>
-    public const int WavelengthFieldNumber = 2;
-    private float wavelength_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private float magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Wavelength {
-      get { return wavelength_; }
+    public float Magnitude {
+      get { return magnitude_; }
       set {
-        wavelength_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -1470,7 +855,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Wavelength, other.Wavelength)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1479,7 +864,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Wavelength != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Wavelength);
+      if (Magnitude != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1498,9 +883,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Wavelength != 0F) {
+      if (Magnitude != 0F) {
         output.WriteRawTag(21);
-        output.WriteFloat(Wavelength);
+        output.WriteFloat(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -1517,7 +902,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Wavelength != 0F) {
+      if (Magnitude != 0F) {
         size += 1 + 4;
       }
       if (Units.Length != 0) {
@@ -1537,8 +922,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Wavelength != 0F) {
-        Wavelength = other.Wavelength;
+      if (other.Magnitude != 0F) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -1559,7 +944,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
             break;
           }
           case 21: {
-            Wavelength = input.ReadFloat();
+            Magnitude = input.ReadFloat();
             break;
           }
           case 26: {
@@ -1580,7 +965,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1598,7 +983,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetWavelengthResponse(SetWavelengthResponse other) : this() {
       name_ = other.name_;
-      wavelength_ = other.wavelength_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1619,14 +1004,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       }
     }
 
-    /// <summary>Field number for the "wavelength" field.</summary>
-    public const int WavelengthFieldNumber = 2;
-    private float wavelength_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private float magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Wavelength {
-      get { return wavelength_; }
+    public float Magnitude {
+      get { return magnitude_; }
       set {
-        wavelength_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -1655,7 +1040,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Wavelength, other.Wavelength)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1664,7 +1049,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Wavelength != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Wavelength);
+      if (Magnitude != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1683,9 +1068,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Wavelength != 0F) {
+      if (Magnitude != 0F) {
         output.WriteRawTag(21);
-        output.WriteFloat(Wavelength);
+        output.WriteFloat(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -1702,7 +1087,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Wavelength != 0F) {
+      if (Magnitude != 0F) {
         size += 1 + 4;
       }
       if (Units.Length != 0) {
@@ -1722,8 +1107,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Wavelength != 0F) {
-        Wavelength = other.Wavelength;
+      if (other.Magnitude != 0F) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -1744,7 +1129,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
             break;
           }
           case 21: {
-            Wavelength = input.ReadFloat();
+            Magnitude = input.ReadFloat();
             break;
           }
           case 26: {
@@ -1765,7 +1150,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1894,7 +1279,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1912,7 +1297,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetGratingOptionsResponse(GetGratingOptionsResponse other) : this() {
       name_ = other.name_;
-      options_ = other.options_.Clone();
+      gratingIds_ = other.gratingIds_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1932,14 +1317,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       }
     }
 
-    /// <summary>Field number for the "options" field.</summary>
-    public const int OptionsFieldNumber = 2;
-    private static readonly pb::FieldCodec<uint> _repeated_options_codec
+    /// <summary>Field number for the "grating_ids" field.</summary>
+    public const int GratingIdsFieldNumber = 2;
+    private static readonly pb::FieldCodec<uint> _repeated_gratingIds_codec
         = pb::FieldCodec.ForUInt32(18);
-    private readonly pbc::RepeatedField<uint> options_ = new pbc::RepeatedField<uint>();
+    private readonly pbc::RepeatedField<uint> gratingIds_ = new pbc::RepeatedField<uint>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<uint> Options {
-      get { return options_; }
+    public pbc::RepeatedField<uint> GratingIds {
+      get { return gratingIds_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1956,7 +1341,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         return true;
       }
       if (Name != other.Name) return false;
-      if(!options_.Equals(other.options_)) return false;
+      if(!gratingIds_.Equals(other.gratingIds_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1964,7 +1349,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      hash ^= options_.GetHashCode();
+      hash ^= gratingIds_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1982,7 +1367,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      options_.WriteTo(output, _repeated_options_codec);
+      gratingIds_.WriteTo(output, _repeated_gratingIds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1994,7 +1379,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      size += options_.CalculateSize(_repeated_options_codec);
+      size += gratingIds_.CalculateSize(_repeated_gratingIds_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2009,7 +1394,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      options_.Add(other.options_);
+      gratingIds_.Add(other.gratingIds_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2027,7 +1412,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
           }
           case 18:
           case 16: {
-            options_.AddEntriesFrom(input, _repeated_options_codec);
+            gratingIds_.AddEntriesFrom(input, _repeated_gratingIds_codec);
             break;
           }
         }
@@ -2044,7 +1429,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2173,7 +1558,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2191,7 +1576,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetGratingResponse(GetGratingResponse other) : this() {
       name_ = other.name_;
-      grating_ = other.grating_;
+      gratingId_ = other.gratingId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2211,14 +1596,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       }
     }
 
-    /// <summary>Field number for the "grating" field.</summary>
-    public const int GratingFieldNumber = 2;
-    private uint grating_;
+    /// <summary>Field number for the "grating_id" field.</summary>
+    public const int GratingIdFieldNumber = 2;
+    private uint gratingId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint Grating {
-      get { return grating_; }
+    public uint GratingId {
+      get { return gratingId_; }
       set {
-        grating_ = value;
+        gratingId_ = value;
       }
     }
 
@@ -2236,7 +1621,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         return true;
       }
       if (Name != other.Name) return false;
-      if (Grating != other.Grating) return false;
+      if (GratingId != other.GratingId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2244,7 +1629,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Grating != 0) hash ^= Grating.GetHashCode();
+      if (GratingId != 0) hash ^= GratingId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2262,9 +1647,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Grating != 0) {
+      if (GratingId != 0) {
         output.WriteRawTag(16);
-        output.WriteUInt32(Grating);
+        output.WriteUInt32(GratingId);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -2277,8 +1662,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Grating != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Grating);
+      if (GratingId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(GratingId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2294,8 +1679,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Grating != 0) {
-        Grating = other.Grating;
+      if (other.GratingId != 0) {
+        GratingId = other.GratingId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2313,7 +1698,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
             break;
           }
           case 16: {
-            Grating = input.ReadUInt32();
+            GratingId = input.ReadUInt32();
             break;
           }
         }
@@ -2330,7 +1715,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2348,7 +1733,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetGratingRequest(SetGratingRequest other) : this() {
       name_ = other.name_;
-      grating_ = other.grating_;
+      gratingId_ = other.gratingId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2368,14 +1753,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       }
     }
 
-    /// <summary>Field number for the "grating" field.</summary>
-    public const int GratingFieldNumber = 2;
-    private uint grating_;
+    /// <summary>Field number for the "grating_id" field.</summary>
+    public const int GratingIdFieldNumber = 2;
+    private uint gratingId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint Grating {
-      get { return grating_; }
+    public uint GratingId {
+      get { return gratingId_; }
       set {
-        grating_ = value;
+        gratingId_ = value;
       }
     }
 
@@ -2393,7 +1778,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         return true;
       }
       if (Name != other.Name) return false;
-      if (Grating != other.Grating) return false;
+      if (GratingId != other.GratingId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2401,7 +1786,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Grating != 0) hash ^= Grating.GetHashCode();
+      if (GratingId != 0) hash ^= GratingId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2419,9 +1804,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Grating != 0) {
+      if (GratingId != 0) {
         output.WriteRawTag(16);
-        output.WriteUInt32(Grating);
+        output.WriteUInt32(GratingId);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -2434,8 +1819,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Grating != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Grating);
+      if (GratingId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(GratingId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2451,8 +1836,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Grating != 0) {
-        Grating = other.Grating;
+      if (other.GratingId != 0) {
+        GratingId = other.GratingId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2470,7 +1855,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
             break;
           }
           case 16: {
-            Grating = input.ReadUInt32();
+            GratingId = input.ReadUInt32();
             break;
           }
         }
@@ -2487,7 +1872,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2505,7 +1890,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetGratingResponse(SetGratingResponse other) : this() {
       name_ = other.name_;
-      grating_ = other.grating_;
+      gratingId_ = other.gratingId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2525,14 +1910,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       }
     }
 
-    /// <summary>Field number for the "grating" field.</summary>
-    public const int GratingFieldNumber = 2;
-    private uint grating_;
+    /// <summary>Field number for the "grating_id" field.</summary>
+    public const int GratingIdFieldNumber = 2;
+    private uint gratingId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint Grating {
-      get { return grating_; }
+    public uint GratingId {
+      get { return gratingId_; }
       set {
-        grating_ = value;
+        gratingId_ = value;
       }
     }
 
@@ -2550,7 +1935,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         return true;
       }
       if (Name != other.Name) return false;
-      if (Grating != other.Grating) return false;
+      if (GratingId != other.GratingId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2558,7 +1943,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Grating != 0) hash ^= Grating.GetHashCode();
+      if (GratingId != 0) hash ^= GratingId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2576,9 +1961,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Grating != 0) {
+      if (GratingId != 0) {
         output.WriteRawTag(16);
-        output.WriteUInt32(Grating);
+        output.WriteUInt32(GratingId);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -2591,8 +1976,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Grating != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Grating);
+      if (GratingId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(GratingId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2608,8 +1993,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Grating != 0) {
-        Grating = other.Grating;
+      if (other.GratingId != 0) {
+        GratingId = other.GratingId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2627,7 +2012,1033 @@ namespace Instrosetta.Interfaces.LightAnalysis.Monochromator {
             break;
           }
           case 16: {
-            Grating = input.ReadUInt32();
+            GratingId = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class GetSlitWidthRangeRequest : pb::IMessage<GetSlitWidthRangeRequest> {
+    private static readonly pb::MessageParser<GetSlitWidthRangeRequest> _parser = new pb::MessageParser<GetSlitWidthRangeRequest>(() => new GetSlitWidthRangeRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetSlitWidthRangeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthRangeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthRangeRequest(GetSlitWidthRangeRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthRangeRequest Clone() {
+      return new GetSlitWidthRangeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetSlitWidthRangeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetSlitWidthRangeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetSlitWidthRangeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class GetSlitWidthRangeResponse : pb::IMessage<GetSlitWidthRangeResponse> {
+    private static readonly pb::MessageParser<GetSlitWidthRangeResponse> _parser = new pb::MessageParser<GetSlitWidthRangeResponse>(() => new GetSlitWidthRangeResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetSlitWidthRangeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthRangeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthRangeResponse(GetSlitWidthRangeResponse other) : this() {
+      name_ = other.name_;
+      minimum_ = other.minimum_;
+      maximum_ = other.maximum_;
+      units_ = other.units_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthRangeResponse Clone() {
+      return new GetSlitWidthRangeResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "minimum" field.</summary>
+    public const int MinimumFieldNumber = 2;
+    private float minimum_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Minimum {
+      get { return minimum_; }
+      set {
+        minimum_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "maximum" field.</summary>
+    public const int MaximumFieldNumber = 3;
+    private float maximum_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Maximum {
+      get { return maximum_; }
+      set {
+        maximum_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "units" field.</summary>
+    public const int UnitsFieldNumber = 4;
+    private string units_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Units {
+      get { return units_; }
+      set {
+        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetSlitWidthRangeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetSlitWidthRangeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Minimum, other.Minimum)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Maximum, other.Maximum)) return false;
+      if (Units != other.Units) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Minimum != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Minimum);
+      if (Maximum != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Maximum);
+      if (Units.Length != 0) hash ^= Units.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Minimum != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(Minimum);
+      }
+      if (Maximum != 0F) {
+        output.WriteRawTag(29);
+        output.WriteFloat(Maximum);
+      }
+      if (Units.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Units);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Minimum != 0F) {
+        size += 1 + 4;
+      }
+      if (Maximum != 0F) {
+        size += 1 + 4;
+      }
+      if (Units.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetSlitWidthRangeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Minimum != 0F) {
+        Minimum = other.Minimum;
+      }
+      if (other.Maximum != 0F) {
+        Maximum = other.Maximum;
+      }
+      if (other.Units.Length != 0) {
+        Units = other.Units;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 21: {
+            Minimum = input.ReadFloat();
+            break;
+          }
+          case 29: {
+            Maximum = input.ReadFloat();
+            break;
+          }
+          case 34: {
+            Units = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class GetSlitWidthRequest : pb::IMessage<GetSlitWidthRequest> {
+    private static readonly pb::MessageParser<GetSlitWidthRequest> _parser = new pb::MessageParser<GetSlitWidthRequest>(() => new GetSlitWidthRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetSlitWidthRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthRequest(GetSlitWidthRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthRequest Clone() {
+      return new GetSlitWidthRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetSlitWidthRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetSlitWidthRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetSlitWidthRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class GetSlitWidthResponse : pb::IMessage<GetSlitWidthResponse> {
+    private static readonly pb::MessageParser<GetSlitWidthResponse> _parser = new pb::MessageParser<GetSlitWidthResponse>(() => new GetSlitWidthResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetSlitWidthResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[15]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthResponse(GetSlitWidthResponse other) : this() {
+      name_ = other.name_;
+      magnitude_ = other.magnitude_;
+      units_ = other.units_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetSlitWidthResponse Clone() {
+      return new GetSlitWidthResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private float magnitude_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Magnitude {
+      get { return magnitude_; }
+      set {
+        magnitude_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "units" field.</summary>
+    public const int UnitsFieldNumber = 3;
+    private string units_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Units {
+      get { return units_; }
+      set {
+        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetSlitWidthResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetSlitWidthResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
+      if (Units != other.Units) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Magnitude != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Magnitude);
+      if (Units.Length != 0) hash ^= Units.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Magnitude != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(Magnitude);
+      }
+      if (Units.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Units);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Magnitude != 0F) {
+        size += 1 + 4;
+      }
+      if (Units.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetSlitWidthResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Magnitude != 0F) {
+        Magnitude = other.Magnitude;
+      }
+      if (other.Units.Length != 0) {
+        Units = other.Units;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 21: {
+            Magnitude = input.ReadFloat();
+            break;
+          }
+          case 26: {
+            Units = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class SetSlitWidthRequest : pb::IMessage<SetSlitWidthRequest> {
+    private static readonly pb::MessageParser<SetSlitWidthRequest> _parser = new pb::MessageParser<SetSlitWidthRequest>(() => new SetSlitWidthRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SetSlitWidthRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[16]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetSlitWidthRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetSlitWidthRequest(SetSlitWidthRequest other) : this() {
+      name_ = other.name_;
+      magnitude_ = other.magnitude_;
+      units_ = other.units_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetSlitWidthRequest Clone() {
+      return new SetSlitWidthRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private float magnitude_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Magnitude {
+      get { return magnitude_; }
+      set {
+        magnitude_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "units" field.</summary>
+    public const int UnitsFieldNumber = 3;
+    private string units_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Units {
+      get { return units_; }
+      set {
+        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SetSlitWidthRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SetSlitWidthRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
+      if (Units != other.Units) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Magnitude != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Magnitude);
+      if (Units.Length != 0) hash ^= Units.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Magnitude != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(Magnitude);
+      }
+      if (Units.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Units);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Magnitude != 0F) {
+        size += 1 + 4;
+      }
+      if (Units.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SetSlitWidthRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Magnitude != 0F) {
+        Magnitude = other.Magnitude;
+      }
+      if (other.Units.Length != 0) {
+        Units = other.Units;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 21: {
+            Magnitude = input.ReadFloat();
+            break;
+          }
+          case 26: {
+            Units = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class SetSlitWidthResponse : pb::IMessage<SetSlitWidthResponse> {
+    private static readonly pb::MessageParser<SetSlitWidthResponse> _parser = new pb::MessageParser<SetSlitWidthResponse>(() => new SetSlitWidthResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SetSlitWidthResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Monochromator.MonochromatorReflection.Descriptor.MessageTypes[17]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetSlitWidthResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetSlitWidthResponse(SetSlitWidthResponse other) : this() {
+      name_ = other.name_;
+      magnitude_ = other.magnitude_;
+      units_ = other.units_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetSlitWidthResponse Clone() {
+      return new SetSlitWidthResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private float magnitude_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Magnitude {
+      get { return magnitude_; }
+      set {
+        magnitude_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "units" field.</summary>
+    public const int UnitsFieldNumber = 3;
+    private string units_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Units {
+      get { return units_; }
+      set {
+        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SetSlitWidthResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SetSlitWidthResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
+      if (Units != other.Units) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Magnitude != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Magnitude);
+      if (Units.Length != 0) hash ^= Units.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Magnitude != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(Magnitude);
+      }
+      if (Units.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Units);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Magnitude != 0F) {
+        size += 1 + 4;
+      }
+      if (Units.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SetSlitWidthResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Magnitude != 0F) {
+        Magnitude = other.Magnitude;
+      }
+      if (other.Units.Length != 0) {
+        Units = other.Units;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 21: {
+            Magnitude = input.ReadFloat();
+            break;
+          }
+          case 26: {
+            Units = input.ReadString();
             break;
           }
         }

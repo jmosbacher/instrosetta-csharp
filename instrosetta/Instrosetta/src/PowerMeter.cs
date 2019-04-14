@@ -26,951 +26,104 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
           string.Concat(
             "CjdpbnN0cm9zZXR0YS9pbnRlcmZhY2VzL2xpZ2h0X2FuYWx5c2lzL3Bvd2Vy",
             "X21ldGVyLnByb3RvEjRpbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2Fu",
-            "YWx5c2lzLnBvd2VyX21ldGVyLnYxIiwKC0VjaG9SZXF1ZXN0EgwKBG5hbWUY",
-            "ASABKAkSDwoHbWVzc2FnZRgCIAEoCSItCgxFY2hvUmVzcG9uc2USDAoEbmFt",
-            "ZRgBIAEoCRIPCgdtZXNzYWdlGAIgASgJIh4KDkNvbm5lY3RSZXF1ZXN0EgwK",
-            "BG5hbWUYASABKAkiHwoPQ29ubmVjdFJlc3BvbnNlEgwKBG5hbWUYASABKAki",
-            "IQoRRGlzY29ubmVjdFJlcXVlc3QSDAoEbmFtZRgBIAEoCSIiChJEaXNjb25u",
-            "ZWN0UmVzcG9uc2USDAoEbmFtZRgBIAEoCSIuCg9HZXRQb3dlclJlcXVlc3QS",
-            "DAoEbmFtZRgBIAEoCRINCgV1bml0cxgCIAEoCSI+ChBHZXRQb3dlclJlc3Bv",
-            "bnNlEgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAESDQoFdW5pdHMYAyAB",
-            "KAkiPQoPU2V0UG93ZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFdmFsdWUY",
-            "AiABKAESDQoFdW5pdHMYAyABKAkiPgoQU2V0UG93ZXJSZXNwb25zZRIMCgRu",
-            "YW1lGAEgASgJEg0KBXZhbHVlGAIgASgBEg0KBXVuaXRzGAMgASgJIi4KD0dl",
-            "dENvdW50UmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXVuaXRzGAIgASgJIj4K",
-            "EEdldENvdW50UmVzcG9uc2USDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEo",
-            "ARINCgV1bml0cxgDIAEoCSI9Cg9TZXRDb3VudFJlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSI+ChBTZXRDb3Vu",
-            "dFJlc3BvbnNlEgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAESDQoFdW5p",
-            "dHMYAyABKAkiMwoUR2V0V2F2ZWxlbmd0aFJlcXVlc3QSDAoEbmFtZRgBIAEo",
-            "CRINCgV1bml0cxgCIAEoCSJDChVHZXRXYXZlbGVuZ3RoUmVzcG9uc2USDAoE",
-            "bmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSJCChRT",
-            "ZXRXYXZlbGVuZ3RoUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIg",
-            "ASgBEg0KBXVuaXRzGAMgASgJIkMKFVNldFdhdmVsZW5ndGhSZXNwb25zZRIM",
-            "CgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgBEg0KBXVuaXRzGAMgASgJIi0K",
-            "DkdldE1vZGVSZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFdW5pdHMYAiABKAki",
-            "PQoPR2V0TW9kZVJlc3BvbnNlEgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiAB",
-            "KAESDQoFdW5pdHMYAyABKAkiPAoOU2V0TW9kZVJlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSI9Cg9TZXRNb2Rl",
-            "UmVzcG9uc2USDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0",
-            "cxgDIAEoCSIyChNHZXRBdXRvcmFuZ2VSZXF1ZXN0EgwKBG5hbWUYASABKAkS",
-            "DQoFdW5pdHMYAiABKAkiQgoUR2V0QXV0b3JhbmdlUmVzcG9uc2USDAoEbmFt",
-            "ZRgBIAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSJBChNTZXRB",
-            "dXRvcmFuZ2VSZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAES",
-            "DQoFdW5pdHMYAyABKAkiQgoUU2V0QXV0b3JhbmdlUmVzcG9uc2USDAoEbmFt",
-            "ZRgBIAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCTK5EAoKUG93",
-            "ZXJNZXRlchKPAQoERWNobxJBLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGln",
-            "aHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuRWNob1JlcXVlc3QaQi5pbnN0",
+            "YWx5c2lzLnBvd2VyX21ldGVyLnYxGiNpbnN0cm9zZXR0YS9jb21tb24vY29u",
+            "bmVjdGlvbi5wcm90byIuCg9HZXRQb3dlclJlcXVlc3QSDAoEbmFtZRgBIAEo",
+            "CRINCgV1bml0cxgCIAEoCSJCChBHZXRQb3dlclJlc3BvbnNlEgwKBG5hbWUY",
+            "ASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJIkEKD1Nl",
+            "dFBvd2VyUmVxdWVzdBIMCgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEo",
+            "ARINCgV1bml0cxgDIAEoCSJCChBTZXRQb3dlclJlc3BvbnNlEgwKBG5hbWUY",
+            "ASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJIi4KD0dl",
+            "dENvdW50UmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXVuaXRzGAIgASgJIkIK",
+            "EEdldENvdW50UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUY",
+            "AiABKAESDQoFdW5pdHMYAyABKAkiQQoPU2V0Q291bnRSZXF1ZXN0EgwKBG5h",
+            "bWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJIkIK",
+            "EFNldENvdW50UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUY",
+            "AiABKAESDQoFdW5pdHMYAyABKAkiMwoUR2V0V2F2ZWxlbmd0aFJlcXVlc3QS",
+            "DAoEbmFtZRgBIAEoCRINCgV1bml0cxgCIAEoCSJHChVHZXRXYXZlbGVuZ3Ro",
+            "UmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUYAiABKAESDQoF",
+            "dW5pdHMYAyABKAkiRgoUU2V0V2F2ZWxlbmd0aFJlcXVlc3QSDAoEbmFtZRgB",
+            "IAEoCRIRCgltYWduaXR1ZGUYAiABKAESDQoFdW5pdHMYAyABKAkiRwoVU2V0",
+            "V2F2ZWxlbmd0aFJlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRl",
+            "GAIgASgBEg0KBXVuaXRzGAMgASgJIi0KDkdldE1vZGVSZXF1ZXN0EgwKBG5h",
+            "bWUYASABKAkSDQoFdW5pdHMYAiABKAkiQQoPR2V0TW9kZVJlc3BvbnNlEgwK",
+            "BG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJ",
+            "IkAKDlNldE1vZGVSZXF1ZXN0EgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRl",
+            "GAIgASgBEg0KBXVuaXRzGAMgASgJIkEKD1NldE1vZGVSZXNwb25zZRIMCgRu",
+            "YW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoARINCgV1bml0cxgDIAEoCSIy",
+            "ChNHZXRBdXRvcmFuZ2VSZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFdW5pdHMY",
+            "AiABKAkiRgoUR2V0QXV0b3JhbmdlUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIR",
+            "CgltYWduaXR1ZGUYAiABKAESDQoFdW5pdHMYAyABKAkiRQoTU2V0QXV0b3Jh",
+            "bmdlUmVxdWVzdBIMCgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoARIN",
+            "CgV1bml0cxgDIAEoCSJGChRTZXRBdXRvcmFuZ2VSZXNwb25zZRIMCgRuYW1l",
+            "GAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoARINCgV1bml0cxgDIAEoCTLRDQoK",
+            "UG93ZXJNZXRlchIuCgdDb25uZWN0Eg8uQ29ubmVjdFJlcXVlc3QaEC5Db25u",
+            "ZWN0UmVzcG9uc2UiABI3CgpEaXNjb25uZWN0EhIuRGlzY29ubmVjdFJlcXVl",
+            "c3QaEy5EaXNjb25uZWN0UmVzcG9uc2UiABKbAQoIR2V0UG93ZXISRS5pbnN0",
             "cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVy",
-            "LnYxLkVjaG9SZXNwb25zZSIAEpgBCgdDb25uZWN0EkQuaW5zdHJvc2V0dGEu",
-            "aW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5Db25u",
-            "ZWN0UmVxdWVzdBpFLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5h",
-            "bHlzaXMucG93ZXJfbWV0ZXIudjEuQ29ubmVjdFJlc3BvbnNlIgASoQEKCkRp",
-            "c2Nvbm5lY3QSRy5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5",
-            "c2lzLnBvd2VyX21ldGVyLnYxLkRpc2Nvbm5lY3RSZXF1ZXN0GkguaW5zdHJv",
-            "c2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52",
-            "MS5EaXNjb25uZWN0UmVzcG9uc2UiABKbAQoIR2V0UG93ZXISRS5pbnN0cm9z",
-            "ZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYx",
-            "LkdldFBvd2VyUmVxdWVzdBpGLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGln",
-            "aHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0UG93ZXJSZXNwb25zZSIA",
-            "EpsBCghTZXRQb3dlchJFLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRf",
-            "YW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuU2V0UG93ZXJSZXF1ZXN0GkYuaW5z",
+            "LnYxLkdldFBvd2VyUmVxdWVzdBpGLmluc3Ryb3NldHRhLmludGVyZmFjZXMu",
+            "bGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0UG93ZXJSZXNwb25z",
+            "ZSIAEpsBCghTZXRQb3dlchJFLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGln",
+            "aHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuU2V0UG93ZXJSZXF1ZXN0GkYu",
+            "aW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9t",
+            "ZXRlci52MS5TZXRQb3dlclJlc3BvbnNlIgASmwEKCEdldENvdW50EkUuaW5z",
             "dHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9tZXRl",
-            "ci52MS5TZXRQb3dlclJlc3BvbnNlIgASmwEKCEdldENvdW50EkUuaW5zdHJv",
-            "c2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52",
-            "MS5HZXRDb3VudFJlcXVlc3QaRi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxp",
-            "Z2h0X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYxLkdldENvdW50UmVzcG9uc2Ui",
-            "ABKbAQoIU2V0Q291bnQSRS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0",
-            "X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYxLlNldENvdW50UmVxdWVzdBpGLmlu",
-            "c3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0",
-            "ZXIudjEuU2V0Q291bnRSZXNwb25zZSIAEqoBCg1HZXRXYXZlbGVuZ3RoEkou",
-            "aW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9t",
-            "ZXRlci52MS5HZXRXYXZlbGVuZ3RoUmVxdWVzdBpLLmluc3Ryb3NldHRhLmlu",
-            "dGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0V2F2",
-            "ZWxlbmd0aFJlc3BvbnNlIgASqgEKDVNldFdhdmVsZW5ndGgSSi5pbnN0cm9z",
-            "ZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYx",
-            "LlNldFdhdmVsZW5ndGhSZXF1ZXN0GksuaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
-            "cy5saWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5TZXRXYXZlbGVuZ3Ro",
-            "UmVzcG9uc2UiABKYAQoHR2V0TW9kZRJELmluc3Ryb3NldHRhLmludGVyZmFj",
-            "ZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0TW9kZVJlcXVl",
-            "c3QaRS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnBv",
-            "d2VyX21ldGVyLnYxLkdldE1vZGVSZXNwb25zZSIAEpgBCgdTZXRNb2RlEkQu",
-            "aW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9t",
-            "ZXRlci52MS5TZXRNb2RlUmVxdWVzdBpFLmluc3Ryb3NldHRhLmludGVyZmFj",
-            "ZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuU2V0TW9kZVJlc3Bv",
-            "bnNlIgASpwEKDEdldEF1dG9yYW5nZRJJLmluc3Ryb3NldHRhLmludGVyZmFj",
-            "ZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0QXV0b3Jhbmdl",
-            "UmVxdWVzdBpKLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlz",
-            "aXMucG93ZXJfbWV0ZXIudjEuR2V0QXV0b3JhbmdlUmVzcG9uc2UiABKnAQoM",
-            "U2V0QXV0b3JhbmdlEkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9h",
-            "bmFseXNpcy5wb3dlcl9tZXRlci52MS5TZXRBdXRvcmFuZ2VSZXF1ZXN0Gkou",
-            "aW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9t",
-            "ZXRlci52MS5TZXRBdXRvcmFuZ2VSZXNwb25zZSIAYgZwcm90bzM="));
+            "ci52MS5HZXRDb3VudFJlcXVlc3QaRi5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
+            "LmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYxLkdldENvdW50UmVzcG9u",
+            "c2UiABKbAQoIU2V0Q291bnQSRS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxp",
+            "Z2h0X2FuYWx5c2lzLnBvd2VyX21ldGVyLnYxLlNldENvdW50UmVxdWVzdBpG",
+            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJf",
+            "bWV0ZXIudjEuU2V0Q291bnRSZXNwb25zZSIAEqoBCg1HZXRXYXZlbGVuZ3Ro",
+            "EkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dl",
+            "cl9tZXRlci52MS5HZXRXYXZlbGVuZ3RoUmVxdWVzdBpLLmluc3Ryb3NldHRh",
+            "LmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0",
+            "V2F2ZWxlbmd0aFJlc3BvbnNlIgASqgEKDVNldFdhdmVsZW5ndGgSSi5pbnN0",
+            "cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnBvd2VyX21ldGVy",
+            "LnYxLlNldFdhdmVsZW5ndGhSZXF1ZXN0GksuaW5zdHJvc2V0dGEuaW50ZXJm",
+            "YWNlcy5saWdodF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5TZXRXYXZlbGVu",
+            "Z3RoUmVzcG9uc2UiABKYAQoHR2V0TW9kZRJELmluc3Ryb3NldHRhLmludGVy",
+            "ZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0TW9kZVJl",
+            "cXVlc3QaRS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lz",
+            "LnBvd2VyX21ldGVyLnYxLkdldE1vZGVSZXNwb25zZSIAEpgBCgdTZXRNb2Rl",
+            "EkQuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dl",
+            "cl9tZXRlci52MS5TZXRNb2RlUmVxdWVzdBpFLmluc3Ryb3NldHRhLmludGVy",
+            "ZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuU2V0TW9kZVJl",
+            "c3BvbnNlIgASpwEKDEdldEF1dG9yYW5nZRJJLmluc3Ryb3NldHRhLmludGVy",
+            "ZmFjZXMubGlnaHRfYW5hbHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0QXV0b3Jh",
+            "bmdlUmVxdWVzdBpKLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5h",
+            "bHlzaXMucG93ZXJfbWV0ZXIudjEuR2V0QXV0b3JhbmdlUmVzcG9uc2UiABKn",
+            "AQoMU2V0QXV0b3JhbmdlEkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdo",
+            "dF9hbmFseXNpcy5wb3dlcl9tZXRlci52MS5TZXRBdXRvcmFuZ2VSZXF1ZXN0",
+            "GkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5wb3dl",
+            "cl9tZXRlci52MS5TZXRBdXRvcmFuZ2VSZXNwb25zZSIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { },
+          new pbr::FileDescriptor[] { global::ConnectionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoRequest.Parser, new[]{ "Name", "Message" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.EchoResponse.Parser, new[]{ "Name", "Message" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.ConnectResponse.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectRequest.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.DisconnectResponse.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetPowerResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetPowerResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetCountRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetCountRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetCountResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetCountResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetCountRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetCountRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetCountResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetCountResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetCountResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetCountResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetCountRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetCountRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetCountResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetCountResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetWavelengthRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetWavelengthRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetWavelengthResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetWavelengthRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetWavelengthRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetWavelengthResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetWavelengthResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetWavelengthRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetWavelengthRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetWavelengthResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetModeRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetModeRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetModeResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetModeResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetModeRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetModeRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetModeResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetModeResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetModeResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetModeResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetModeRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetModeRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetModeResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetModeResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetAutorangeRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetAutorangeRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetAutorangeResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetAutorangeResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetAutorangeResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.GetAutorangeResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeRequest), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeResponse), global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.SetAutorangeResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
-  public sealed partial class EchoRequest : pb::IMessage<EchoRequest> {
-    private static readonly pb::MessageParser<EchoRequest> _parser = new pb::MessageParser<EchoRequest>(() => new EchoRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<EchoRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[0]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoRequest(EchoRequest other) : this() {
-      name_ = other.name_;
-      message_ = other.message_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoRequest Clone() {
-      return new EchoRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "message" field.</summary>
-    public const int MessageFieldNumber = 2;
-    private string message_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Message {
-      get { return message_; }
-      set {
-        message_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as EchoRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(EchoRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (Message != other.Message) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Message.Length != 0) hash ^= Message.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Message.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Message);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Message.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Message);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(EchoRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.Message.Length != 0) {
-        Message = other.Message;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 18: {
-            Message = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class EchoResponse : pb::IMessage<EchoResponse> {
-    private static readonly pb::MessageParser<EchoResponse> _parser = new pb::MessageParser<EchoResponse>(() => new EchoResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<EchoResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoResponse(EchoResponse other) : this() {
-      name_ = other.name_;
-      message_ = other.message_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EchoResponse Clone() {
-      return new EchoResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "message" field.</summary>
-    public const int MessageFieldNumber = 2;
-    private string message_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Message {
-      get { return message_; }
-      set {
-        message_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as EchoResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(EchoResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (Message != other.Message) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Message.Length != 0) hash ^= Message.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Message.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Message);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Message.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Message);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(EchoResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.Message.Length != 0) {
-        Message = other.Message;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 18: {
-            Message = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class ConnectRequest : pb::IMessage<ConnectRequest> {
-    private static readonly pb::MessageParser<ConnectRequest> _parser = new pb::MessageParser<ConnectRequest>(() => new ConnectRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConnectRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[2]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest(ConnectRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectRequest Clone() {
-      return new ConnectRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConnectRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConnectRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConnectRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class ConnectResponse : pb::IMessage<ConnectResponse> {
-    private static readonly pb::MessageParser<ConnectResponse> _parser = new pb::MessageParser<ConnectResponse>(() => new ConnectResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ConnectResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse(ConnectResponse other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ConnectResponse Clone() {
-      return new ConnectResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ConnectResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ConnectResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ConnectResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class DisconnectRequest : pb::IMessage<DisconnectRequest> {
-    private static readonly pb::MessageParser<DisconnectRequest> _parser = new pb::MessageParser<DisconnectRequest>(() => new DisconnectRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DisconnectRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[4]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest(DisconnectRequest other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectRequest Clone() {
-      return new DisconnectRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DisconnectRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DisconnectRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DisconnectRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class DisconnectResponse : pb::IMessage<DisconnectResponse> {
-    private static readonly pb::MessageParser<DisconnectResponse> _parser = new pb::MessageParser<DisconnectResponse>(() => new DisconnectResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<DisconnectResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[5]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse(DisconnectResponse other) : this() {
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public DisconnectResponse Clone() {
-      return new DisconnectResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as DisconnectResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(DisconnectResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(DisconnectResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
   public sealed partial class GetPowerRequest : pb::IMessage<GetPowerRequest> {
     private static readonly pb::MessageParser<GetPowerRequest> _parser = new pb::MessageParser<GetPowerRequest>(() => new GetPowerRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -979,7 +132,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1136,7 +289,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1154,7 +307,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetPowerResponse(GetPowerResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1175,14 +328,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -1211,7 +364,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1220,7 +373,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1239,9 +392,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -1258,7 +411,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -1278,8 +431,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -1300,7 +453,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -1321,7 +474,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1339,7 +492,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetPowerRequest(SetPowerRequest other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1360,14 +513,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -1396,7 +549,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1405,7 +558,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1424,9 +577,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -1443,7 +596,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -1463,8 +616,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -1485,7 +638,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -1506,7 +659,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1524,7 +677,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetPowerResponse(SetPowerResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1545,14 +698,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -1581,7 +734,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1590,7 +743,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1609,9 +762,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -1628,7 +781,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -1648,8 +801,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -1670,7 +823,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -1691,7 +844,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1848,7 +1001,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1866,7 +1019,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetCountResponse(GetCountResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1887,14 +1040,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -1923,7 +1076,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1932,7 +1085,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1951,9 +1104,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -1970,7 +1123,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -1990,8 +1143,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -2012,7 +1165,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -2033,7 +1186,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2051,7 +1204,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetCountRequest(SetCountRequest other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2072,14 +1225,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -2108,7 +1261,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2117,7 +1270,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2136,9 +1289,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -2155,7 +1308,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -2175,8 +1328,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -2197,7 +1350,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -2218,7 +1371,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2236,7 +1389,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetCountResponse(SetCountResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2257,14 +1410,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -2293,7 +1446,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2302,7 +1455,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2321,9 +1474,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -2340,7 +1493,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -2360,8 +1513,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -2382,7 +1535,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -2403,7 +1556,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2560,7 +1713,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2578,7 +1731,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetWavelengthResponse(GetWavelengthResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2599,14 +1752,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -2635,7 +1788,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2644,7 +1797,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2663,9 +1816,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -2682,7 +1835,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -2702,8 +1855,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -2724,7 +1877,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -2745,7 +1898,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2763,7 +1916,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetWavelengthRequest(SetWavelengthRequest other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2784,14 +1937,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -2820,7 +1973,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2829,7 +1982,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2848,9 +2001,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -2867,7 +2020,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -2887,8 +2040,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -2909,7 +2062,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -2930,7 +2083,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2948,7 +2101,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetWavelengthResponse(SetWavelengthResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2969,14 +2122,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -3005,7 +2158,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3014,7 +2167,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3033,9 +2186,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -3052,7 +2205,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -3072,8 +2225,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -3094,7 +2247,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -3115,7 +2268,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3272,7 +2425,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3290,7 +2443,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetModeResponse(GetModeResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -3311,14 +2464,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -3347,7 +2500,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3356,7 +2509,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3375,9 +2528,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -3394,7 +2547,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -3414,8 +2567,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -3436,7 +2589,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -3457,7 +2610,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3475,7 +2628,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetModeRequest(SetModeRequest other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -3496,14 +2649,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -3532,7 +2685,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3541,7 +2694,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3560,9 +2713,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -3579,7 +2732,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -3599,8 +2752,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -3621,7 +2774,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -3642,7 +2795,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3660,7 +2813,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetModeResponse(SetModeResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -3681,14 +2834,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -3717,7 +2870,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3726,7 +2879,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3745,9 +2898,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -3764,7 +2917,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -3784,8 +2937,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -3806,7 +2959,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -3827,7 +2980,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3984,7 +3137,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4002,7 +3155,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetAutorangeResponse(GetAutorangeResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4023,14 +3176,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -4059,7 +3212,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4068,7 +3221,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4087,9 +3240,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -4106,7 +3259,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -4126,8 +3279,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -4148,7 +3301,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -4169,7 +3322,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4187,7 +3340,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetAutorangeRequest(SetAutorangeRequest other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4208,14 +3361,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -4244,7 +3397,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4253,7 +3406,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4272,9 +3425,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -4291,7 +3444,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -4311,8 +3464,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -4333,7 +3486,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -4354,7 +3507,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1.PowerMeterReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4372,7 +3525,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetAutorangeResponse(SetAutorangeResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4393,14 +3546,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -4429,7 +3582,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4438,7 +3591,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4457,9 +3610,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -4476,7 +3629,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -4496,8 +3649,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -4518,7 +3671,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.PowerMeter.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {

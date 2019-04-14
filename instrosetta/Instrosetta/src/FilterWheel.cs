@@ -37,88 +37,74 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
             "ASABKAkSDQoFdmFsdWUYAiABKAESDQoFdW5pdHMYAyABKAkiKAoYR2V0U2Vu",
             "c29yc09wdGlvbnNSZXF1ZXN0EgwKBG5hbWUYASABKAkiOgoZR2V0U2Vuc29y",
             "c09wdGlvbnNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg8KB29wdGlvbnMYAiAD",
-            "KAEiMAoRR2V0U2Vuc29yc1JlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgV1bml0",
-            "cxgCIAEoCSJAChJHZXRTZW5zb3JzUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIN",
-            "CgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSI/ChFTZXRTZW5zb3JzUmVx",
-            "dWVzdBIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgBEg0KBXVuaXRzGAMg",
-            "ASgJIkAKElNldFNlbnNvcnNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg0KBXZh",
-            "bHVlGAIgASgBEg0KBXVuaXRzGAMgASgJIi0KDkdldFBvcnRSZXF1ZXN0EgwK",
-            "BG5hbWUYASABKAkSDQoFdW5pdHMYAiABKAkiPQoPR2V0UG9ydFJlc3BvbnNl",
-            "EgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAESDQoFdW5pdHMYAyABKAki",
-            "PAoOU2V0UG9ydFJlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEo",
-            "ARINCgV1bml0cxgDIAEoCSI9Cg9TZXRQb3J0UmVzcG9uc2USDAoEbmFtZRgB",
-            "IAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSInChdHZXRGaWx0",
-            "ZXJPcHRpb25zUmVxdWVzdBIMCgRuYW1lGAEgASgJIjkKGEdldEZpbHRlck9w",
-            "dGlvbnNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg8KB29wdGlvbnMYAiADKAEi",
-            "LwoQR2V0RmlsdGVyUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXVuaXRzGAIg",
-            "ASgJIj8KEUdldEZpbHRlclJlc3BvbnNlEgwKBG5hbWUYASABKAkSDQoFdmFs",
-            "dWUYAiABKAESDQoFdW5pdHMYAyABKAkiPgoQU2V0RmlsdGVyUmVxdWVzdBIM",
-            "CgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgBEg0KBXVuaXRzGAMgASgJIj8K",
-            "EVNldEZpbHRlclJlc3BvbnNlEgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiAB",
-            "KAESDQoFdW5pdHMYAyABKAkiKQoZR2V0UG9zaXRpb25PcHRpb25zUmVxdWVz",
-            "dBIMCgRuYW1lGAEgASgJIjsKGkdldFBvc2l0aW9uT3B0aW9uc1Jlc3BvbnNl",
-            "EgwKBG5hbWUYASABKAkSDwoHb3B0aW9ucxgCIAMoASIxChJHZXRQb3NpdGlv",
-            "blJlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgV1bml0cxgCIAEoCSJBChNHZXRQ",
-            "b3NpdGlvblJlc3BvbnNlEgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAES",
-            "DQoFdW5pdHMYAyABKAkiQAoSU2V0UG9zaXRpb25SZXF1ZXN0EgwKBG5hbWUY",
-            "ASABKAkSDQoFdmFsdWUYAiABKAESDQoFdW5pdHMYAyABKAkiQQoTU2V0UG9z",
-            "aXRpb25SZXNwb25zZRIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgBEg0K",
-            "BXVuaXRzGAMgASgJMp4TCgtGaWx0ZXJXaGVlbBIuCgdDb25uZWN0Eg8uQ29u",
-            "bmVjdFJlcXVlc3QaEC5Db25uZWN0UmVzcG9uc2UiABI3CgpEaXNjb25uZWN0",
-            "EhIuRGlzY29ubmVjdFJlcXVlc3QaEy5EaXNjb25uZWN0UmVzcG9uc2UiABKw",
-            "AQoPR2V0U3BlZWRPcHRpb25zEkwuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5v",
-            "cHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5HZXRTcGVlZE9wdGlvbnNS",
-            "ZXF1ZXN0Gk0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNz",
-            "LmZpbHRlcl93aGVlbC52MS5HZXRTcGVlZE9wdGlvbnNSZXNwb25zZSIAEpsB",
-            "CghHZXRTcGVlZBJFLmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hh",
-            "bmljcy5maWx0ZXJfd2hlZWwudjEuR2V0U3BlZWRSZXF1ZXN0GkYuaW5zdHJv",
-            "c2V0dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52",
-            "MS5HZXRTcGVlZFJlc3BvbnNlIgASmwEKCFNldFNwZWVkEkUuaW5zdHJvc2V0",
-            "dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5T",
-            "ZXRTcGVlZFJlcXVlc3QaRi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9t",
-            "ZWNoYW5pY3MuZmlsdGVyX3doZWVsLnYxLlNldFNwZWVkUmVzcG9uc2UiABK2",
-            "AQoRR2V0U2Vuc29yc09wdGlvbnMSTi5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
-            "Lm9wdG9tZWNoYW5pY3MuZmlsdGVyX3doZWVsLnYxLkdldFNlbnNvcnNPcHRp",
-            "b25zUmVxdWVzdBpPLmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hh",
-            "bmljcy5maWx0ZXJfd2hlZWwudjEuR2V0U2Vuc29yc09wdGlvbnNSZXNwb25z",
-            "ZSIAEqEBCgpHZXRTZW5zb3JzEkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5v",
-            "cHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5HZXRTZW5zb3JzUmVxdWVz",
-            "dBpILmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0",
-            "ZXJfd2hlZWwudjEuR2V0U2Vuc29yc1Jlc3BvbnNlIgASoQEKClNldFNlbnNv",
-            "cnMSRy5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5pY3MuZmls",
-            "dGVyX3doZWVsLnYxLlNldFNlbnNvcnNSZXF1ZXN0GkguaW5zdHJvc2V0dGEu",
-            "aW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5TZXRT",
-            "ZW5zb3JzUmVzcG9uc2UiABKYAQoHR2V0UG9ydBJELmluc3Ryb3NldHRhLmlu",
-            "dGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfd2hlZWwudjEuR2V0UG9y",
-            "dFJlcXVlc3QaRS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5p",
-            "Y3MuZmlsdGVyX3doZWVsLnYxLkdldFBvcnRSZXNwb25zZSIAEpgBCgdTZXRQ",
-            "b3J0EkQuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZp",
-            "bHRlcl93aGVlbC52MS5TZXRQb3J0UmVxdWVzdBpFLmluc3Ryb3NldHRhLmlu",
-            "dGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfd2hlZWwudjEuU2V0UG9y",
-            "dFJlc3BvbnNlIgASswEKEEdldEZpbHRlck9wdGlvbnMSTS5pbnN0cm9zZXR0",
-            "YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5pY3MuZmlsdGVyX3doZWVsLnYxLkdl",
-            "dEZpbHRlck9wdGlvbnNSZXF1ZXN0Gk4uaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
-            "cy5vcHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5HZXRGaWx0ZXJPcHRp",
-            "b25zUmVzcG9uc2UiABKeAQoJR2V0RmlsdGVyEkYuaW5zdHJvc2V0dGEuaW50",
-            "ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5HZXRGaWx0",
-            "ZXJSZXF1ZXN0GkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFu",
-            "aWNzLmZpbHRlcl93aGVlbC52MS5HZXRGaWx0ZXJSZXNwb25zZSIAEp4BCglT",
-            "ZXRGaWx0ZXISRi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5p",
-            "Y3MuZmlsdGVyX3doZWVsLnYxLlNldEZpbHRlclJlcXVlc3QaRy5pbnN0cm9z",
-            "ZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5pY3MuZmlsdGVyX3doZWVsLnYx",
-            "LlNldEZpbHRlclJlc3BvbnNlIgASuQEKEkdldFBvc2l0aW9uT3B0aW9ucxJP",
-            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJf",
-            "d2hlZWwudjEuR2V0UG9zaXRpb25PcHRpb25zUmVxdWVzdBpQLmluc3Ryb3Nl",
+            "KA0iIQoRR2V0U2Vuc29yc1JlcXVlc3QSDAoEbmFtZRgBIAEoCSIxChJHZXRT",
+            "ZW5zb3JzUmVzcG9uc2USDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoDSIw",
+            "ChFTZXRTZW5zb3JzUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIg",
+            "ASgNIjEKElNldFNlbnNvcnNSZXNwb25zZRIMCgRuYW1lGAEgASgJEg0KBXZh",
+            "bHVlGAIgASgNIicKF0dldEZpbHRlck9wdGlvbnNSZXF1ZXN0EgwKBG5hbWUY",
+            "ASABKAkiOQoYR2V0RmlsdGVyT3B0aW9uc1Jlc3BvbnNlEgwKBG5hbWUYASAB",
+            "KAkSDwoHb3B0aW9ucxgCIAMoASIvChBHZXRGaWx0ZXJSZXF1ZXN0EgwKBG5h",
+            "bWUYASABKAkSDQoFdW5pdHMYAiABKAkiPwoRR2V0RmlsdGVyUmVzcG9uc2US",
+            "DAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSI+",
+            "ChBTZXRGaWx0ZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiAB",
+            "KAESDQoFdW5pdHMYAyABKAkiPwoRU2V0RmlsdGVyUmVzcG9uc2USDAoEbmFt",
+            "ZRgBIAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSIpChlHZXRQ",
+            "b3NpdGlvbk9wdGlvbnNSZXF1ZXN0EgwKBG5hbWUYASABKAkiOwoaR2V0UG9z",
+            "aXRpb25PcHRpb25zUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIPCgdvcHRpb25z",
+            "GAIgAygBIjEKEkdldFBvc2l0aW9uUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0K",
+            "BXVuaXRzGAIgASgJIkEKE0dldFBvc2l0aW9uUmVzcG9uc2USDAoEbmFtZRgB",
+            "IAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSJAChJTZXRQb3Np",
+            "dGlvblJlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoARINCgV1",
+            "bml0cxgDIAEoCSJBChNTZXRQb3NpdGlvblJlc3BvbnNlEgwKBG5hbWUYASAB",
+            "KAkSDQoFdmFsdWUYAiABKAESDQoFdW5pdHMYAyABKAky6BAKC0ZpbHRlcldo",
+            "ZWVsEi4KB0Nvbm5lY3QSDy5Db25uZWN0UmVxdWVzdBoQLkNvbm5lY3RSZXNw",
+            "b25zZSIAEjcKCkRpc2Nvbm5lY3QSEi5EaXNjb25uZWN0UmVxdWVzdBoTLkRp",
+            "c2Nvbm5lY3RSZXNwb25zZSIAErABCg9HZXRTcGVlZE9wdGlvbnMSTC5pbnN0",
+            "cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5pY3MuZmlsdGVyX3doZWVs",
+            "LnYxLkdldFNwZWVkT3B0aW9uc1JlcXVlc3QaTS5pbnN0cm9zZXR0YS5pbnRl",
+            "cmZhY2VzLm9wdG9tZWNoYW5pY3MuZmlsdGVyX3doZWVsLnYxLkdldFNwZWVk",
+            "T3B0aW9uc1Jlc3BvbnNlIgASmwEKCEdldFNwZWVkEkUuaW5zdHJvc2V0dGEu",
+            "aW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5HZXRT",
+            "cGVlZFJlcXVlc3QaRi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNo",
+            "YW5pY3MuZmlsdGVyX3doZWVsLnYxLkdldFNwZWVkUmVzcG9uc2UiABKbAQoI",
+            "U2V0U3BlZWQSRS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5p",
+            "Y3MuZmlsdGVyX3doZWVsLnYxLlNldFNwZWVkUmVxdWVzdBpGLmluc3Ryb3Nl",
             "dHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfd2hlZWwudjEu",
-            "R2V0UG9zaXRpb25PcHRpb25zUmVzcG9uc2UiABKkAQoLR2V0UG9zaXRpb24S",
-            "SC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5pY3MuZmlsdGVy",
-            "X3doZWVsLnYxLkdldFBvc2l0aW9uUmVxdWVzdBpJLmluc3Ryb3NldHRhLmlu",
-            "dGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfd2hlZWwudjEuR2V0UG9z",
-            "aXRpb25SZXNwb25zZSIAEqQBCgtTZXRQb3NpdGlvbhJILmluc3Ryb3NldHRh",
-            "LmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfd2hlZWwudjEuU2V0",
-            "UG9zaXRpb25SZXF1ZXN0GkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5vcHRv",
-            "bWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5TZXRQb3NpdGlvblJlc3BvbnNl",
-            "IgBiBnByb3RvMw=="));
+            "U2V0U3BlZWRSZXNwb25zZSIAErYBChFHZXRTZW5zb3JzT3B0aW9ucxJOLmlu",
+            "c3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfd2hl",
+            "ZWwudjEuR2V0U2Vuc29yc09wdGlvbnNSZXF1ZXN0Gk8uaW5zdHJvc2V0dGEu",
+            "aW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5HZXRT",
+            "ZW5zb3JzT3B0aW9uc1Jlc3BvbnNlIgASoQEKCkdldFNlbnNvcnMSRy5pbnN0",
+            "cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5pY3MuZmlsdGVyX3doZWVs",
+            "LnYxLkdldFNlbnNvcnNSZXF1ZXN0GkguaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
+            "cy5vcHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5HZXRTZW5zb3JzUmVz",
+            "cG9uc2UiABKhAQoKU2V0U2Vuc29ycxJHLmluc3Ryb3NldHRhLmludGVyZmFj",
+            "ZXMub3B0b21lY2hhbmljcy5maWx0ZXJfd2hlZWwudjEuU2V0U2Vuc29yc1Jl",
+            "cXVlc3QaSC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5pY3Mu",
+            "ZmlsdGVyX3doZWVsLnYxLlNldFNlbnNvcnNSZXNwb25zZSIAErMBChBHZXRG",
+            "aWx0ZXJPcHRpb25zEk0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5vcHRvbWVj",
+            "aGFuaWNzLmZpbHRlcl93aGVlbC52MS5HZXRGaWx0ZXJPcHRpb25zUmVxdWVz",
+            "dBpOLmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0",
+            "ZXJfd2hlZWwudjEuR2V0RmlsdGVyT3B0aW9uc1Jlc3BvbnNlIgASngEKCUdl",
+            "dEZpbHRlchJGLmluc3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmlj",
+            "cy5maWx0ZXJfd2hlZWwudjEuR2V0RmlsdGVyUmVxdWVzdBpHLmluc3Ryb3Nl",
+            "dHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfd2hlZWwudjEu",
+            "R2V0RmlsdGVyUmVzcG9uc2UiABKeAQoJU2V0RmlsdGVyEkYuaW5zdHJvc2V0",
+            "dGEuaW50ZXJmYWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5T",
+            "ZXRGaWx0ZXJSZXF1ZXN0GkcuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5vcHRv",
+            "bWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5TZXRGaWx0ZXJSZXNwb25zZSIA",
+            "ErkBChJHZXRQb3NpdGlvbk9wdGlvbnMSTy5pbnN0cm9zZXR0YS5pbnRlcmZh",
+            "Y2VzLm9wdG9tZWNoYW5pY3MuZmlsdGVyX3doZWVsLnYxLkdldFBvc2l0aW9u",
+            "T3B0aW9uc1JlcXVlc3QaUC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9t",
+            "ZWNoYW5pY3MuZmlsdGVyX3doZWVsLnYxLkdldFBvc2l0aW9uT3B0aW9uc1Jl",
+            "c3BvbnNlIgASpAEKC0dldFBvc2l0aW9uEkguaW5zdHJvc2V0dGEuaW50ZXJm",
+            "YWNlcy5vcHRvbWVjaGFuaWNzLmZpbHRlcl93aGVlbC52MS5HZXRQb3NpdGlv",
+            "blJlcXVlc3QaSS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNoYW5p",
+            "Y3MuZmlsdGVyX3doZWVsLnYxLkdldFBvc2l0aW9uUmVzcG9uc2UiABKkAQoL",
+            "U2V0UG9zaXRpb24SSC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLm9wdG9tZWNo",
+            "YW5pY3MuZmlsdGVyX3doZWVsLnYxLlNldFBvc2l0aW9uUmVxdWVzdBpJLmlu",
+            "c3Ryb3NldHRhLmludGVyZmFjZXMub3B0b21lY2hhbmljcy5maWx0ZXJfd2hl",
+            "ZWwudjEuU2V0UG9zaXRpb25SZXNwb25zZSIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::ConnectionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -130,14 +116,10 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSpeedResponse), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSpeedResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsOptionsRequest), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsOptionsRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsOptionsResponse), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsOptionsResponse.Parser, new[]{ "Name", "Options" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsRequest), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsResponse), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsRequest), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsResponse), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsRequest), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsResponse), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsResponse.Parser, new[]{ "Name", "Value" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsRequest), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsRequest.Parser, new[]{ "Name", "Value" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsResponse), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsResponse.Parser, new[]{ "Name", "Value" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsRequest), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsResponse), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsResponse.Parser, new[]{ "Name", "Options" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterRequest), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
@@ -1324,11 +1306,11 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     /// <summary>Field number for the "options" field.</summary>
     public const int OptionsFieldNumber = 2;
-    private static readonly pb::FieldCodec<double> _repeated_options_codec
-        = pb::FieldCodec.ForDouble(18);
-    private readonly pbc::RepeatedField<double> options_ = new pbc::RepeatedField<double>();
+    private static readonly pb::FieldCodec<uint> _repeated_options_codec
+        = pb::FieldCodec.ForUInt32(18);
+    private readonly pbc::RepeatedField<uint> options_ = new pbc::RepeatedField<uint>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<double> Options {
+    public pbc::RepeatedField<uint> Options {
       get { return options_; }
     }
 
@@ -1416,7 +1398,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
             break;
           }
           case 18:
-          case 17: {
+          case 16: {
             options_.AddEntriesFrom(input, _repeated_options_codec);
             break;
           }
@@ -1452,7 +1434,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetSensorsRequest(GetSensorsRequest other) : this() {
       name_ = other.name_;
-      units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1472,17 +1453,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       }
     }
 
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 2;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as GetSensorsRequest);
@@ -1497,7 +1467,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1505,7 +1474,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1523,10 +1491,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Units.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Units);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1537,9 +1501,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       int size = 0;
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1555,9 +1516,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1571,10 +1529,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
             break;
           case 10: {
             Name = input.ReadString();
-            break;
-          }
-          case 18: {
-            Units = input.ReadString();
             break;
           }
         }
@@ -1610,7 +1564,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
     public GetSensorsResponse(GetSensorsResponse other) : this() {
       name_ = other.name_;
       value_ = other.value_;
-      units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1632,23 +1585,12 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     /// <summary>Field number for the "value" field.</summary>
     public const int ValueFieldNumber = 2;
-    private double value_;
+    private uint value_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
+    public uint Value {
       get { return value_; }
       set {
         value_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 3;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -1666,8 +1608,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
-      if (Units != other.Units) return false;
+      if (Value != other.Value) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1675,8 +1616,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
+      if (Value != 0) hash ^= Value.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1694,13 +1634,9 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
-        output.WriteRawTag(17);
-        output.WriteDouble(Value);
-      }
-      if (Units.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Units);
+      if (Value != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Value);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1713,11 +1649,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
-        size += 1 + 8;
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
+      if (Value != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Value);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1733,11 +1666,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
+      if (other.Value != 0) {
         Value = other.Value;
-      }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1754,12 +1684,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
             Name = input.ReadString();
             break;
           }
-          case 17: {
-            Value = input.ReadDouble();
-            break;
-          }
-          case 26: {
-            Units = input.ReadString();
+          case 16: {
+            Value = input.ReadUInt32();
             break;
           }
         }
@@ -1795,7 +1721,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
     public SetSensorsRequest(SetSensorsRequest other) : this() {
       name_ = other.name_;
       value_ = other.value_;
-      units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1817,23 +1742,12 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     /// <summary>Field number for the "value" field.</summary>
     public const int ValueFieldNumber = 2;
-    private double value_;
+    private uint value_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
+    public uint Value {
       get { return value_; }
       set {
         value_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 3;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -1851,8 +1765,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
-      if (Units != other.Units) return false;
+      if (Value != other.Value) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1860,8 +1773,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
+      if (Value != 0) hash ^= Value.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1879,13 +1791,9 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
-        output.WriteRawTag(17);
-        output.WriteDouble(Value);
-      }
-      if (Units.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Units);
+      if (Value != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Value);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1898,11 +1806,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
-        size += 1 + 8;
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
+      if (Value != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Value);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1918,11 +1823,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
+      if (other.Value != 0) {
         Value = other.Value;
-      }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1939,12 +1841,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
             Name = input.ReadString();
             break;
           }
-          case 17: {
-            Value = input.ReadDouble();
-            break;
-          }
-          case 26: {
-            Units = input.ReadString();
+          case 16: {
+            Value = input.ReadUInt32();
             break;
           }
         }
@@ -1980,7 +1878,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
     public SetSensorsResponse(SetSensorsResponse other) : this() {
       name_ = other.name_;
       value_ = other.value_;
-      units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2002,23 +1899,12 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     /// <summary>Field number for the "value" field.</summary>
     public const int ValueFieldNumber = 2;
-    private double value_;
+    private uint value_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
+    public uint Value {
       get { return value_; }
       set {
         value_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 3;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -2036,8 +1922,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
-      if (Units != other.Units) return false;
+      if (Value != other.Value) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2045,8 +1930,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
+      if (Value != 0) hash ^= Value.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2064,13 +1948,9 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
-        output.WriteRawTag(17);
-        output.WriteDouble(Value);
-      }
-      if (Units.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Units);
+      if (Value != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Value);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -2083,11 +1963,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
-        size += 1 + 8;
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
+      if (Value != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Value);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2103,12 +1980,9 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
+      if (other.Value != 0) {
         Value = other.Value;
       }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2124,724 +1998,8 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
             Name = input.ReadString();
             break;
           }
-          case 17: {
-            Value = input.ReadDouble();
-            break;
-          }
-          case 26: {
-            Units = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class GetPortRequest : pb::IMessage<GetPortRequest> {
-    private static readonly pb::MessageParser<GetPortRequest> _parser = new pb::MessageParser<GetPortRequest>(() => new GetPortRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetPortRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[12]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetPortRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetPortRequest(GetPortRequest other) : this() {
-      name_ = other.name_;
-      units_ = other.units_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetPortRequest Clone() {
-      return new GetPortRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 2;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as GetPortRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetPortRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (Units != other.Units) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Units.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Units);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetPortRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 18: {
-            Units = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class GetPortResponse : pb::IMessage<GetPortResponse> {
-    private static readonly pb::MessageParser<GetPortResponse> _parser = new pb::MessageParser<GetPortResponse>(() => new GetPortResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<GetPortResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[13]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetPortResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetPortResponse(GetPortResponse other) : this() {
-      name_ = other.name_;
-      value_ = other.value_;
-      units_ = other.units_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public GetPortResponse Clone() {
-      return new GetPortResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
-      set {
-        value_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 3;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as GetPortResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(GetPortResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
-      if (Units != other.Units) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Value != 0D) {
-        output.WriteRawTag(17);
-        output.WriteDouble(Value);
-      }
-      if (Units.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Units);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Value != 0D) {
-        size += 1 + 8;
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(GetPortResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.Value != 0D) {
-        Value = other.Value;
-      }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 17: {
-            Value = input.ReadDouble();
-            break;
-          }
-          case 26: {
-            Units = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class SetPortRequest : pb::IMessage<SetPortRequest> {
-    private static readonly pb::MessageParser<SetPortRequest> _parser = new pb::MessageParser<SetPortRequest>(() => new SetPortRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<SetPortRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[14]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetPortRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetPortRequest(SetPortRequest other) : this() {
-      name_ = other.name_;
-      value_ = other.value_;
-      units_ = other.units_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetPortRequest Clone() {
-      return new SetPortRequest(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
-      set {
-        value_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 3;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as SetPortRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(SetPortRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
-      if (Units != other.Units) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Value != 0D) {
-        output.WriteRawTag(17);
-        output.WriteDouble(Value);
-      }
-      if (Units.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Units);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Value != 0D) {
-        size += 1 + 8;
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(SetPortRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.Value != 0D) {
-        Value = other.Value;
-      }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 17: {
-            Value = input.ReadDouble();
-            break;
-          }
-          case 26: {
-            Units = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class SetPortResponse : pb::IMessage<SetPortResponse> {
-    private static readonly pb::MessageParser<SetPortResponse> _parser = new pb::MessageParser<SetPortResponse>(() => new SetPortResponse());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<SetPortResponse> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[15]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetPortResponse() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetPortResponse(SetPortResponse other) : this() {
-      name_ = other.name_;
-      value_ = other.value_;
-      units_ = other.units_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetPortResponse Clone() {
-      return new SetPortResponse(this);
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 1;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
-      set {
-        value_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 3;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as SetPortResponse);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(SetPortResponse other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
-      if (Units != other.Units) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Name);
-      }
-      if (Value != 0D) {
-        output.WriteRawTag(17);
-        output.WriteDouble(Value);
-      }
-      if (Units.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Units);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (Value != 0D) {
-        size += 1 + 8;
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(SetPortResponse other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      if (other.Value != 0D) {
-        Value = other.Value;
-      }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Name = input.ReadString();
-            break;
-          }
-          case 17: {
-            Value = input.ReadDouble();
-            break;
-          }
-          case 26: {
-            Units = input.ReadString();
+          case 16: {
+            Value = input.ReadUInt32();
             break;
           }
         }
@@ -2858,7 +2016,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2987,7 +2145,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3137,7 +2295,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3294,7 +2452,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3479,7 +2637,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3664,7 +2822,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3849,7 +3007,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3978,7 +3136,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4128,7 +3286,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4285,7 +3443,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4470,7 +3628,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4655,7 +3813,7 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.FilterWheelReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

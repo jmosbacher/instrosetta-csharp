@@ -20,6 +20,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SaveResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_RunRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_RunResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_ClearScreenRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_ClearScreenResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetGratingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetGratingResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingOptionsRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetGratingOptionsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingOptionsRequest.Parser.ParseFrom);
@@ -42,10 +44,10 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetSlitWidthResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetSlitWidthResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetSlitWidthResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetSlitWidthRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetSlitWidthResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetConnectionDetailsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetConnectionDetailsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetConnectionDetailsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetConnectionDetailsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetReadoutModeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetReadoutModeResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetReadoutModeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse> __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetReadoutModeResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::ConnectRequest, global::ConnectResponse> __Method_Connect = new grpc::Method<global::ConnectRequest, global::ConnectResponse>(
         grpc::MethodType.Unary,
@@ -74,6 +76,13 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         "Run",
         __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_RunRequest,
         __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_RunResponse);
+
+    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse> __Method_ClearScreen = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ClearScreen",
+        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_ClearScreenRequest,
+        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_ClearScreenResponse);
 
     static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingResponse> __Method_GetGrating = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingResponse>(
         grpc::MethodType.Unary,
@@ -152,19 +161,19 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetSlitWidthRequest,
         __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetSlitWidthResponse);
 
-    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse> __Method_GetConnectionDetails = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse> __Method_GetReadoutMode = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "GetConnectionDetails",
-        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetConnectionDetailsRequest,
-        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetConnectionDetailsResponse);
+        "GetReadoutMode",
+        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetReadoutModeRequest,
+        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_GetReadoutModeResponse);
 
-    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse> __Method_SetConnectionDetails = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse>(
+    static readonly grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse> __Method_SetReadoutMode = new grpc::Method<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "SetConnectionDetails",
-        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetConnectionDetailsRequest,
-        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetConnectionDetailsResponse);
+        "SetReadoutMode",
+        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetReadoutModeRequest,
+        __Marshaller_instrosetta_interfaces_light_analysis_spectrograph_v1_SetReadoutModeResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -191,6 +200,11 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
 
       public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunResponse> Run(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse> ClearScreen(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -250,12 +264,12 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse> GetConnectionDetails(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse> GetReadoutMode(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse> SetConnectionDetails(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse> SetReadoutMode(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -348,6 +362,22 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunResponse> RunAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Run, null, options, request);
+      }
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse ClearScreen(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ClearScreen(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse ClearScreen(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ClearScreen, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse> ClearScreenAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ClearScreenAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse> ClearScreenAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ClearScreen, null, options, request);
       }
       public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingResponse GetGrating(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
@@ -525,37 +555,37 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_SetSlitWidth, null, options, request);
       }
-      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse GetConnectionDetails(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse GetReadoutMode(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetConnectionDetails(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetReadoutMode(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse GetConnectionDetails(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse GetReadoutMode(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_GetConnectionDetails, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_GetReadoutMode, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse> GetConnectionDetailsAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse> GetReadoutModeAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetConnectionDetailsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetReadoutModeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse> GetConnectionDetailsAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse> GetReadoutModeAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_GetConnectionDetails, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_GetReadoutMode, null, options, request);
       }
-      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse SetConnectionDetails(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse SetReadoutMode(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return SetConnectionDetails(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return SetReadoutMode(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse SetConnectionDetails(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest request, grpc::CallOptions options)
+      public virtual global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse SetReadoutMode(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_SetConnectionDetails, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_SetReadoutMode, null, options, request);
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse> SetConnectionDetailsAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse> SetReadoutModeAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return SetConnectionDetailsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return SetReadoutModeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse> SetConnectionDetailsAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse> SetReadoutModeAsync(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_SetConnectionDetails, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_SetReadoutMode, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override SpectrographClient NewInstance(ClientBaseConfiguration configuration)
@@ -573,6 +603,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
           .AddMethod(__Method_Disconnect, serviceImpl.Disconnect)
           .AddMethod(__Method_Save, serviceImpl.Save)
           .AddMethod(__Method_Run, serviceImpl.Run)
+          .AddMethod(__Method_ClearScreen, serviceImpl.ClearScreen)
           .AddMethod(__Method_GetGrating, serviceImpl.GetGrating)
           .AddMethod(__Method_GetGratingOptions, serviceImpl.GetGratingOptions)
           .AddMethod(__Method_SetGrating, serviceImpl.SetGrating)
@@ -584,8 +615,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
           .AddMethod(__Method_SetExposure, serviceImpl.SetExposure)
           .AddMethod(__Method_GetSlitWidth, serviceImpl.GetSlitWidth)
           .AddMethod(__Method_SetSlitWidth, serviceImpl.SetSlitWidth)
-          .AddMethod(__Method_GetConnectionDetails, serviceImpl.GetConnectionDetails)
-          .AddMethod(__Method_SetConnectionDetails, serviceImpl.SetConnectionDetails).Build();
+          .AddMethod(__Method_GetReadoutMode, serviceImpl.GetReadoutMode)
+          .AddMethod(__Method_SetReadoutMode, serviceImpl.SetReadoutMode).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -598,6 +629,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       serviceBinder.AddMethod(__Method_Disconnect, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::DisconnectRequest, global::DisconnectResponse>(serviceImpl.Disconnect));
       serviceBinder.AddMethod(__Method_Save, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse>(serviceImpl.Save));
       serviceBinder.AddMethod(__Method_Run, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunResponse>(serviceImpl.Run));
+      serviceBinder.AddMethod(__Method_ClearScreen, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse>(serviceImpl.ClearScreen));
       serviceBinder.AddMethod(__Method_GetGrating, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingResponse>(serviceImpl.GetGrating));
       serviceBinder.AddMethod(__Method_GetGratingOptions, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingOptionsRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingOptionsResponse>(serviceImpl.GetGratingOptions));
       serviceBinder.AddMethod(__Method_SetGrating, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetGratingRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetGratingResponse>(serviceImpl.SetGrating));
@@ -609,8 +641,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       serviceBinder.AddMethod(__Method_SetExposure, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetExposureRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetExposureResponse>(serviceImpl.SetExposure));
       serviceBinder.AddMethod(__Method_GetSlitWidth, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetSlitWidthRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetSlitWidthResponse>(serviceImpl.GetSlitWidth));
       serviceBinder.AddMethod(__Method_SetSlitWidth, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthResponse>(serviceImpl.SetSlitWidth));
-      serviceBinder.AddMethod(__Method_GetConnectionDetails, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse>(serviceImpl.GetConnectionDetails));
-      serviceBinder.AddMethod(__Method_SetConnectionDetails, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse>(serviceImpl.SetConnectionDetails));
+      serviceBinder.AddMethod(__Method_GetReadoutMode, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse>(serviceImpl.GetReadoutMode));
+      serviceBinder.AddMethod(__Method_SetReadoutMode, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest, global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse>(serviceImpl.SetReadoutMode));
     }
 
   }

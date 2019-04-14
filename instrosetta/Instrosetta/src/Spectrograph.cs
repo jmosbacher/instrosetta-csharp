@@ -31,116 +31,122 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             "EQoJc2F2ZV9wYXRoGAIgASgJIisKDFNhdmVSZXNwb25zZRIMCgRuYW1lGAEg",
             "ASgJEg0KBXNhdmVkGAIgASgIIhoKClJ1blJlcXVlc3QSDAoEbmFtZRgBIAEo",
             "CSIsCgtSdW5SZXNwb25zZRIMCgRuYW1lGAEgASgJEg8KB3J1bm5pbmcYAiAB",
-            "KAgiawoHR3JhdGluZxIMCgRuYW1lGAEgASgJEhAKCHBvc2l0aW9uGAIgASgF",
-            "EhkKEWJsYXplZF93YXZlbGVuZ3RoGAMgASgFEhQKDGxpbmVfZGVuc2l0eRgE",
-            "IAEoBRIPCgdkZXRhaWxzGAUgASgJIigKGEdldEdyYXRpbmdPcHRpb25zUmVx",
-            "dWVzdBIMCgRuYW1lGAEgASgJInoKGUdldEdyYXRpbmdPcHRpb25zUmVzcG9u",
-            "c2USDAoEbmFtZRgBIAEoCRJPCgdvcHRpb25zGAIgAygLMj4uaW5zdHJvc2V0",
+            "KAgiIgoSQ2xlYXJTY3JlZW5SZXF1ZXN0EgwKBG5hbWUYASABKAkiIwoTQ2xl",
+            "YXJTY3JlZW5SZXNwb25zZRIMCgRuYW1lGAEgASgJImsKB0dyYXRpbmcSDAoE",
+            "bmFtZRgBIAEoCRIQCghwb3NpdGlvbhgCIAEoBRIZChFibGF6ZWRfd2F2ZWxl",
+            "bmd0aBgDIAEoBRIUCgxsaW5lX2RlbnNpdHkYBCABKAUSDwoHZGV0YWlscxgF",
+            "IAEoCSIoChhHZXRHcmF0aW5nT3B0aW9uc1JlcXVlc3QSDAoEbmFtZRgBIAEo",
+            "CSJ6ChlHZXRHcmF0aW5nT3B0aW9uc1Jlc3BvbnNlEgwKBG5hbWUYASABKAkS",
+            "TwoHb3B0aW9ucxgCIAMoCzI+Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubGln",
+            "aHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLkdyYXRpbmciIQoRR2V0R3Jh",
+            "dGluZ1JlcXVlc3QSDAoEbmFtZRgBIAEoCSJzChJHZXRHcmF0aW5nUmVzcG9u",
+            "c2USDAoEbmFtZRgBIAEoCRJPCgdncmF0aW5nGAIgASgLMj4uaW5zdHJvc2V0",
             "dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEu",
-            "R3JhdGluZyIhChFHZXRHcmF0aW5nUmVxdWVzdBIMCgRuYW1lGAEgASgJInMK",
-            "EkdldEdyYXRpbmdSZXNwb25zZRIMCgRuYW1lGAEgASgJEk8KB2dyYXRpbmcY",
-            "AiABKAsyPi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lz",
-            "LnNwZWN0cm9ncmFwaC52MS5HcmF0aW5nInIKEVNldEdyYXRpbmdSZXF1ZXN0",
-            "EgwKBG5hbWUYASABKAkSTwoHZ3JhdGluZxgCIAEoCzI+Lmluc3Ryb3NldHRh",
-            "LmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLkdy",
-            "YXRpbmcicwoSU2V0R3JhdGluZ1Jlc3BvbnNlEgwKBG5hbWUYASABKAkSTwoH",
-            "Z3JhdGluZxgCIAEoCzI+Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRf",
-            "YW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLkdyYXRpbmciJgoWR2V0U2h1dHRl",
-            "clN0YXRlUmVxdWVzdBIMCgRuYW1lGAEgASgJInsKF0dldFNodXR0ZXJTdGF0",
-            "ZVJlc3BvbnNlEgwKBG5hbWUYASABKAkSUgoFc3RhdGUYAiABKA4yQy5pbnN0",
-            "cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFw",
-            "aC52MS5TaHV0dGVyU3RhdGUiegoWU2V0U2h1dHRlclN0YXRlUmVxdWVzdBIM",
-            "CgRuYW1lGAEgASgJElIKBXN0YXRlGAIgASgOMkMuaW5zdHJvc2V0dGEuaW50",
-            "ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuU2h1dHRl",
-            "clN0YXRlInsKF1NldFNodXR0ZXJTdGF0ZVJlc3BvbnNlEgwKBG5hbWUYASAB",
-            "KAkSUgoFc3RhdGUYAiABKA4yQy5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxp",
-            "Z2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5TaHV0dGVyU3RhdGUiMwoU",
-            "R2V0V2F2ZWxlbmd0aFJlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgV1bml0cxgC",
-            "IAEoCSJDChVHZXRXYXZlbGVuZ3RoUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIN",
-            "CgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSJCChRTZXRXYXZlbGVuZ3Ro",
-            "UmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgBEg0KBXVuaXRz",
-            "GAMgASgJIkMKFVNldFdhdmVsZW5ndGhSZXNwb25zZRIMCgRuYW1lGAEgASgJ",
-            "Eg0KBXZhbHVlGAIgASgBEg0KBXVuaXRzGAMgASgJIjEKEkdldEV4cG9zdXJl",
-            "UmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXVuaXRzGAIgASgJIkEKE0dldEV4",
-            "cG9zdXJlUmVzcG9uc2USDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoARIN",
-            "CgV1bml0cxgDIAEoCSJAChJTZXRFeHBvc3VyZVJlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCRINCgV2YWx1ZRgCIAEoARINCgV1bml0cxgDIAEoCSJBChNTZXRFeHBv",
-            "c3VyZVJlc3BvbnNlEgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAESDQoF",
-            "dW5pdHMYAyABKAkiMgoTR2V0U2xpdFdpZHRoUmVxdWVzdBIMCgRuYW1lGAEg",
-            "ASgJEg0KBXVuaXRzGAIgASgJIkIKFEdldFNsaXRXaWR0aFJlc3BvbnNlEgwK",
-            "BG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAESDQoFdW5pdHMYAyABKAkiQQoT",
-            "U2V0U2xpdFdpZHRoUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0KBXZhbHVlGAIg",
-            "ASgBEg0KBXVuaXRzGAMgASgJIkIKFFNldFNsaXRXaWR0aFJlc3BvbnNlEgwK",
-            "BG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAESDQoFdW5pdHMYAyABKAkiOgob",
-            "R2V0Q29ubmVjdGlvbkRldGFpbHNSZXF1ZXN0EgwKBG5hbWUYASABKAkSDQoF",
-            "dW5pdHMYAiABKAkiSgocR2V0Q29ubmVjdGlvbkRldGFpbHNSZXNwb25zZRIM",
-            "CgRuYW1lGAEgASgJEg0KBXZhbHVlGAIgASgBEg0KBXVuaXRzGAMgASgJIkkK",
-            "G1NldENvbm5lY3Rpb25EZXRhaWxzUmVxdWVzdBIMCgRuYW1lGAEgASgJEg0K",
-            "BXZhbHVlGAIgASgBEg0KBXVuaXRzGAMgASgJIkoKHFNldENvbm5lY3Rpb25E",
-            "ZXRhaWxzUmVzcG9uc2USDAoEbmFtZRgBIAEoCRINCgV2YWx1ZRgCIAEoARIN",
-            "CgV1bml0cxgDIAEoCSpKCgxTaHV0dGVyU3RhdGUSDQoJVU5ERUZJTkVEEAAS",
-            "CAoEQVVUTxABEgoKBkNMT1NFRBACEggKBE9QRU4QAxILCgdVTktOT1dOEGMy",
-            "nRUKDFNwZWN0cm9ncmFwaBIuCgdDb25uZWN0Eg8uQ29ubmVjdFJlcXVlc3Qa",
-            "EC5Db25uZWN0UmVzcG9uc2UiABI3CgpEaXNjb25uZWN0EhIuRGlzY29ubmVj",
-            "dFJlcXVlc3QaEy5EaXNjb25uZWN0UmVzcG9uc2UiABKRAQoEU2F2ZRJCLmlu",
-            "c3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dy",
-            "YXBoLnYxLlNhdmVSZXF1ZXN0GkMuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5s",
-            "aWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuU2F2ZVJlc3BvbnNlIgAS",
-            "jgEKA1J1bhJBLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlz",
-            "aXMuc3BlY3Ryb2dyYXBoLnYxLlJ1blJlcXVlc3QaQi5pbnN0cm9zZXR0YS5p",
-            "bnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5SdW5S",
-            "ZXNwb25zZSIAEqMBCgpHZXRHcmF0aW5nEkguaW5zdHJvc2V0dGEuaW50ZXJm",
-            "YWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuR2V0R3JhdGlu",
-            "Z1JlcXVlc3QaSS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5",
-            "c2lzLnNwZWN0cm9ncmFwaC52MS5HZXRHcmF0aW5nUmVzcG9uc2UiABK4AQoR",
-            "R2V0R3JhdGluZ09wdGlvbnMSTy5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxp",
-            "Z2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5HZXRHcmF0aW5nT3B0aW9u",
-            "c1JlcXVlc3QaUC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5",
-            "c2lzLnNwZWN0cm9ncmFwaC52MS5HZXRHcmF0aW5nT3B0aW9uc1Jlc3BvbnNl",
-            "IgASowEKClNldEdyYXRpbmcSSC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxp",
-            "Z2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5TZXRHcmF0aW5nUmVxdWVz",
-            "dBpJLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3Bl",
-            "Y3Ryb2dyYXBoLnYxLlNldEdyYXRpbmdSZXNwb25zZSIAErIBCg9HZXRTaHV0",
-            "dGVyU3RhdGUSTS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5",
-            "c2lzLnNwZWN0cm9ncmFwaC52MS5HZXRTaHV0dGVyU3RhdGVSZXF1ZXN0Gk4u",
-            "aW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJv",
-            "Z3JhcGgudjEuR2V0U2h1dHRlclN0YXRlUmVzcG9uc2UiABKyAQoPU2V0U2h1",
-            "dHRlclN0YXRlEk0uaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFs",
-            "eXNpcy5zcGVjdHJvZ3JhcGgudjEuU2V0U2h1dHRlclN0YXRlUmVxdWVzdBpO",
-            "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ry",
-            "b2dyYXBoLnYxLlNldFNodXR0ZXJTdGF0ZVJlc3BvbnNlIgASrAEKDUdldFdh",
-            "dmVsZW5ndGgSSy5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5",
-            "c2lzLnNwZWN0cm9ncmFwaC52MS5HZXRXYXZlbGVuZ3RoUmVxdWVzdBpMLmlu",
-            "c3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dy",
-            "YXBoLnYxLkdldFdhdmVsZW5ndGhSZXNwb25zZSIAEqwBCg1TZXRXYXZlbGVu",
-            "Z3RoEksuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5z",
-            "cGVjdHJvZ3JhcGgudjEuU2V0V2F2ZWxlbmd0aFJlcXVlc3QaTC5pbnN0cm9z",
-            "ZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52",
-            "MS5TZXRXYXZlbGVuZ3RoUmVzcG9uc2UiABKmAQoLR2V0RXhwb3N1cmUSSS5p",
+            "R3JhdGluZyJyChFTZXRHcmF0aW5nUmVxdWVzdBIMCgRuYW1lGAEgASgJEk8K",
+            "B2dyYXRpbmcYAiABKAsyPi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0",
+            "X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5HcmF0aW5nInMKElNldEdyYXRp",
+            "bmdSZXNwb25zZRIMCgRuYW1lGAEgASgJEk8KB2dyYXRpbmcYAiABKAsyPi5p",
             "bnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnNwZWN0cm9n",
-            "cmFwaC52MS5HZXRFeHBvc3VyZVJlcXVlc3QaSi5pbnN0cm9zZXR0YS5pbnRl",
-            "cmZhY2VzLmxpZ2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5HZXRFeHBv",
-            "c3VyZVJlc3BvbnNlIgASpgEKC1NldEV4cG9zdXJlEkkuaW5zdHJvc2V0dGEu",
-            "aW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuU2V0",
-            "RXhwb3N1cmVSZXF1ZXN0GkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdo",
-            "dF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuU2V0RXhwb3N1cmVSZXNwb25z",
-            "ZSIAEqkBCgxHZXRTbGl0V2lkdGgSSi5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
-            "LmxpZ2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5HZXRTbGl0V2lkdGhS",
-            "ZXF1ZXN0GksuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNp",
-            "cy5zcGVjdHJvZ3JhcGgudjEuR2V0U2xpdFdpZHRoUmVzcG9uc2UiABKpAQoM",
-            "U2V0U2xpdFdpZHRoEkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9h",
-            "bmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuU2V0U2xpdFdpZHRoUmVxdWVzdBpL",
+            "cmFwaC52MS5HcmF0aW5nIiYKFkdldFNodXR0ZXJTdGF0ZVJlcXVlc3QSDAoE",
+            "bmFtZRgBIAEoCSJ7ChdHZXRTaHV0dGVyU3RhdGVSZXNwb25zZRIMCgRuYW1l",
+            "GAEgASgJElIKBXN0YXRlGAIgASgOMkMuaW5zdHJvc2V0dGEuaW50ZXJmYWNl",
+            "cy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuU2h1dHRlclN0YXRl",
+            "InoKFlNldFNodXR0ZXJTdGF0ZVJlcXVlc3QSDAoEbmFtZRgBIAEoCRJSCgVz",
+            "dGF0ZRgCIAEoDjJDLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5h",
+            "bHlzaXMuc3BlY3Ryb2dyYXBoLnYxLlNodXR0ZXJTdGF0ZSJ7ChdTZXRTaHV0",
+            "dGVyU3RhdGVSZXNwb25zZRIMCgRuYW1lGAEgASgJElIKBXN0YXRlGAIgASgO",
+            "MkMuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVj",
+            "dHJvZ3JhcGgudjEuU2h1dHRlclN0YXRlIjMKFEdldFdhdmVsZW5ndGhSZXF1",
+            "ZXN0EgwKBG5hbWUYASABKAkSDQoFdW5pdHMYAiABKAkiRwoVR2V0V2F2ZWxl",
+            "bmd0aFJlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgB",
+            "Eg0KBXVuaXRzGAMgASgJIkYKFFNldFdhdmVsZW5ndGhSZXF1ZXN0EgwKBG5h",
+            "bWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJIkcK",
+            "FVNldFdhdmVsZW5ndGhSZXNwb25zZRIMCgRuYW1lGAEgASgJEhEKCW1hZ25p",
+            "dHVkZRgCIAEoARINCgV1bml0cxgDIAEoCSIxChJHZXRFeHBvc3VyZVJlcXVl",
+            "c3QSDAoEbmFtZRgBIAEoCRINCgV1bml0cxgCIAEoCSJFChNHZXRFeHBvc3Vy",
+            "ZVJlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgBEg0K",
+            "BXVuaXRzGAMgASgJIkQKElNldEV4cG9zdXJlUmVxdWVzdBIMCgRuYW1lGAEg",
+            "ASgJEhEKCW1hZ25pdHVkZRgCIAEoARINCgV1bml0cxgDIAEoCSJFChNTZXRF",
+            "eHBvc3VyZVJlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIg",
+            "ASgBEg0KBXVuaXRzGAMgASgJIjIKE0dldFNsaXRXaWR0aFJlcXVlc3QSDAoE",
+            "bmFtZRgBIAEoCRINCgV1bml0cxgCIAEoCSJGChRHZXRTbGl0V2lkdGhSZXNw",
+            "b25zZRIMCgRuYW1lGAEgASgJEhEKCW1hZ25pdHVkZRgCIAEoARINCgV1bml0",
+            "cxgDIAEoCSJFChNTZXRTbGl0V2lkdGhSZXF1ZXN0EgwKBG5hbWUYASABKAkS",
+            "EQoJbWFnbml0dWRlGAIgASgBEg0KBXVuaXRzGAMgASgJIkYKFFNldFNsaXRX",
+            "aWR0aFJlc3BvbnNlEgwKBG5hbWUYASABKAkSEQoJbWFnbml0dWRlGAIgASgB",
+            "Eg0KBXVuaXRzGAMgASgJIjoKG0dldENvbm5lY3Rpb25EZXRhaWxzUmVxdWVz",
+            "dBIMCgRuYW1lGAEgASgJEg0KBXVuaXRzGAIgASgJIk4KHEdldENvbm5lY3Rp",
+            "b25EZXRhaWxzUmVzcG9uc2USDAoEbmFtZRgBIAEoCRIRCgltYWduaXR1ZGUY",
+            "AiABKAESDQoFdW5pdHMYAyABKAkiJQoVR2V0UmVhZG91dE1vZGVSZXF1ZXN0",
+            "EgwKBG5hbWUYASABKAkiJgoWR2V0UmVhZG91dE1vZGVSZXNwb25zZRIMCgRu",
+            "YW1lGAEgASgJIiUKFVNldFJlYWRvdXRNb2RlUmVxdWVzdBIMCgRuYW1lGAEg",
+            "ASgJIiYKFlNldFJlYWRvdXRNb2RlUmVzcG9uc2USDAoEbmFtZRgBIAEoCSpK",
+            "CgxTaHV0dGVyU3RhdGUSDQoJVU5ERUZJTkVEEAASCAoEQVVUTxABEgoKBkNM",
+            "T1NFRBACEggKBE9QRU4QAxILCgdVTktOT1dOEGMyohYKDFNwZWN0cm9ncmFw",
+            "aBIuCgdDb25uZWN0Eg8uQ29ubmVjdFJlcXVlc3QaEC5Db25uZWN0UmVzcG9u",
+            "c2UiABI3CgpEaXNjb25uZWN0EhIuRGlzY29ubmVjdFJlcXVlc3QaEy5EaXNj",
+            "b25uZWN0UmVzcG9uc2UiABKRAQoEU2F2ZRJCLmluc3Ryb3NldHRhLmludGVy",
+            "ZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLlNhdmVSZXF1",
+            "ZXN0GkMuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5z",
+            "cGVjdHJvZ3JhcGgudjEuU2F2ZVJlc3BvbnNlIgASjgEKA1J1bhJBLmluc3Ry",
+            "b3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBo",
+            "LnYxLlJ1blJlcXVlc3QaQi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0",
+            "X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5SdW5SZXNwb25zZSIAEqYBCgtD",
+            "bGVhclNjcmVlbhJJLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5h",
+            "bHlzaXMuc3BlY3Ryb2dyYXBoLnYxLkNsZWFyU2NyZWVuUmVxdWVzdBpKLmlu",
+            "c3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dy",
+            "YXBoLnYxLkNsZWFyU2NyZWVuUmVzcG9uc2UiABKjAQoKR2V0R3JhdGluZxJI",
             "Lmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ry",
-            "b2dyYXBoLnYxLlNldFNsaXRXaWR0aFJlc3BvbnNlIgASwQEKFEdldENvbm5l",
-            "Y3Rpb25EZXRhaWxzElIuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9h",
-            "bmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuR2V0Q29ubmVjdGlvbkRldGFpbHNS",
-            "ZXF1ZXN0GlMuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNp",
-            "cy5zcGVjdHJvZ3JhcGgudjEuR2V0Q29ubmVjdGlvbkRldGFpbHNSZXNwb25z",
-            "ZSIAEsEBChRTZXRDb25uZWN0aW9uRGV0YWlscxJSLmluc3Ryb3NldHRhLmlu",
-            "dGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLlNldENv",
-            "bm5lY3Rpb25EZXRhaWxzUmVxdWVzdBpTLmluc3Ryb3NldHRhLmludGVyZmFj",
-            "ZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLlNldENvbm5lY3Rp",
-            "b25EZXRhaWxzUmVzcG9uc2UiAGIGcHJvdG8z"));
+            "b2dyYXBoLnYxLkdldEdyYXRpbmdSZXF1ZXN0GkkuaW5zdHJvc2V0dGEuaW50",
+            "ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuR2V0R3Jh",
+            "dGluZ1Jlc3BvbnNlIgASuAEKEUdldEdyYXRpbmdPcHRpb25zEk8uaW5zdHJv",
+            "c2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgu",
+            "djEuR2V0R3JhdGluZ09wdGlvbnNSZXF1ZXN0GlAuaW5zdHJvc2V0dGEuaW50",
+            "ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuR2V0R3Jh",
+            "dGluZ09wdGlvbnNSZXNwb25zZSIAEqMBCgpTZXRHcmF0aW5nEkguaW5zdHJv",
+            "c2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgu",
+            "djEuU2V0R3JhdGluZ1JlcXVlc3QaSS5pbnN0cm9zZXR0YS5pbnRlcmZhY2Vz",
+            "LmxpZ2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5TZXRHcmF0aW5nUmVz",
+            "cG9uc2UiABKyAQoPR2V0U2h1dHRlclN0YXRlEk0uaW5zdHJvc2V0dGEuaW50",
+            "ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuR2V0U2h1",
+            "dHRlclN0YXRlUmVxdWVzdBpOLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGln",
+            "aHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLkdldFNodXR0ZXJTdGF0ZVJl",
+            "c3BvbnNlIgASsgEKD1NldFNodXR0ZXJTdGF0ZRJNLmluc3Ryb3NldHRhLmlu",
+            "dGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLlNldFNo",
+            "dXR0ZXJTdGF0ZVJlcXVlc3QaTi5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxp",
+            "Z2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5TZXRTaHV0dGVyU3RhdGVS",
+            "ZXNwb25zZSIAEqwBCg1HZXRXYXZlbGVuZ3RoEksuaW5zdHJvc2V0dGEuaW50",
+            "ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuR2V0V2F2",
+            "ZWxlbmd0aFJlcXVlc3QaTC5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0",
+            "X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5HZXRXYXZlbGVuZ3RoUmVzcG9u",
+            "c2UiABKsAQoNU2V0V2F2ZWxlbmd0aBJLLmluc3Ryb3NldHRhLmludGVyZmFj",
+            "ZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLlNldFdhdmVsZW5n",
+            "dGhSZXF1ZXN0GkwuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFs",
+            "eXNpcy5zcGVjdHJvZ3JhcGgudjEuU2V0V2F2ZWxlbmd0aFJlc3BvbnNlIgAS",
+            "pgEKC0dldEV4cG9zdXJlEkkuaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdo",
+            "dF9hbmFseXNpcy5zcGVjdHJvZ3JhcGgudjEuR2V0RXhwb3N1cmVSZXF1ZXN0",
+            "GkouaW5zdHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVj",
+            "dHJvZ3JhcGgudjEuR2V0RXhwb3N1cmVSZXNwb25zZSIAEqYBCgtTZXRFeHBv",
+            "c3VyZRJJLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMu",
+            "c3BlY3Ryb2dyYXBoLnYxLlNldEV4cG9zdXJlUmVxdWVzdBpKLmluc3Ryb3Nl",
+            "dHRhLmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYx",
+            "LlNldEV4cG9zdXJlUmVzcG9uc2UiABKpAQoMR2V0U2xpdFdpZHRoEkouaW5z",
+            "dHJvc2V0dGEuaW50ZXJmYWNlcy5saWdodF9hbmFseXNpcy5zcGVjdHJvZ3Jh",
+            "cGgudjEuR2V0U2xpdFdpZHRoUmVxdWVzdBpLLmluc3Ryb3NldHRhLmludGVy",
+            "ZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLkdldFNsaXRX",
+            "aWR0aFJlc3BvbnNlIgASqQEKDFNldFNsaXRXaWR0aBJKLmluc3Ryb3NldHRh",
+            "LmludGVyZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLlNl",
+            "dFNsaXRXaWR0aFJlcXVlc3QaSy5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxp",
+            "Z2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5TZXRTbGl0V2lkdGhSZXNw",
+            "b25zZSIAEq8BCg5HZXRSZWFkb3V0TW9kZRJMLmluc3Ryb3NldHRhLmludGVy",
+            "ZmFjZXMubGlnaHRfYW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLkdldFJlYWRv",
+            "dXRNb2RlUmVxdWVzdBpNLmluc3Ryb3NldHRhLmludGVyZmFjZXMubGlnaHRf",
+            "YW5hbHlzaXMuc3BlY3Ryb2dyYXBoLnYxLkdldFJlYWRvdXRNb2RlUmVzcG9u",
+            "c2UiABKvAQoOU2V0UmVhZG91dE1vZGUSTC5pbnN0cm9zZXR0YS5pbnRlcmZh",
+            "Y2VzLmxpZ2h0X2FuYWx5c2lzLnNwZWN0cm9ncmFwaC52MS5TZXRSZWFkb3V0",
+            "TW9kZVJlcXVlc3QaTS5pbnN0cm9zZXR0YS5pbnRlcmZhY2VzLmxpZ2h0X2Fu",
+            "YWx5c2lzLnNwZWN0cm9ncmFwaC52MS5TZXRSZWFkb3V0TW9kZVJlc3BvbnNl",
+            "IgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::ConnectionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ShutterState), }, new pbr::GeneratedClrTypeInfo[] {
@@ -148,6 +154,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SaveResponse.Parser, new[]{ "Name", "Saved" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.RunResponse.Parser, new[]{ "Name", "Running" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.ClearScreenResponse.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.Grating), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.Grating.Parser, new[]{ "Name", "Position", "BlazedWavelength", "LineDensity", "Details" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingOptionsRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingOptionsRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingOptionsResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetGratingOptionsResponse.Parser, new[]{ "Name", "Options" }, null, null, null),
@@ -160,21 +168,23 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetShutterStateRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetShutterStateRequest.Parser, new[]{ "Name", "State" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetShutterStateResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetShutterStateResponse.Parser, new[]{ "Name", "State" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetWavelengthRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetWavelengthRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetWavelengthResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetWavelengthRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetWavelengthRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetWavelengthResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetWavelengthResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetWavelengthRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetWavelengthRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetWavelengthResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetWavelengthResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetExposureRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetExposureRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetExposureResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetExposureResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetExposureRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetExposureRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetExposureResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetExposureResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetExposureResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetExposureResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetExposureRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetExposureRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetExposureResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetExposureResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetSlitWidthRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetSlitWidthRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetSlitWidthResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetSlitWidthResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetSlitWidthResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetSlitWidthResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthRequest.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetSlitWidthResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsRequest.Parser, new[]{ "Name", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsRequest.Parser, new[]{ "Name", "Value", "Units" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetConnectionDetailsResponse.Parser, new[]{ "Name", "Value", "Units" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetConnectionDetailsResponse.Parser, new[]{ "Name", "Magnitude", "Units" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.GetReadoutModeResponse.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse), global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SetReadoutModeResponse.Parser, new[]{ "Name" }, null, null, null)
           }));
     }
     #endregion
@@ -792,6 +802,264 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
   }
 
+  public sealed partial class ClearScreenRequest : pb::IMessage<ClearScreenRequest> {
+    private static readonly pb::MessageParser<ClearScreenRequest> _parser = new pb::MessageParser<ClearScreenRequest>(() => new ClearScreenRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ClearScreenRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ClearScreenRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ClearScreenRequest(ClearScreenRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ClearScreenRequest Clone() {
+      return new ClearScreenRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ClearScreenRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ClearScreenRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ClearScreenRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ClearScreenResponse : pb::IMessage<ClearScreenResponse> {
+    private static readonly pb::MessageParser<ClearScreenResponse> _parser = new pb::MessageParser<ClearScreenResponse>(() => new ClearScreenResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ClearScreenResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ClearScreenResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ClearScreenResponse(ClearScreenResponse other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ClearScreenResponse Clone() {
+      return new ClearScreenResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ClearScreenResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ClearScreenResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ClearScreenResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class Grating : pb::IMessage<Grating> {
     private static readonly pb::MessageParser<Grating> _parser = new pb::MessageParser<Grating>(() => new Grating());
     private pb::UnknownFieldSet _unknownFields;
@@ -800,7 +1068,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1041,7 +1309,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1170,7 +1438,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1319,7 +1587,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1448,7 +1716,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1611,7 +1879,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1774,7 +2042,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1937,7 +2205,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2066,7 +2334,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2223,7 +2491,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2380,7 +2648,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2537,7 +2805,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2694,7 +2962,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2712,7 +2980,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetWavelengthResponse(GetWavelengthResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2733,14 +3001,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -2769,7 +3037,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2778,7 +3046,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2797,9 +3065,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -2816,7 +3084,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -2836,8 +3104,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -2858,7 +3126,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -2879,7 +3147,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2897,7 +3165,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetWavelengthRequest(SetWavelengthRequest other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2918,14 +3186,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -2954,7 +3222,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2963,7 +3231,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2982,9 +3250,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -3001,7 +3269,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -3021,8 +3289,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -3043,7 +3311,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -3064,7 +3332,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3082,7 +3350,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetWavelengthResponse(SetWavelengthResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -3103,14 +3371,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -3139,7 +3407,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3148,7 +3416,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3167,9 +3435,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -3186,7 +3454,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -3206,8 +3474,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -3228,7 +3496,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -3249,7 +3517,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3406,7 +3674,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3424,7 +3692,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetExposureResponse(GetExposureResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -3445,14 +3713,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -3481,7 +3749,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3490,7 +3758,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3509,9 +3777,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -3528,7 +3796,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -3548,8 +3816,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -3570,7 +3838,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -3591,7 +3859,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3609,7 +3877,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetExposureRequest(SetExposureRequest other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -3630,14 +3898,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -3666,7 +3934,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3675,7 +3943,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3694,9 +3962,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -3713,7 +3981,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -3733,8 +4001,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -3755,7 +4023,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -3776,7 +4044,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3794,7 +4062,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetExposureResponse(SetExposureResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -3815,14 +4083,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -3851,7 +4119,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3860,7 +4128,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3879,9 +4147,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -3898,7 +4166,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -3918,8 +4186,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -3940,7 +4208,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -3961,7 +4229,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4118,7 +4386,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4136,7 +4404,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetSlitWidthResponse(GetSlitWidthResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4157,14 +4425,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -4193,7 +4461,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4202,7 +4470,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4221,9 +4489,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -4240,7 +4508,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -4260,8 +4528,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -4282,7 +4550,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -4303,7 +4571,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4321,7 +4589,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetSlitWidthRequest(SetSlitWidthRequest other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4342,14 +4610,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -4378,7 +4646,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4387,7 +4655,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4406,9 +4674,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -4425,7 +4693,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -4445,8 +4713,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -4467,7 +4735,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -4488,7 +4756,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4506,7 +4774,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetSlitWidthResponse(SetSlitWidthResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4527,14 +4795,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -4563,7 +4831,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4572,7 +4840,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4591,9 +4859,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -4610,7 +4878,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -4630,8 +4898,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -4652,7 +4920,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -4673,7 +4941,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4830,7 +5098,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4848,7 +5116,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetConnectionDetailsResponse(GetConnectionDetailsResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
+      magnitude_ = other.magnitude_;
       units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4869,14 +5137,14 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
+    /// <summary>Field number for the "magnitude" field.</summary>
+    public const int MagnitudeFieldNumber = 2;
+    private double magnitude_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
+    public double Magnitude {
+      get { return magnitude_; }
       set {
-        value_ = value;
+        magnitude_ = value;
       }
     }
 
@@ -4905,7 +5173,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Magnitude, other.Magnitude)) return false;
       if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4914,7 +5182,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
+      if (Magnitude != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Magnitude);
       if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4933,9 +5201,9 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         output.WriteRawTag(17);
-        output.WriteDouble(Value);
+        output.WriteDouble(Magnitude);
       }
       if (Units.Length != 0) {
         output.WriteRawTag(26);
@@ -4952,7 +5220,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
+      if (Magnitude != 0D) {
         size += 1 + 8;
       }
       if (Units.Length != 0) {
@@ -4972,8 +5240,8 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (other.Name.Length != 0) {
         Name = other.Name;
       }
-      if (other.Value != 0D) {
-        Value = other.Value;
+      if (other.Magnitude != 0D) {
+        Magnitude = other.Magnitude;
       }
       if (other.Units.Length != 0) {
         Units = other.Units;
@@ -4994,7 +5262,7 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             break;
           }
           case 17: {
-            Value = input.ReadDouble();
+            Magnitude = input.ReadDouble();
             break;
           }
           case 26: {
@@ -5007,15 +5275,15 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
 
   }
 
-  public sealed partial class SetConnectionDetailsRequest : pb::IMessage<SetConnectionDetailsRequest> {
-    private static readonly pb::MessageParser<SetConnectionDetailsRequest> _parser = new pb::MessageParser<SetConnectionDetailsRequest>(() => new SetConnectionDetailsRequest());
+  public sealed partial class GetReadoutModeRequest : pb::IMessage<GetReadoutModeRequest> {
+    private static readonly pb::MessageParser<GetReadoutModeRequest> _parser = new pb::MessageParser<GetReadoutModeRequest>(() => new GetReadoutModeRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<SetConnectionDetailsRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetReadoutModeRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5024,23 +5292,21 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetConnectionDetailsRequest() {
+    public GetReadoutModeRequest() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetConnectionDetailsRequest(SetConnectionDetailsRequest other) : this() {
+    public GetReadoutModeRequest(GetReadoutModeRequest other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
-      units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetConnectionDetailsRequest Clone() {
-      return new SetConnectionDetailsRequest(this);
+    public GetReadoutModeRequest Clone() {
+      return new GetReadoutModeRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -5054,35 +5320,13 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
-      set {
-        value_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 3;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as SetConnectionDetailsRequest);
+      return Equals(other as GetReadoutModeRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(SetConnectionDetailsRequest other) {
+    public bool Equals(GetReadoutModeRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -5090,8 +5334,6 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
-      if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5099,8 +5341,6 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5118,14 +5358,6 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
-        output.WriteRawTag(17);
-        output.WriteDouble(Value);
-      }
-      if (Units.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Units);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5137,12 +5369,6 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
-        size += 1 + 8;
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -5150,18 +5376,12 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(SetConnectionDetailsRequest other) {
+    public void MergeFrom(GetReadoutModeRequest other) {
       if (other == null) {
         return;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
-      }
-      if (other.Value != 0D) {
-        Value = other.Value;
-      }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5178,29 +5398,21 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             Name = input.ReadString();
             break;
           }
-          case 17: {
-            Value = input.ReadDouble();
-            break;
-          }
-          case 26: {
-            Units = input.ReadString();
-            break;
-          }
         }
       }
     }
 
   }
 
-  public sealed partial class SetConnectionDetailsResponse : pb::IMessage<SetConnectionDetailsResponse> {
-    private static readonly pb::MessageParser<SetConnectionDetailsResponse> _parser = new pb::MessageParser<SetConnectionDetailsResponse>(() => new SetConnectionDetailsResponse());
+  public sealed partial class GetReadoutModeResponse : pb::IMessage<GetReadoutModeResponse> {
+    private static readonly pb::MessageParser<GetReadoutModeResponse> _parser = new pb::MessageParser<GetReadoutModeResponse>(() => new GetReadoutModeResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<SetConnectionDetailsResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetReadoutModeResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5209,23 +5421,21 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetConnectionDetailsResponse() {
+    public GetReadoutModeResponse() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetConnectionDetailsResponse(SetConnectionDetailsResponse other) : this() {
+    public GetReadoutModeResponse(GetReadoutModeResponse other) : this() {
       name_ = other.name_;
-      value_ = other.value_;
-      units_ = other.units_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SetConnectionDetailsResponse Clone() {
-      return new SetConnectionDetailsResponse(this);
+    public GetReadoutModeResponse Clone() {
+      return new GetReadoutModeResponse(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -5239,35 +5449,13 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       }
     }
 
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private double value_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public double Value {
-      get { return value_; }
-      set {
-        value_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "units" field.</summary>
-    public const int UnitsFieldNumber = 3;
-    private string units_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Units {
-      get { return units_; }
-      set {
-        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as SetConnectionDetailsResponse);
+      return Equals(other as GetReadoutModeResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(SetConnectionDetailsResponse other) {
+    public bool Equals(GetReadoutModeResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -5275,8 +5463,6 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         return true;
       }
       if (Name != other.Name) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Value, other.Value)) return false;
-      if (Units != other.Units) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5284,8 +5470,6 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     public override int GetHashCode() {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Value);
-      if (Units.Length != 0) hash ^= Units.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5303,14 +5487,6 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0D) {
-        output.WriteRawTag(17);
-        output.WriteDouble(Value);
-      }
-      if (Units.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Units);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5322,12 +5498,6 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0D) {
-        size += 1 + 8;
-      }
-      if (Units.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -5335,18 +5505,12 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(SetConnectionDetailsResponse other) {
+    public void MergeFrom(GetReadoutModeResponse other) {
       if (other == null) {
         return;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
-      }
-      if (other.Value != 0D) {
-        Value = other.Value;
-      }
-      if (other.Units.Length != 0) {
-        Units = other.Units;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5363,12 +5527,262 @@ namespace Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1 {
             Name = input.ReadString();
             break;
           }
-          case 17: {
-            Value = input.ReadDouble();
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class SetReadoutModeRequest : pb::IMessage<SetReadoutModeRequest> {
+    private static readonly pb::MessageParser<SetReadoutModeRequest> _parser = new pb::MessageParser<SetReadoutModeRequest>(() => new SetReadoutModeRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SetReadoutModeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[33]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetReadoutModeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetReadoutModeRequest(SetReadoutModeRequest other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetReadoutModeRequest Clone() {
+      return new SetReadoutModeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SetReadoutModeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SetReadoutModeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SetReadoutModeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
             break;
           }
-          case 26: {
-            Units = input.ReadString();
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class SetReadoutModeResponse : pb::IMessage<SetReadoutModeResponse> {
+    private static readonly pb::MessageParser<SetReadoutModeResponse> _parser = new pb::MessageParser<SetReadoutModeResponse>(() => new SetReadoutModeResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SetReadoutModeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Instrosetta.Interfaces.LightAnalysis.Spectrograph.V1.SpectrographReflection.Descriptor.MessageTypes[34]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetReadoutModeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetReadoutModeResponse(SetReadoutModeResponse other) : this() {
+      name_ = other.name_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetReadoutModeResponse Clone() {
+      return new SetReadoutModeResponse(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SetReadoutModeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SetReadoutModeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SetReadoutModeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Name = input.ReadString();
             break;
           }
         }

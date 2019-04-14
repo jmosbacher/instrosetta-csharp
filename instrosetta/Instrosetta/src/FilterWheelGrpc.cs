@@ -28,10 +28,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_GetSensorsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_SetSensorsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_SetSensorsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_GetPortRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_GetPortResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_SetPortRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_SetPortResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_GetFilterOptionsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsResponse> __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_GetFilterOptionsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterRequest> __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_GetFilterRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterRequest.Parser.ParseFrom);
@@ -100,20 +96,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
         "SetSensors",
         __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_SetSensorsRequest,
         __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_SetSensorsResponse);
-
-    static readonly grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse> __Method_GetPort = new grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "GetPort",
-        __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_GetPortRequest,
-        __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_GetPortResponse);
-
-    static readonly grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse> __Method_SetPort = new grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "SetPort",
-        __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_SetPortRequest,
-        __Marshaller_instrosetta_interfaces_optomechanics_filter_wheel_v1_SetPortResponse);
 
     static readonly grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsResponse> __Method_GetFilterOptions = new grpc::Method<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsResponse>(
         grpc::MethodType.Unary,
@@ -202,16 +184,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       }
 
       public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsResponse> SetSensors(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse> GetPort(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      public virtual global::System.Threading.Tasks.Task<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse> SetPort(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -399,38 +371,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_SetSensors, null, options, request);
       }
-      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse GetPort(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return GetPort(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse GetPort(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_GetPort, null, options, request);
-      }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse> GetPortAsync(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return GetPortAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse> GetPortAsync(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_GetPort, null, options, request);
-      }
-      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse SetPort(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return SetPort(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse SetPort(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_SetPort, null, options, request);
-      }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse> SetPortAsync(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return SetPortAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual grpc::AsyncUnaryCall<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse> SetPortAsync(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_SetPort, null, options, request);
-      }
       public virtual global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsResponse GetFilterOptions(global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetFilterOptions(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -547,8 +487,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
           .AddMethod(__Method_GetSensorsOptions, serviceImpl.GetSensorsOptions)
           .AddMethod(__Method_GetSensors, serviceImpl.GetSensors)
           .AddMethod(__Method_SetSensors, serviceImpl.SetSensors)
-          .AddMethod(__Method_GetPort, serviceImpl.GetPort)
-          .AddMethod(__Method_SetPort, serviceImpl.SetPort)
           .AddMethod(__Method_GetFilterOptions, serviceImpl.GetFilterOptions)
           .AddMethod(__Method_GetFilter, serviceImpl.GetFilter)
           .AddMethod(__Method_SetFilter, serviceImpl.SetFilter)
@@ -571,8 +509,6 @@ namespace Instrosetta.Interfaces.Optomechanics.FilterWheel.V1 {
       serviceBinder.AddMethod(__Method_GetSensorsOptions, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsOptionsRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsOptionsResponse>(serviceImpl.GetSensorsOptions));
       serviceBinder.AddMethod(__Method_GetSensors, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetSensorsResponse>(serviceImpl.GetSensors));
       serviceBinder.AddMethod(__Method_SetSensors, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetSensorsResponse>(serviceImpl.SetSensors));
-      serviceBinder.AddMethod(__Method_GetPort, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetPortResponse>(serviceImpl.GetPort));
-      serviceBinder.AddMethod(__Method_SetPort, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetPortResponse>(serviceImpl.SetPort));
       serviceBinder.AddMethod(__Method_GetFilterOptions, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterOptionsResponse>(serviceImpl.GetFilterOptions));
       serviceBinder.AddMethod(__Method_GetFilter, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.GetFilterResponse>(serviceImpl.GetFilter));
       serviceBinder.AddMethod(__Method_SetFilter, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetFilterRequest, global::Instrosetta.Interfaces.Optomechanics.FilterWheel.V1.SetFilterResponse>(serviceImpl.SetFilter));
